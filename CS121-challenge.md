@@ -19,15 +19,15 @@ If you believe that you have experience with the topics above and are confident 
 1. You should submit your code to me by using the "share" button above the code to "Share Link" in an email to me
 
 ## Challenge Problem
-Write a program that produces a report on the final GPA grades for 5 students.
+Write a program that produces a report on the final GPA grades for 5 students. **You must use a list/array, if statement(s), and loop(s) in your solution.**
 
-Input:
+### Input
   - The final GPA grades for 10 students in decimal format (e.g. 3.2)
 
-Process the data:
+### Process the data
   - If no student earned a 4.0, curve the highest GPA to 4.0, and curve all other grades by that amount. (e.g. Given the grades [2.8, 3.7, 2.5, 2.0, 3.6], 3.7 would be curved to 4.0 by 0.3 points. All grades would increase by this 0.3, so final grades would be [3.1, 4.0, 2.8, 2.3, 3.9])
 
-Output (after curving, if necessary):
+### Output (after curving, if necessary)
   - Students curved and original grade
   - Amount of the curve
   - Student with the highest GPA
