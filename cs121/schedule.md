@@ -8,10 +8,10 @@
 | [Week 02](#week-2)  | Variables, Expressions, Statements
 | [Week 03](#week-3)  | Functions, Decisions
 | [Week 04](#week-4)  | Testing, Logical Operators
-| [Week 05](#week-5)  | Repetition, Debugging, Midterm
+| [Week 05](#week-5)  | Repetition, Debugging, Midterm 1
 | [Week 06](#week-6)  | Pseudocoding, String Operations
-| [Week 07](#week-7)  |
-| [Week 08](#week-8)  |
+| [Week 07](#week-7)  | Large code bases, Lists
+| [Week 08](#week-8)  | Classes, Midterm 2
 | [Week 09](#week-9)  |
 | [Week 10](#week-10) |
 
