@@ -6,84 +6,130 @@
 |---------------------|-----------------------------------------
 | [Week 01](#week-1)  | Introduction to Computing
 | [Week 02](#week-2)  | Variables, Expressions, Statements
-| [Week 03](#week-3)  | Functions, Decisions, Testing
-| [Week 04](#week-4)  |
-| [Week 05](#week-5)  |
-| [Week 06](#week-6)  |
+| [Week 03](#week-3)  | Functions, Decisions
+| [Week 04](#week-4)  | Testing, Logical Operators
+| [Week 05](#week-5)  | Repetition, Debugging, Midterm
+| [Week 06](#week-6)  | Pseudocoding, String Operations
 | [Week 07](#week-7)  |
 | [Week 08](#week-8)  |
 | [Week 09](#week-9)  |
 | [Week 10](#week-10) |
 
 ## Week 1
-Introductions
+- Introductions
   + Names
   + Syllabus
   + Expectations
   + Quiz
-Hardware Basics
+- Hardware Basics
   + Lecture: Hardware
   + Activity: 1 page guide to buying a computer?
-Data Basics
+- Data Basics
   + Lecture: Data/Binary
   + Activity: Secret messages & binary clocks
-Algorithms
+- Algorithms
   + Lecture: Algorithms
   + Activity: Human maze instructions
-Effective Searching
+- Effective Searching
   + Lecture: How to Google & its importance
   + Activity: Edisons (Discover the Algorithm)
 
 ## Week 2
-Let's Code
+- Let's Code
   + Quiz
   + Hello World
   + Lecture: Comments, Special Characters
-  + ASCII Art
-Types, Operators, Expressions
+  + Lab: ASCII Art
+- Types, Operators, Expressions
   + Lecture
   + Activity: Predicting the result
-Variables, Assignments, User Input
+- Variables, Assignments, User Input
   + Lecture
   + Activity: Predicting the result
-Lab Time
-  + Activity: Madlibs
-Lab Time
+- Lab Time
+  + Lab: Madlibs
+- Lab Time
 
 ## Week 3
-Functions
+- Functions
   + Quiz
   + Lecture: Functions - Parameters, Arguments
   + Activity: Predicting the result
-Lab Time
-  + Activity: Nursery Rhymes
-Decisions
+- Lab Time
+  + Lab: Nursery Rhymes
+- Lab Time
+- Decisions
   + Lecture: If Statements
   + Activity: Beginning If Statements
-Functions, Modules
+- Functions, Modules
   + Lecture: Functions - Return types
   + Activity: (centigrade, max, min, fabs, gpa)
-Lab Time
 
 ## Week 4
-Testing
+- Testing
   + Lecture: Unit Tests
   + Activity: Writing Unit Tests
-Truth Tables, And/Or, Short Circuit Eval
+- Lab Time
+  + Lab: Testing Nursery Rhymes and Calculations Labs
+- Truth Tables, And/Or, Short Circuit Eval
   + Lecture
   + Activity: Predicting the result
-Lab Time
+- Lab Time
   + Candy Machine
-Lab Time
-Lab Time
+- Lab Time
 
 ## Week 5
+- Repetition
+  + Lecture
+  + Activity: Complete the Loops
+- Debugging
+  + Lecture
+  + Activity: Fixing Loops
+- Lab Time
+  + Lab: Nursery Rhymes Continued
+- Lab Time
+- Midterm \#1
+  + MC Exam
+  + Talking to me about a program you've written
 
 ## Week 6
+- Pseudocoding
+  + Lecture
+  + Lab: Data Checker
+- Lab Time
+  + Lab: Data Checker
+  + Activity: Psuedocoding
+- String Operations
+  + Lecture
+  + Activity
+- Lab Time
+  + Lab: Love Phony Pigs (or something else)
+- Lab Time
 
 ## Week 7
+- Large Code Bases
+  + Lecture
+  + Lab: ChatterBot
+- Lab Time
+- Lab Time
+- Lists
+  + Lecture
+  + Activity
+- Lab Time
+  + Lab: Student Account Generator
 
 ## Week 8
+- Lab Time
+  + Lab: Student Account Generator
+- Classes
+  + Lecture
+  + Activity
+- Lab Time
+  + Lab: SPAM Preventer
+- Lab Time
+- Midterm \#2
+  + MC Exam
+  + Talking to me about a program you've written
 
 ## Week 9
 
