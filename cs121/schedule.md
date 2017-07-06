@@ -8,9 +8,9 @@
 | [Week 02](#week-2)  | Variables, Expressions, Statements
 | [Week 03](#week-3)  | Functions, Decisions
 | [Week 04](#week-4)  | Testing, Logical Operators
-| [Week 05](#week-5)  | Repetition, Debugging, Midterm 1
-| [Week 06](#week-6)  | Pseudocoding, String Operations
-| [Week 07](#week-7)  | Large code bases, Lists
+| [Week 05](#week-5)  | Midterm 1, Repetition, Debugging
+| [Week 06](#week-6)  | Pseudocode, String Operations
+| [Week 07](#week-7)  | Unfamiliar, Lists
 | [Week 08](#week-8)  | Classes, Midterm 2
 | [Week 09](#week-9)  |
 | [Week 10](#week-10) |
@@ -75,10 +75,13 @@
   + Lecture
   + Activity: Predicting the result
 - Lab Time
-  + Candy Machine
+  + Lab: Candy Machine
 - Lab Time
 
 ## Week 5
+- Midterm \#1
+  + MC Exam
+  + Talking to me about a program you've written
 - Repetition
   + Lecture
   + Activity: Complete the Loops
@@ -88,9 +91,6 @@
 - Lab Time
   + Lab: Nursery Rhymes Continued
 - Lab Time
-- Midterm \#1
-  + MC Exam
-  + Talking to me about a program you've written
 
 ## Week 6
 - Pseudocoding
@@ -107,7 +107,7 @@
 - Lab Time
 
 ## Week 7
-- Large Code Bases
+- Unfamiliar Code
   + Lecture
   + Lab: ChatterBot
 - Lab Time
