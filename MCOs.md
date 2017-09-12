@@ -1,45 +1,54 @@
 # Major Course Objectives (MCOs)
 
-## CS121 MCOs
+## CS121 MCOs (Pre-CSI, CS0)
 Outcomes:
-1. Use computational models to solve problems.
+1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
+1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
 1. Solve problems given an algorithm.
-1. Apply systematic, mathematically-based problem-solving strategies, using programming language constructs suchs as sequence, selection, iteration, and procedures.
+1. Recognize and use test cases to verify that solutions meet specifications.
 1. Analyze reasoning, design and effectiveness of alternative solutions.
-1. Design experiments to test alternative solutions and determine if they meet specifications.
-1. Analyze and explain syntax, semantics, and practical effects of programmings statements and procedures.
 
 Students should be able to:
 - use _pseudocode_ to plan code
 - identify, create, and use _variables_
-- create and use _functions_
-- utilize _conditionals_ (if/elif/else)
-- utilize _loops_ (while/for)
-- use and manipulate _strings_ and associated operations
-- create and use _lists_
-- identify _classes_ and _objects_
+- identify, create, and use _functions_
+- identify, create, and use _conditionals_ (if/elif/else)
+- identify, create, and use _loops_ (while/for)
+- identify, create, and use _strings_ and associated operations
+- identify, create, and use _lists_
+- identify and use _classes_ and _objects_
 - _test_ code
 - _debug_ code
 - read and work with unfamiliar code
 
-## CS141 MCOs - 142 equivalent
+## CS141 MCOs (CSI)
 Outcomes:
+1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
+1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
 1. Solve problems given an algorithm.
-1. Apply computational models and systematic, mathematically-based problem-solving strategies, using programming language constructs such as sequence, selection, iteration and methods.
+1. Begin to design and implement solutions to ambiguous problems.
+1. Recognize and use test cases to verify that solutions meet specifications.
 1. Analyze reasoning, design and effectiveness of alternative solutions.
-1. Design experiments to test alternative solutions and determine if they meet specifications.
-1. Analyze and explain syntax, semantics, and practical effects of programming statements and organization.
 
 Students should be able to:
--
+- use _pseudocode_ to plan code
+- identify, create, and use _variables_, _data types_, _methods_, _conditionals_, _definite and indefinite loops_, _arrays_, _parameters_, _Objects_
 - break down problems into logical pieces using methods and Objects
+- _test_ code
+- _debug_ code
+- read and work with unfamiliar code
 
-## CS143 MCOs
+## CS143 MCOs (CSII)
 Outcomes:
-1. Solve problems given an algorithm.
-1. Apply computational models and systematically-based problem solving strategies.
-1. Analyze the design and effectiveness of alternative solutions.
-1. Design experiments to test alternative solutions and determine if they meet specifications.
-1. Analyze and explain syntax, semantics, and practical effects of programming statements and design.
+1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
+1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
+1. Design and implement solutions to ambiguous problems.
+1. Recognize and use test cases to verify that solutions meet specifications.
+1. Analyze reasoning, design and effectiveness of alternative solutions.
 
 Students should be able to:
+- read and write code using _Object Oriented Programming_ principles, including: _classes_, _Objects_, _encapsulation_, _inheritance_ and _interfaces_
+- work with _Collections_ interfaces and classes, including: _List_, _Set_, _Map_, _Stack_, _Queue_, _Hash Table_, and _Tree_
+- read and write _recursive methods_
+- process data, including: _searching_ and _sorting_
+- analyze code in regards to _complexity_, _performance analysis_, _dynamic memory management_ 
