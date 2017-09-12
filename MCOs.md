@@ -1,6 +1,6 @@
 # Major Course Objectives (MCOs)
 
-## CS121 MCOs (Pre-CSI, CS0)
+## CS121 MCOs (Pre-CS1, CS0)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
@@ -21,7 +21,7 @@ Students should be able to:
 - _debug_ code
 - read and work with unfamiliar code
 
-## CS141 MCOs (CSI)
+## CS141 MCOs (CS1)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
@@ -38,7 +38,7 @@ Students should be able to:
 - _debug_ code
 - read and work with unfamiliar code
 
-## CS143 MCOs (CSII)
+## CS143 MCOs (CS2)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
@@ -51,4 +51,4 @@ Students should be able to:
 - work with _Collections_ interfaces and classes, including: _List_, _Set_, _Map_, _Stack_, _Queue_, _Hash Table_, and _Tree_
 - read and write _recursive methods_
 - process data, including: _searching_ and _sorting_
-- analyze code in regards to _complexity_, _performance analysis_, _dynamic memory management_ 
+- analyze code in regards to _complexity_, _performance analysis_, _dynamic memory management_
