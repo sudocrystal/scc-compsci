@@ -8,8 +8,21 @@
 - Class Location:
 
 ## Major Student Learning Objectives
-Students should be able to:
+Outcomes:
+1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
+1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
+1. Solve problems given an algorithm.
+1. Begin to design and implement solutions to ambiguous problems.
+1. Recognize and use test cases to verify that solutions meet specifications.
+1. Analyze reasoning, design and effectiveness of alternative solutions.
 
+Students should be able to:
+- use _pseudocode_ to plan code
+- identify, create, and use _variables_, _data types_, _methods_, _conditionals_, _definite and indefinite loops_, _arrays_, _parameters_, _Objects_
+- break down problems into logical pieces using methods and Objects
+- _test_ code
+- _debug_ code
+- read and work with unfamiliar code
 
 ## Prerequisites
 Prerequisite: ENGL& 101 (may be taken concurrently) and MATH& 141 or MATH 111 with grades of 2.0 or better. CS 121 or ENGR 202 with a grade of 2.0 or better.
@@ -20,7 +33,6 @@ Prerequisite: ENGL& 101 (may be taken concurrently) and MATH& 141 or MATH 111 wi
 ## Required Text
 - No required text.
 - _optional_
-  + [How to Think like a Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/index.html)
   + Introduction to Java Programming by Y. Daniel Liang
   + Building Java Programs: A Back to Basics Approach by Stuart Reges and Marty Stepp
 
@@ -60,3 +72,8 @@ Please note that both parties involved in a cheating case are treated equally. T
 Shoreline Community College is committed to providing educational programs without regard to disabling conditions as defined by Section 504 of the Rehabilitation Act of 1973. Reasonable accommodations will be made and no otherwise qualified individual with disabling conditions shall, on the basis of disability, be excluded from participation in, be denied the benefits of, or otherwise be subjected to discrimination under any program, activity or service administered by the college.
 
 For More Information, click [here](http://www.shoreline.edu/oss/students-with-disabilities/)
+
+## Tutoring Services
+Tutoring Services provides students with free one-on-one tutoring support for any Shoreline Community College classes. We also host drop-in learning centers, such as the Biology/Chemistry Learning Center, Business Technology & eLearning Center, Physics Learning Center, Conversation Groups, and more (schedules and availability vary). For more information and to apply for tutorial assistance or to apply to become a tutor, please visit our office in 4228 (Library), email pttutors@shoreline.edu, call 206-546-4776, or check out our webpage: [www.shoreline.edu/tutoring](http://www.shoreline.edu/tutoring).  
+
+The college also provides students with free online tutoring in a variety of courses through the Western eTutoring Consortium: http://www.shoreline.edu/twls/etutoring.aspx.
