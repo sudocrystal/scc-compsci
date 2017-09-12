@@ -4,7 +4,7 @@
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
-1. Solve problems given an algorithm.
+1. **Solve small, independent problems given an algorithm.**
 1. Recognize and use test cases to verify that solutions meet specifications.
 1. Analyze reasoning, design and effectiveness of alternative solutions.
 
@@ -25,8 +25,8 @@ Students should be able to:
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
-1. Solve problems given an algorithm.
-1. Begin to design and implement solutions to ambiguous problems.
+1. **Solve problems given an algorithm.**
+1. **Begin to design and implement solutions to ambiguous problems.**
 1. Recognize and use test cases to verify that solutions meet specifications.
 1. Analyze reasoning, design and effectiveness of alternative solutions.
 
@@ -42,13 +42,14 @@ Students should be able to:
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
-1. Design and implement solutions to ambiguous problems.
+1. **Design and implement solutions to ambiguous problems.**
 1. Recognize and use test cases to verify that solutions meet specifications.
 1. Analyze reasoning, design and effectiveness of alternative solutions.
 
 Students should be able to:
 - read and write code using _Object Oriented Programming_ principles, including: _classes_, _Objects_, _encapsulation_, _inheritance_ and _interfaces_
-- work with _Collections_ interfaces and classes, including: _List_, _Set_, _Map_, _Stack_, _Queue_, _Hash Table_, and _Tree_
-- read and write _recursive methods_
+- implement, utilize, and compare _List_ implementations (_Array_ and _Node_)
+- implement, utilize, and compare _Collection_ interfaces and classes, including: _abstractions_ (_List_, _Set_, _Map_, _Stack_, _Queue_) and _implementations_ (_Hash Table_ and _Tree_)
+- read and write _recursive methods_, including _recursive tracing_, _helper functions_, complex recursive solutions, and _recursive backtracking_
 - process data, including: _searching_ and _sorting_
-- analyze code in regards to _complexity_, _performance analysis_, _dynamic memory management_
+- analyze code in regards to _complexity_, _performance analysis_, and _dynamic memory management_
