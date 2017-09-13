@@ -1,6 +1,6 @@
-# Major Course Objectives (MCOs)
+# Learning Objectives
 
-## CS121 MCOs (Pre-CS1, CS0)
+## CS121 Learning Objectives (Pre-CS1, CS0)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
@@ -16,12 +16,12 @@ Students should be able to:
 - identify, create, and use _loops_ (while/for)
 - identify, create, and use _strings_ and associated operations
 - identify, create, and use _lists_
-- identify and use _classes_ and _objects_
+- identify and use _classes_ and _Objects_
 - _test_ code
 - _debug_ code
 - read and work with unfamiliar code
 
-## CS141 MCOs (CS1)
+## CS141 Learning Objectives (CS1)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
@@ -38,7 +38,7 @@ Students should be able to:
 - _debug_ code
 - read and work with unfamiliar code
 
-## CS143 MCOs (CS2)
+## CS143 Learning Objectives (CS2)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
