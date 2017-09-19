@@ -11,7 +11,7 @@
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
-1. Solve problems given an algorithm.
+1. **Solve small, independent problems given an algorithm.**
 1. Recognize and use test cases to verify that solutions meet specifications.
 1. Analyze reasoning, design and effectiveness of alternative solutions.
 
@@ -23,7 +23,7 @@ Students should be able to:
 - identify, create, and use _loops_ (while/for)
 - identify, create, and use _strings_ and associated operations
 - identify, create, and use _lists_
-- identify and use _classes_ and _objects_
+- identify and use _classes_ and _Objects_
 - _test_ code
 - _debug_ code
 - read and work with unfamiliar code
@@ -32,6 +32,7 @@ Students should be able to:
 Placement into ENGL& 101, and MATH 099 with grade of 2.0 or better, or instructor permission.
 
 ## Required Software
+- none
 
 ## Required Text
 - No required text.

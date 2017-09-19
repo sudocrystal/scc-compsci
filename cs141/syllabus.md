@@ -11,8 +11,8 @@
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
-1. Solve problems given an algorithm.
-1. Begin to design and implement solutions to ambiguous problems.
+1. **Solve problems given an algorithm.**
+1. **Begin to design and implement solutions to ambiguous problems.**
 1. Recognize and use test cases to verify that solutions meet specifications.
 1. Analyze reasoning, design and effectiveness of alternative solutions.
 
