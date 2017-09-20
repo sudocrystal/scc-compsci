@@ -17,27 +17,63 @@
 
 ## Pre-Course
 
-## Week 1
-
-| Week 1    | Monday/Tuesday        | Wednesday/Thursday
-|---------- |-------------------------------------------------------------|--------------------
-| Monday    | [Intro to Arduinos](arduino/pdfs/01_intro_to_arduino.pdf)   |
-| Wednesday | [Buttons, Potentiometers](arduino/pdfs/02_input_output.pdf) |
+## Week 1 (1 day only)
+- Intro to Java Programming (BJP ch1)
+  - Lecture
+  - PracticeIt
+  - Lab: Song (due M/Tu)
 
 ## Week 2
+- Primitive Data and Definite Loops (BJP ch2)
+  - Lecture
+  - PracticeIt
+  - Lab: Rocket Ship (due M/Tu)
+- Parameters and Objects
+  - Lecture
+  - PracticeIt
 
 ## Week 3
+- Graphics (BJP ch3g)
+  - Lecture
+  - PracticeIt
+  - Lab: CafeWall (due M/Tu)
+- Conditionals (BJP 4.1-4.2, 4.4)
+  - Lecture: if/else and cumulative algorithms
+  - PracticeIt
+  - Practice with Methods, if, etc
 
 ## Week 4
+- user input, if statements
+- if statements cont
+- String and char
 
 ## Week 5
+- while loops, fencepost/sentinel loops
+- pseudorandom numbers
+- assertions
 
 ## Week 6
+- type boolean, more while loops, midterm
+- file input
+- optional midterm review
 
 ## Week 7
+- line-based processing
+- arrays
 
 ## Week 8
+- more arrays
+- even more arrays, output files
+- objects and classes, instance methods
 
-## Week 9
+## Week 9 (1 day only for T/TH)
+- toString, constructors, encapsulation
+- functional programming
 
 # Week 10
+- critters
+- ArrayList
+- inheritance
+- review for final
+
+# Week 11
