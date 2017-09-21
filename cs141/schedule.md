@@ -38,23 +38,29 @@
   - PracticeIt
   - Lab: CafeWall (due M/Tu)
 - Conditionals (BJP 4.1-4.2, 4.4)
-  - Lecture: if/else and cumulative algorithms
+  - Lecture: if/else and interactive programs
   - PracticeIt
-  - Practice with Methods, if, etc
+  - Practice
 
 ## Week 4
-- user input, if statements
-- if statements cont
-- String and char
+- Text Processing: Strings and char (BJP 4.3, 3.3), cumulative algorithms (BJP 4.2, 4.4)
+  - Lecture
+  - PracticeIt
+  - Practice
+- File Processing
+  - Lecture
+  - Practice
 
 ## Week 5
-- while loops, fencepost/sentinel loops
-- pseudorandom numbers
-- assertions
+- while loops, fencepost/sentinel loops (5.1-5.2)
+  - Lecture
+  - Lab: Admissions
+- pseudorandom numbers, assertions
+  - Lecture
 
 ## Week 6
 - type boolean, more while loops, midterm
-- file input
+  - Lab: Guessing Game (due M/Tu)
 - optional midterm review
 
 ## Week 7
