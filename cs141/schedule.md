@@ -21,13 +21,13 @@
 - Intro to Java Programming (BJP ch1)
   - Lecture
   - PracticeIt
-  - Lab: Song (due M/Tu)
+  - Lab 1: Song (due M/Tu)
 
 ## Week 2
 - Primitive Data and Definite Loops (BJP ch2)
   - Lecture
   - PracticeIt
-  - Lab: Rocket Ship (due M/Tu)
+  - Lab 2: Rocket Ship (due M/Tu)
 - Parameters and Objects
   - Lecture
   - PracticeIt
@@ -36,7 +36,7 @@
 - Graphics (BJP ch3g)
   - Lecture
   - PracticeIt
-  - Lab: CafeWall (due M/Tu)
+  - Lab 3: CafeWall (due M/Tu)
 - Conditionals (BJP 4.1-4.2, 4.4)
   - Lecture: if/else and interactive programs
   - PracticeIt
@@ -47,39 +47,57 @@
   - Lecture
   - PracticeIt
   - Practice
-- File Processing
+  - Lab 4: Admissions (due M/Tu)
+- while loops, fencepost/sentinel loops (5.1-5.2)
   - Lecture
   - Practice
 
 ## Week 5
-- while loops, fencepost/sentinel loops (5.1-5.2)
+(No lab this week)
+- pseudorandom numbers, assertions (5.1, 5.5)
   - Lecture
-  - Lab: Admissions
-- pseudorandom numbers, assertions
+  - Midterm Review (due M/Tu)
+- type boolean, more while loops (5.3)
   - Lecture
 
 ## Week 6
-- type boolean, more while loops, midterm
-  - Lab: Guessing Game (due M/Tu)
-- optional midterm review
+- MIDTERM 1 (ch 1-5)
+  - Midterm in class
+  - Lab 5: Guessing Game (due M/Tu)
+- File Processing
+  - Lecture
+  - Practice
 
 ## Week 7
-- line-based processing
-- arrays
+- Working with Files (re-enforcing other concepts)
+  - Lecture?
+  - Practice
+  - Lab 6: Baby Names
+- arrays (7.1-7.2)
+  - Lecture
 
 ## Week 8
-- more arrays
-- even more arrays, output files
-- objects and classes, instance methods
+- more arrays, output files (7.3-7.6)
+  - Lecture
+  - Lab 7: Personality Test (due M/Tu)
+- objects and classes, instance methods (8.1-8.2)
+  - Lecture
 
 ## Week 9 (1 day only for T/TH)
-- toString, constructors, encapsulation
-- functional programming
+(no lab)
+- toString, constructors, encapsulation (8.3-8.5)
+  - Lecture
+  - Practice
+- functional programming (optional - T/TH won't have)
 
 # Week 10
 - critters
-- ArrayList
-- inheritance
-- review for final
+  - Lecture
+  - Lab 8: Critters
+- inheritance (9.1, 9.3)
+  - Lecture
 
 # Week 11
+- ArrayList
+  - Lecture
+- review for final

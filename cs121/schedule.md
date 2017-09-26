@@ -15,7 +15,7 @@
 | [Week 09](#week-9)  |
 | [Week 10](#week-10) |
 
-## Week 1
+## Week 1 (3 days)
 - Introductions
   + Names
   + Syllabus
@@ -131,6 +131,8 @@
   + MC Exam
   + Talking to me about a program you've written
 
-## Week 9
+## Week 9 (2 days)
 
 ## Week 10
+
+## Week 11
