@@ -23,18 +23,18 @@
   + Quiz
 - Hardware Basics
   + Lecture: Hardware
-  + Activity: 1 page guide to buying a computer?
+  + Activity: 1 page guide to buying a computer
 - Data Basics
   + Lecture: Data/Binary
   + Activity: Secret messages & binary clocks
+
+## Week 2
 - Algorithms
   + Lecture: Algorithms
   + Activity: Human maze instructions
 - Effective Searching
   + Lecture: How to Google & its importance
   + Activity: Edisons (Discover the Algorithm)
-
-## Week 2
 - Let's Code
   + Quiz
   + Hello World
@@ -46,11 +46,11 @@
 - Variables, Assignments, User Input
   + Lecture
   + Activity: Predicting the result
+
+## Week 3
 - Lab Time
   + Lab: Madlibs
 - Lab Time
-
-## Week 3
 - Functions
   + Quiz
   + Lecture: Functions - Parameters, Arguments
@@ -58,14 +58,14 @@
 - Lab Time
   + Lab: Nursery Rhymes
 - Lab Time
+
+## Week 4
 - Decisions
   + Lecture: If Statements
   + Activity: Beginning If Statements
 - Functions, Modules
   + Lecture: Functions - Return types
   + Activity: (centigrade, max, min, fabs, gpa)
-
-## Week 4
 - Testing
   + Lecture: Unit Tests
   + Activity: Writing Unit Tests
@@ -74,11 +74,11 @@
 - Truth Tables, And/Or, Short Circuit Eval
   + Lecture
   + Activity: Predicting the result
+
+## Week 5
 - Lab Time
   + Lab: Candy Machine
 - Lab Time
-
-## Week 5
 - Midterm \#1
   + MC Exam
   + Talking to me about a program you've written
@@ -88,11 +88,11 @@
 - Debugging
   + Lecture
   + Activity: Fixing Loops
+
+## Week 6
 - Lab Time
   + Lab: Nursery Rhymes Continued
 - Lab Time
-
-## Week 6
 - Pseudocoding
   + Lecture
   + Lab: Data Checker
@@ -102,23 +102,23 @@
 - String Operations
   + Lecture
   + Activity
+
+## Week 7
 - Lab Time
   + Lab: Love Phony Pigs (or something else)
 - Lab Time
-
-## Week 7
 - Unfamiliar Code
   + Lecture
   + Lab: ChatterBot
 - Lab Time
-- Lab Time
+- No class
+
+## Week 8
 - Lists
   + Lecture
   + Activity
 - Lab Time
   + Lab: Student Account Generator
-
-## Week 8
 - Lab Time
   + Lab: Student Account Generator
 - Classes
@@ -126,12 +126,12 @@
   + Activity
 - Lab Time
   + Lab: SPAM Preventer
+
+## Week 9 (2 days)
 - Lab Time
 - Midterm \#2
   + MC Exam
   + Talking to me about a program you've written
-
-## Week 9 (2 days)
 
 ## Week 10
 
