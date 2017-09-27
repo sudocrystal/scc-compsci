@@ -20,15 +20,17 @@
 
 ## Week 1 (1 day only)
 - Intro to Java Programming (BJP ch1)
+  - Introductions, Syllabus, Expectations
   - Lecture
   - PracticeIt
-  - Lab 1: Song (due M/Tu)
+  - Lab 1: Static Methods (due today)
+  - HW 1: Song (due W/Th)
 
 ## Week 2
 - Primitive Data and Definite Loops (BJP ch2)
   - Lecture
   - PracticeIt
-  - Lab 2: Rocket Ship (due M/Tu)
+  - HW 2: Rocket Ship (due M/Tu)
 - Parameters and Objects
   - Lecture
   - PracticeIt
@@ -37,7 +39,7 @@
 - Graphics (BJP ch3g)
   - Lecture
   - PracticeIt
-  - Lab 3: CafeWall (due M/Tu)
+  - HW 3: CafeWall (due M/Tu)
 - Conditionals (BJP 4.1-4.2, 4.4)
   - Lecture: if/else and interactive programs
   - PracticeIt
@@ -48,7 +50,7 @@
   - Lecture
   - PracticeIt
   - Practice
-  - Lab 4: Admissions (due M/Tu)
+  - HW 4: Admissions (due M/Tu)
 - while loops, fencepost/sentinel loops (5.1-5.2)
   - Lecture
   - Practice
@@ -64,7 +66,7 @@
 ## Week 6
 - MIDTERM 1 (ch 1-5)
   - Midterm in class
-  - Lab 5: Guessing Game (due M/Tu)
+  - HW 5: Guessing Game (due M/Tu)
 - File Processing
   - Lecture
   - Practice
@@ -73,14 +75,14 @@
 - Working with Files (re-enforcing other concepts)
   - Lecture?
   - Practice
-  - Lab 6: Baby Names
+  - HW 6: Baby Names
 - arrays (7.1-7.2)
   - Lecture
 
 ## Week 8
 - more arrays, output files (7.3-7.6)
   - Lecture
-  - Lab 7: Personality Test (due M/Tu)
+  - HW 7: Personality Test (due M/Tu)
 - objects and classes, instance methods (8.1-8.2)
   - Lecture
 
@@ -94,7 +96,7 @@
 # Week 10
 - critters
   - Lecture
-  - Lab 8: Critters
+  - HW 8: Critters
 - inheritance (9.1, 9.3)
   - Lecture
 
