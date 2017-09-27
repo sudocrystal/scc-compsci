@@ -4,16 +4,17 @@
 
 | Week                | Topic
 |---------------------|-----------------------------------------
-| [Week 01](#week-1)  |
-| [Week 02](#week-2)  |
-| [Week 03](#week-3)  |
-| [Week 04](#week-4)  |
-| [Week 05](#week-5)  |
-| [Week 06](#week-6)  |
-| [Week 07](#week-7)  |
-| [Week 08](#week-8)  |
-| [Week 09](#week-9)  |
-| [Week 10](#week-10) |
+| [Week 01](#week-1)  | Introduction to Java
+| [Week 02](#week-2)  | Primitive Data Types, Definite Loops, Parameters, Objects
+| [Week 03](#week-3)  | Graphics, Conditionals
+| [Week 04](#week-4)  | Text Processing, While Loops, Fencepost
+| [Week 05](#week-5)  | Random, Assertions, Booleans, More While
+| [Week 06](#week-6)  | Midterm 1, File Processing
+| [Week 07](#week-7)  | Files, Arrays
+| [Week 08](#week-8)  | More Arrays, Objects and Classes, Instance Methods
+| [Week 09](#week-9)  | toString, constructors, encapsulation
+| [Week 10](#week-10) | Critters, Inheritance
+| [Week 11](#week-11) | ArrayList, Final Review
 
 ## Pre-Course
 
