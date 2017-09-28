@@ -24,16 +24,16 @@
   - Lecture
   - PracticeIt
   - Lab 1: Static Methods (due today)
-  - HW 1: Song (due W/Th)
 
 ## Week 2
 - Primitive Data and Definite Loops (BJP ch2)
   - Lecture
   - PracticeIt
-  - HW 2: Rocket Ship (due M/Tu)
+  - HW 1: Song (due W/Th)
 - Parameters and Objects
   - Lecture
   - PracticeIt
+  - HW 2: Rocket Ship (due M/Tu)
 
 ## Week 3
 - Graphics (BJP ch3g)
