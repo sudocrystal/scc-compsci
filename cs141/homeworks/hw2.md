@@ -3,6 +3,8 @@
 ## Topics
 This assignment will give you practice with for loops, static methods, print/println statements and a class constant.  This assignment is worth 16 points instead of the normal 20 points.
 
+## Instructions
+
 ### Part A: ASCII Art (2 points)
 
 The first part of your assignment is to write a program that produces any text art (sometimes called "ASCII art") picture you like.
