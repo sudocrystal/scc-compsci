@@ -1,12 +1,12 @@
 # Day 01/20
 
-1. Introduce Self
-1. Syllabus
-1. Have students introduce selves
++ Introduce Self
++ Syllabus
++ Have students introduce selves
   + groups of 4
   + three things: name, technical experience, one interesting thing about themselves
   + share out
-1. Lecture
++ Lecture
   - JDK / Java
   - JGrasp
   - class declaration
@@ -17,5 +17,5 @@
   - Methods
     - Calling
     - Implementing
-1. Lab: Static Methods
-1. PracticeIt
++ Lab: Static Methods
++ PracticeIt
