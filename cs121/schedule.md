@@ -38,6 +38,7 @@
   + Lecture: Comments, Special Characters
   + Lab: ASCII Art
 - Types, Operators, Expressions
+  + Talk about ASCII and \\ weirdness
   + Lecture
   + Activity: Predicting the result
 - Variables, Assignments, User Input
