@@ -32,12 +32,9 @@
 - Algorithms
   + Lecture: Algorithms
   + Activity: Human maze instructions
-- Effective Searching
+- Effective Searching / Hello World
   + Lecture: How to Google & its importance
-  + Activity: Edisons (Discover the Algorithm)
-- Let's Code
-  + Quiz
-  + Hello World
+  + Lecture: Hello World
   + Lecture: Comments, Special Characters
   + Lab: ASCII Art
 - Types, Operators, Expressions
@@ -50,13 +47,13 @@
 ## Week 3
 - Lab Time
   + Lab: Madlibs
-- Lab Time
 - Functions
   + Quiz
   + Lecture: Functions - Parameters, Arguments
   + Activity: Predicting the result
 - Lab Time
   + Lab: Nursery Rhymes
+- Lab Time
 - Lab Time
 
 ## Week 4
