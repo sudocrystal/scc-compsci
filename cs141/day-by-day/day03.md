@@ -5,7 +5,8 @@
   + Review a nested for-loop  
     - nested
     - scope
-    - class constants+ Lab: for loops (~1 hour)
+    - class constants
++ Lab: for loops (~1 hour)
   - do 1, 2, 3, 5 together
   - 6, 11-17 on your own
 + Lecture
@@ -48,6 +49,19 @@ public class Loops {
   public static void main(String[] args) {
     for(int i=0;)
   }
+}
+```
+
+```java
+public class Table {
+    public static void main(String[] arg) {
+      for (int stars = 1; stars <= multiplier * line + shift; stars++) {
+        for(int i=0; i<stars; i++) {
+          System.out.print("*");
+        }
+        System.out.println();
+      }
+    }
 }
 ```
 
