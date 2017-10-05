@@ -36,3 +36,77 @@
     - next, nextLine
     - nextLine().charAt()
     - Scanner problems
+
+## Programs for class
+
+```java
+/*
+1   2   3   4
+2   4   6   8
+*/
+public class Loops {
+  public static void main(String[] args) {
+    for(int i=0;)
+  }
+}
+```
+
+```java
+public class Bottles {
+  public static void main(String[] args) {
+
+    System.out.println("10 bottles of beer on the wall, 10 bottles of beer");
+    System.out.println("Take one down, pass it around, 9 bottles of beer on the wall");
+
+  }
+}
+```
+
+```java
+public class Count2 {
+    public static void main(String[] args) {
+        for (  ) {
+            System.out.println(  );
+        }
+    }
+}
+```
+
+```java
+public class Stars {
+  public static void main(String[] args) {
+    for( ) {
+
+    }
+  }
+}
+```
+
+## Answers
+
+```java
+/*
+1   2   3   4
+2   4   6   8
+*/
+public class Loops {
+  public static void main(String[] args) {
+    for(int row=1; row<=10; row++) {
+      for(int col=1; col<=4; col++) {
+        System.out.print(row*col + "\t");
+      }
+      System.out.println();
+    }
+  }
+}
+```
+
+```java
+public class Stars {
+  public static void main(String[] args) {
+      for(int i=0; i<6;i++) {
+        System.out.println(3*i+8);
+      }
+  }
+}
+```
