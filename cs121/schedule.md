@@ -26,19 +26,18 @@
   + Activity: 1 page guide to buying a computer
 - Data Basics
   + Lecture: Data/Binary
-  + Activity: Secret messages & binary clocks
+  + optional activity: Secret messages & binary clocks
 
 ## Week 2
 - Algorithms
   + Lecture: Algorithms
-  + Activity: Human maze instructions
+  + Activity: robot maze instructions
 - Effective Searching / Hello World
   + Lecture: How to Google & its importance
-  + Lecture: Hello World
-  + Lecture: Comments, Special Characters
+  + Lecture: Hello World, Comments, Special Characters
   + Lab: ASCII Art
 - Types, Operators, Expressions
-  + Talk about ASCII and \\ weirdness
+  + (Talk about ASCII and \\ weirdness)
   + Lecture
   + Activity: Predicting the result
 - Variables, Assignments, User Input
