@@ -45,7 +45,7 @@
 1. Improve "next steps" documentation for CS students (transfer information, transfer acceptance to 4-years, industry information, pathways to a job, realities of being in the CS industry as a minority or majority, etc)
 1. Explore and implement one identified CS dept growth opportunity (instructors, course offerings, student sourcing, etc)
 1. Lead workshops/PD/conversations with other faculty (around what? classroom equity, instructional practices, ...)
-1. Facilitate student participation in the CS outreach community (teaching CS to underserved communities - [unloop](http://unloop.org), [ChickTech](http://seattle.chicktech.org), build on my [Ripple Tech](http://rippletech.org), etc)
+1. Facilitate student participation in the CS outreach community (teaching CS to underserved communities - [unloop](http://un-loop.org), [ChickTech](http://seattle.chicktech.org), build on my [Ripple Tech](http://rippletech.org), etc)
 
 
 ### Braindump!
