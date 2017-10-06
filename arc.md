@@ -5,12 +5,48 @@
   - in the 2013-2016 Agreement is a provision concerning committee work. “The candidate shall not be required to work on any campus- wide committees during the first year of probation, but shall concentrate on academic requirements and job skills.
   - The candidate shall not normally be required to work on more than one (1) campus- wide committee during the second and third years of probation.
   - The tenure candidate is responsible for developing proposed goals and reporting progress on individual goals, while the entire committee gives guidance in the development of the goals, responds to student/peer/committee evaluations, and discusses areas of improvement with the candidate.
-- Reports
-  - First Short Report – due on or before the last day of the candidate’s First Quarter
-  - Second Short Report – due on or before the last day of the candidate’s Fourth Quarter
-  - Third Short Report – due on or before the last day of the candidate’s Seventh Quarter
+
+## Reports
+  - 1st quarter - Fall 2017
+    - Short Report (last day of quarter)
+  - 2nd quarter - Winter 2018
+    - Comprehensive report (March 1)
+  - 3rd quarter - Spring 2018
+    - No report
+  - 4th quarter - Fall 2018
+    - Short report (last day of quarter)
+  - 5th quarter - Winter 2019
+    - Comprehensive report (March 1)
+  - 6th quarter - Spring 2019
+    - No report
+  - 7th quarter - Fall 2019
+    - Short report (last day of quarter)
+  - 8th quarter - Winter 2020
+    - Comprehensive report (Feb 15)
+  - 9th quarter - Spring 2020
+    - TENURE
 
 ## Goals
+
+### Paired down, broad goals
+
+#### Year 1
+
+1. Create solid curriculum for 121 and 141
+1. Evaluate consistency/standards in CS dept (MCOs, textbooks, IDEs, curriculum, exams, outcomes)
+1. Brainstorm CS dept growth opportunities (instructors, course offerings, student sourcing)
+1. Learn about ESJ work happening at ShorelineCC
+1. Network with faculty across campus
+
+#### Year 2 & 3
+(How do I break this apart? I want to do too much!)
+
+1. Improve accessibility of course work (instructional practices, availability, awareness of its existence)
+1. Improve "next steps" documentation for CS students (transfer information, transfer acceptance to 4-years, industry information, pathways to a job)
+1. Explore and implement 1 CS dept growth opportunity (instructors, course offerings, student sourcing)
+1. Lead workshops/PD/conversations with other faculty
+1. Facilitate student participation in the CS outreach community
+
 
 ### Braindump!
 
@@ -67,22 +103,3 @@
 - Department
 - Division
 - College
-
-### Paired down, broad goals
-
-#### Year 1
-
-1. Create solid curriculum for 121 and 141
-1. Evaluate consistency/standards in CS dept (MCOs, textbooks, IDEs, curriculum, exams, outcomes)
-1. Brainstorm CS dept growth opportunities (instructors, course offerings, student sourcing)
-1. Learn about ESJ work happening at ShorelineCC
-1. Network with faculty across campus
-
-#### Year 2 & 3
-(How do I break this apart? I want to do too much!)
-
-1. Improve accessibility of course work (instructional practices, availability, awareness of its existence)
-1. Improve "next steps" documentation for CS students (transfer information, transfer acceptance to 4-years, industry information, pathways to a job)
-1. Explore and implement 1 CS dept growth opportunity (instructors, course offerings, student sourcing)
-1. Lead workshops/PD/conversations with other faculty
-1. Facilitate student participation in the CS outreach community
