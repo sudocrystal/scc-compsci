@@ -41,12 +41,14 @@
   + Lecture
   + Activity: Predicting the result
 - Variables, Assignments, User Input
+  + review predicting the result
   + Lecture
   + Activity: Predicting the result
+- Lab Time
+  + Review predicting the result
+  + Lab: Madlibs
 
 ## Week 3
-- Lab Time
-  + Lab: Madlibs
 - Functions
   + Quiz
   + Lecture: Functions - Parameters, Arguments
