@@ -49,14 +49,22 @@
   + Lab: Madlibs
 
 ## Week 3
+- Lab Time
+  + MadLibs lab Time
+  + Notes to read on debugging (I've already covered in class several times at this point)
+- Turtle Graphics
+  - Lecture: Introduction to Turtle
+  - Practice making initials with two turtles
+  - HW: reading on chapter 4 (has intro to loops, but we won't cover in class for a little while)
 - Functions
-  + Quiz
   + Lecture: Functions - Parameters, Arguments
   + Activity: Predicting the result
+- Control Flow
+  + Review predicting the result
+  + Live code: Song
+  + Quiz
 - Lab Time
   + Lab: Nursery Rhymes
-- Lab Time
-- Lab Time
 
 ## Week 4
 - Decisions
