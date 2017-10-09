@@ -22,24 +22,29 @@
 - Intro to Java Programming (BJP ch1)
   - Introductions, Syllabus, Expectations
   - Lecture
-  - PracticeIt
   - Lab 1: Static Methods (due today)
 
 ## Week 2
 - Primitive Data and Definite Loops (BJP ch2)
   - Lecture
-  - PracticeIt
+  - Lab 2
   - HW 1: Song (due W/Th)
 - Parameters and Objects
   - Lecture
-  - PracticeIt
-  - HW 2: Rocket Ship (due M/Tu)
+  - Lab 3 Part 1 (Loops, Nested Loops)
 
 ## Week 3
+- More Loops, Parameters and Objects
+  - Lab 3 Part 2 (ASCII art with loops)
+  - HW 2: Rocket Ship (due M/Tu)
+  - Parameters, Objects
+  - Lab 4
+<!--
 - Graphics (BJP ch3g)
   - Lecture
   - PracticeIt
   - HW 3: CafeWall (due M/Tu)
+-->
 - Conditionals (BJP 4.1-4.2, 4.4)
   - Lecture: if/else and interactive programs
   - PracticeIt
