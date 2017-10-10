@@ -96,7 +96,7 @@ public class Stars {
 }
 ```
 
-## Answers
+## Solutions
 
 ```java
 /*
