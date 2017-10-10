@@ -27,7 +27,7 @@
 ## Week 2
 - Primitive Data and Definite Loops (BJP ch2)
   - Lecture
-  - Lab 2
+  - Lab Expressions
   - HW 1: Song (due W/Th)
 - Parameters and Objects
   - Lecture

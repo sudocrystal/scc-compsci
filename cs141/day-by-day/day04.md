@@ -3,8 +3,8 @@
 + Work through creation of the following:
   - put solution in a method!
   - First without the second set of dots
-  - Then allow scaling
   - Then add second set of dots
+  - Then allow scaling
   ```
   ....1
   ...2.
@@ -21,7 +21,8 @@
     - Reduce Redundancy in a single line by using nested loops
     - Reduce Redundancy in structure with methods
     - Class constant for size
-+ Lab 4: Parameters and Objects
++ Lab 3: Parameters and Objects
+  - Walk through first parameter Exercise
 
 ## Programs for class
 ```java
@@ -39,7 +40,7 @@ public class DotBox {
 public class DotBox {
   public static final int SIZE = 5;
   public static void main(String[] args) {
-    dotsNums();
+    box();
   }
   public static void box() {
     for (int line = 1; line <= SIZE; line++) {
