@@ -56,14 +56,14 @@
   - Lecture: Introduction to Turtle
   - Practice making initials with two turtles
   - HW: reading on chapter 4 (has intro to loops, but we won't cover in class for a little while)
+- Control Flow
+  + Examples: Turtle and Song
+  + Quiz
 - Functions
   + Lecture: Functions - Parameters, Arguments
   + Activity: Predicting the result
-- Control Flow
-  + Review predicting the result
-  + Live code: Song
-  + Quiz
 - Lab Time
+  + Review predicting the result
   + Lab: Nursery Rhymes
 
 ## Week 4
