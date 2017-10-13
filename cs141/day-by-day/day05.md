@@ -1,5 +1,8 @@
 # Day 05/20
 
++ Review Scanner
+  - number followed by String/char
+  - in.nextLine not in.nextString
 + Lecture
   - if-statements
   - relational operators
