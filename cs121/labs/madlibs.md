@@ -8,7 +8,7 @@ You are going to create a MadLib game! MadLibs is a game where you ask someone f
 
 Here is [an online example](http://www.madtakes.com/).
 
-## Primary Requirements
+## Instructions
 - Create a MadLib program that accepts input from the user and outputs a completed MadLib story
 - Input
   - Use _at least three_ different parts of speech in order to fill in your story
@@ -17,6 +17,7 @@ Here is [an online example](http://www.madtakes.com/).
   - Should consist of a paragraph of output that has the user’s input substituted into the story
   - At least one word or phrase must be used twice
   - At least one word or phrase must appear in UPPERCASE but may not be input in this format (i.e. you must convert it to uppercase)
+    - **You must google how to do this.**
 
 ## Example Output
 Below is an example output from running through a MadLib exercise. Don’t forget, your code and MadLib should be unique to you!
