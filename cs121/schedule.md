@@ -68,19 +68,17 @@
 
 ## Week 4
 - Decisions
-  + Lecture: If Statements
-  + Activity: Beginning If Statements
-- Functions, Modules
+  + Lecture: Conditional Operators, If Statements
+  + Predict the Result
+- Modules, Functions
   + Lecture: Functions - Return types
-  + Activity: (centigrade, max, min, fabs, gpa)
+  + Predict the result
+- Lab Time
+  + Lab: Super Sale
+- Lab Time
 - Testing
   + Lecture: Unit Tests
   + Activity: Writing Unit Tests
-- Lab Time
-  + Lab: Testing Nursery Rhymes and Calculations Labs
-- Truth Tables, And/Or, Short Circuit Eval
-  + Lecture
-  + Activity: Predicting the result
 
 ## Week 5
 - Lab Time
