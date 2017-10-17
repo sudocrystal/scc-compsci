@@ -7,7 +7,7 @@ This program will focus on utilizing functions, parameters, Python's math and ra
 Did you know that receipts print from programs? Your task is to complete the program provided so that it will print a customer discount summary for a store that is running a super sale.
 
 ## Starter Code
-[Fork the REPL here](https://repl.it/MgBr)
+[Fork the REPL here](https://repl.it/MgBr/5)
 
 ```python
 import math
