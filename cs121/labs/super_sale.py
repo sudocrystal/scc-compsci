@@ -1,4 +1,6 @@
 #TODO: import the math and random modules
+import math
+import random
 
 def purchase():
     spent = 0 #TODO: generate a random number between 100 and 2000
@@ -18,7 +20,7 @@ def loyalty(purchase_amount):
 
 def print_summary(original_total, sale_savings, loyalty_savings):
     percent = 0 #TODO: delete this line and uncomment the next once you start fixing this function
-    #percent = math.floor(first_discount / original_total * 100)
+    #percent = math.floor(sale_savings / original_total * 100)
     saved = original_total - sale_savings - loyalty_savings
     new_total = original_total - saved
     
