@@ -47,13 +47,11 @@
 -->
 - Conditionals (BJP 4.1-4.2, 4.4)
   - Lecture: if/else and interactive programs
-  - PracticeIt
   - Practice
 
 ## Week 4
 - Text Processing: Strings and char (BJP 4.3, 3.3), cumulative algorithms (BJP 4.2, 4.4)
   - Lecture
-  - PracticeIt
   - Practice
   - HW 4: Admissions (due M/Tu)
 - while loops, fencepost/sentinel loops (5.1-5.2)
