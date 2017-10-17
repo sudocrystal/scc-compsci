@@ -72,7 +72,7 @@
   + Predict the Result
 - Modules, Functions
   + Lecture: Functions - Return types
-  + Predict the result
+  + NEED TO ADD ACTIVITY
 - Lab Time
   + Lab: Super Sale
 - Lab Time
