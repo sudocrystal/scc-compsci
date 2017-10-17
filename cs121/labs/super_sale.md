@@ -70,7 +70,7 @@ You are going to systematically replace the TODO comments with code so that the 
   - Spending $500-999 earns a discount of 15%
   - Spending $1000 or more earns a discount of 20%
 1. TODO 4 is in the `print_summary()` function. Calculating the percent of the discount doesn't work if you haven't yet calculated the discount, so I had that part commented out until you did TODO 3. When you do this TODO, you will then see the correct percent printed on the summary (if you did TODO 3 correctly).
-1. TODO 5 is in the `loyalty()` function. You should calculate the loyalty discount as the square root of the total amount purchased. You will need to use Python's `math` module to make this calculation.
+1. TODO 5 is in the `loyalty()` function. You should calculate the loyalty discount as the square root of the total amount purchased. You will need to use Python's `math` module to make this calculation. **Note that this function should return a decimal number for the discount. 10% = 0.10 discount**
 1. TODO 6 is in the `print_summary()` function. You should now google how to make only 2 decimal places show when printing a number to the screen. So instead of `120.0` printing, we want `120.00`, instead of something like `23.45666666667` printing, we want `23.45`. Essentially, we want all references to money to print the way we expect.
 
 ## Example Output
