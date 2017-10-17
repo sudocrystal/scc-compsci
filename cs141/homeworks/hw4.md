@@ -42,7 +42,8 @@ At this point your program has two scores that vary from 0 to 100, one from test
 
 #### Subscores
 Your program is to report the exam and GPA subscores and the overall score for each applicant.  
-- These should be rounded to one decimal place when displayed. There are many ways to round to 1 decimal, you should use Google to find a way that works for you. _Hint: You can use any of the following, among other possibilities: printf, Math.round, or DecimalFormat_
+- These should be rounded to one decimal place when displayed. There are many ways to round to 1 decimal, you should use Google to find a way that works for you.
+  - _Hint: You can use any of the following, among other possibilities: printf, Math.round, or DecimalFormat_
 
 #### Which is better
 In addition to reporting the score for each applicant, the program should also produce whichever of the following messages is appropriate:
@@ -52,7 +53,7 @@ In addition to reporting the score for each applicant, the program should also p
 
 ## Other Notes
 - You should use static methods to eliminate redundant code and to break the problem up into logical subtasks. **This includes making methods that return data and methods that take data as a parameter.**
-- Your main method should be short so that a person can easily see the overall structure of the program.
+- Your main method should be short so that a person can easily see the overall structure of the program. **There should be zero println's in your main.**
 - **You are to introduce at least five static methods other than main**  to break this problem up into smaller subtasks and you should make sure that no single method is doing too much work.
 - In this program, **none of your methods should have more than 15 lines of code in the body of the method** (not counting blank lines or lines with just curly braces on them). The 15-line limitation is a special requirement for this assignment to force you to practice breaking up a program into methods.
 - **Be sure to once again include a short comment at the beginning of your program as well as a short comment for each method describing what it does.**
