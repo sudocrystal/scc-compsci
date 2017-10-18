@@ -75,7 +75,7 @@
   + Lecture: math and random
 - Functions
   + Lecture: Functions - Return types
-  + NEED TO ADD ACTIVITY
+  + Practice with Functions
   + Quiz
 - Lab Time
   + Lab: Super Sale
@@ -85,7 +85,7 @@
 
 ## Week 5
 - Lab Time
-  + Lab: Candy Machine
+  + Lab: ATM Machine
 - Lab Time
 - Midterm \#1
   + MC Exam
