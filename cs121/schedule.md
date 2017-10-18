@@ -70,12 +70,15 @@
 - Decisions
   + Lecture: Conditional Operators, If Statements
   + Predict the Result
-- Modules, Functions
+- Modules
+  + Reviewed Predict the Result
+  + Lecture: math and random
+- Functions
   + Lecture: Functions - Return types
   + NEED TO ADD ACTIVITY
+  + Quiz
 - Lab Time
   + Lab: Super Sale
-- Lab Time
 - Testing
   + Lecture: Unit Tests
   + Activity: Writing Unit Tests
