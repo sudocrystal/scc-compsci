@@ -78,12 +78,16 @@
   + Practice with Functions
   + Quiz
 - Lab Time
+  + Reviewed Practice with Functions
   + Lab: Super Sale
+- Lab Time
+  + Lab: Super Sale
+  + Midterm Review Study Guide Posted
+
+## Week 5
 - Testing
   + Lecture: Unit Tests
   + Activity: Writing Unit Tests
-
-## Week 5
 - Lab Time
   + Lab: ATM Machine
 - Lab Time
