@@ -96,14 +96,14 @@
   - Practice
 - functional programming (optional - T/TH won't have)
 
-# Week 10
+## Week 10
 - critters
   - Lecture
   - HW 8: Critters
 - inheritance (9.1, 9.3)
   - Lecture
 
-# Week 11
+## Week 11
 - ArrayList
   - Lecture
 - review for final
