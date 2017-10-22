@@ -10,7 +10,10 @@
     - PracticeIt Exercise 5.19 firstDigit
     - PracticeIt Exercise 5.1 showTwos
   - do-while loops
-  - Math.abs
+  - Random tid-bits
+    - Math.abs
+    - !text.equals("")
+    - text.charAt(text.length()-1)
 + Lab: while loops
 
 ## Programs for class
