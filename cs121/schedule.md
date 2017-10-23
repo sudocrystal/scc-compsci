@@ -85,15 +85,12 @@
   + Midterm Review Study Guide Posted
 
 ## Week 5
-- Testing
-  + Lecture: Unit Tests
-  + Activity: Writing Unit Tests
-- Lab Time
-  + Lab: ATM Machine
-- Lab Time
+- Live code
+  + Coffee Stand
+- Reading code you didn't write
+  + A look at various programs that you didn't write and analyzing them
 - Midterm \#1
-  + MC Exam
-  + Talking to me about a program you've written
+  + Midterm in class
 - Repetition
   + Lecture
   + Activity: Complete the Loops
