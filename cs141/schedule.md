@@ -59,12 +59,12 @@
   - Practice
 
 ## Week 5
-(No lab this week)
+(No HW this week)
 - pseudorandom numbers, assertions (5.1, 5.5)
   - Lecture
-  - Midterm Review (due M/Tu)
-- type boolean, more while loops (5.3)
+- more while loops (5.3)
   - Lecture
+  - Midterm Review (due M/Tu)
 
 ## Week 6
 - MIDTERM 1 (ch 1-5)
