@@ -9,6 +9,7 @@
     - boolean zen
     - allSmallDigits (below)
     - reversed (below)
+    - mention testing for the false case in the loop, true only if the loop executes entirely without returning false
 + Lab: boolean logic
 + (if time) modify candy machine so that bad user input is handled
 
@@ -30,28 +31,28 @@ public class Day08BooleanLogic {
    public static void main(String[] args) {
 //       System.out.println( isEven(10) );
 //       System.out.println( allSmallDigits(1234) );
-//       System.out.println( stringsReversed("hello","olleh") );
+//       System.out.println( isReverse("hello","olleh") );
    }
 
-   //returns true is num is even, false if it's odd
-   //e.g. isEven(10) --> true
-   //e.g. isEven(-1) --> false
+   // returns true is num is even, false if it's odd
+   // e.g. isEven(10) --> true
+   // e.g. isEven(-1) --> false
    public static boolean isEven(int num) {
       return false;
    }
 
-   //returns true if all digits are smaller than 5
-   //e.g. 1233 --> true
-   //e.g. 99 --> false
-   //e.g. 1190 --> false
+   // returns true if all digits are smaller than 5
+   // e.g. allSmallDigits(1233) --> true
+   // e.g. allSmallDigits(99) --> false
+   // e.g. allSmallDigits(1190) --> false
    public static boolean allSmallDigits(int x) {
       return false;
    }
 
-   //returns true if the strings are reverse of each other
-   //e.g. "hello" and "olleh" --> true
-   //e.g. "time" and "fine" --> false
-   public static boolean stringsReversed(String s1, String s2) {
+   // returns true if the strings are reverse of each other
+   // e.g. isReverse("hello","olleh") --> true
+   // e.g. isReverse("time","fine") --> false
+   public static boolean isReverse(String s1, String s2) {
       return false;
    }
 }
@@ -87,12 +88,12 @@ public class Day08BooleanLogic {
    public static void main(String[] args) {
 //       System.out.println( isEven(10) );
 //       System.out.println( allSmallDigits(1234) );
-//       System.out.println( stringsReversed("hello","olleh") );
+//       System.out.println( isReverse("hello","olleh") );
    }
 
-   //returns true is num is even, false if it's odd
-   //e.g. isEven(10) --> true
-   //e.g. isEven(-1) --> false
+   // returns true is num is even, false if it's odd
+   // e.g. isEven(10) --> true
+   // e.g. isEven(-1) --> false
    public static boolean isEven(int num) {
 // FIRST WAY
 //       num = Math.abs(num);
@@ -112,10 +113,10 @@ public class Day08BooleanLogic {
       return num % 2 == 0;
    }
 
-   //returns true if all digits are smaller than 5
-   //e.g. 1233 --> true
-   //e.g. 99 --> false
-   //e.g. 1190 --> false
+   // returns true if all digits are smaller than 5
+   // e.g. allSmallDigits(1233) --> true
+   // e.g. allSmallDigits(99) --> false
+   // e.g. allSmallDigits(1190) --> false
    public static boolean allSmallDigits(int x) {
       while(x > 0) {
          int last = x % 10;
@@ -126,10 +127,10 @@ public class Day08BooleanLogic {
       return true;
    }
 
-   //returns true if the strings are reverse of each other
-   //e.g. "hello" and "olleh" --> true
-   //e.g. "time" and "fine" --> false
-   public static boolean stringsReversed(String s1, String s2) {
+   // returns true if the strings are reverse of each other
+   // e.g. isReverse("hello","olleh") --> true
+   // e.g. isReverse("time","fine") --> false
+   public static boolean isReverse(String s1, String s2) {
       if(s1.length() != s2.length())
          return false;
       for(int i=0; i<s1.length(); i++) {
