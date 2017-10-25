@@ -77,18 +77,18 @@
   + Lecture: Functions - Return types
   + Practice with Functions
   + Quiz
+- Live code
+  + Coffee Stand
+- Reading code you didn't write
+  + A look at various programs that you didn't write and analyzing them
+  + Midterm Review Study Guide Posted
+
+## Week 5
 - Lab Time
   + Reviewed Practice with Functions
   + Lab: Super Sale
 - Lab Time
   + Lab: Super Sale
-  + Midterm Review Study Guide Posted
-
-## Week 5
-- Live code
-  + Coffee Stand
-- Reading code you didn't write
-  + A look at various programs that you didn't write and analyzing them
 - Midterm \#1
   + Midterm in class
 - Repetition

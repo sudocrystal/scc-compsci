@@ -2,7 +2,7 @@
 
 + Lecture
   - pseudorandom numbers
-    - Self-Check 5.5-5.6
+    - Self-Check 5.5
   - assertions
     - BJP3 Self-Check 5.27: assertions1
   - boolean methods
