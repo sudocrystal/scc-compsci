@@ -62,9 +62,9 @@
 (No HW this week)
 - pseudorandom numbers, assertions (5.1, 5.5)
   - Lecture
-- more while loops (5.3)
-  - Lecture
-  - Midterm Review (due M/Tu)
+- Practicing Loops
+  - Lab: Revised Candy Machine
+  - Midterm Practice
 
 ## Week 6
 - MIDTERM 1 (ch 1-5)
