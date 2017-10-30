@@ -1,4 +1,4 @@
-# HW 4: Admissions
+# HW 4: Guessing Game
 
 ## Topics
 This assignment will give you practice with interactive programs, if/else statements and methods that return values.
