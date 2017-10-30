@@ -92,16 +92,16 @@
 - Midterm \#1
   + Midterm in class
 - Repetition
-  + Lecture
-  + Activity: Complete the Loops
-- Debugging
-  + Lecture
-  + Activity: Fixing Loops
+  + Lecture on simple for-loops and while loops
+  + Predicting the Result
+- CANCELLED
 
 ## Week 6
+- Fixing Loops
+  + Review Predicting the Result
+  + Fix the Loops
 - Lab Time
   + Lab: Nursery Rhymes Continued
-- Lab Time
 - Pseudocoding
   + Lecture
   + Lab: Data Checker
