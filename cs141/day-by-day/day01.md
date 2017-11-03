@@ -2,12 +2,13 @@
 
 + Introduce Self
 + Syllabus
-+ Have students introduce selves
++ Have students introduce self
   + groups of 4
-  + three things: name, technical experience, one interesting thing about themselves
+  + three things: name, coding experience, one interesting thing about themselves
   + share out
 + Lecture
   - JDK / Java
+    - Compiled vs. Interpreted Languages
   - JGrasp
   - class declaration
   - main declaration
@@ -15,7 +16,6 @@
   - Escape Sequences
     - `\n, \t, \\, \"`
   - Methods
+    - Defining
     - Calling
-    - Implementing
 + Lab: Static Methods
-+ PracticeIt
