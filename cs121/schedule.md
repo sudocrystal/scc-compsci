@@ -102,23 +102,23 @@
   + Fix the Loops
 - Lab Time
   + Lab: Nursery Rhymes Continued
+- Review loops
+  + Review predicting the Result
+  + Play with Turtle Art
+- Lab Time
+  + Turtle Art
 - Pseudocoding
   + Lecture
   + Lab: Data Checker
-- Lab Time
-  + Lab: Data Checker
-  + Activity: Psuedocoding
+
+## Week 7
 - String Operations
   + Lecture
   + Activity
-
-## Week 7
 - Lab Time
   + Lab: Love Phony Pigs (or something else)
 - Lab Time
-- Unfamiliar Code
-  + Lecture
-  + Lab: ChatterBot
+  + Chatterbot?
 - Lab Time
 - No class
 
