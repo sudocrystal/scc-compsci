@@ -108,8 +108,7 @@
 - Lab Time
   + Turtle Art
 - Pseudocoding
-  + Lecture
-  + Lab: Data Checker
+  + Lab: Election Program
 
 ## Week 7
 - String Operations
