@@ -111,14 +111,16 @@
   + Lab: Election Program
 
 ## Week 7
+- More Lab Practice
+  + Complete Election Program
+  + Homework: Cookie Time
 - String Operations
   + Lecture
   + Activity
+- Strings in Loops
+  + Lecture
 - Lab Time
-  + Lab: Love Phony Pigs (or something else)
-- Lab Time
-  + Chatterbot?
-- Lab Time
+  + Lab: Match Maker
 - No class
 
 ## Week 8
