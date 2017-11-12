@@ -124,6 +124,10 @@
 - No class
 
 ## Week 8
+- Comparing code solutions
+  + Complete Match Maker
+  + Look at different solutions
+  + Account Generator
 - Lists
   + Lecture
   + Activity
@@ -131,18 +135,22 @@
   + Lab: Student Account Generator
 - Lab Time
   + Lab: Student Account Generator
-- Classes
-  + Lecture
-  + Activity
 - Lab Time
   + Lab: SPAM Preventer
 
-## Week 9 (2 days)
+## Week 9 (3 days)
 - Lab Time
 - Midterm \#2
   + MC Exam
-  + Talking to me about a program you've written
+- Meet Edison
+  + EdPy Worksheets
+  + Thanksgiving task
 
 ## Week 10
+- EdPy Lessons 1-5
 
 ## Week 11
+- EdPy Lessons 6-10
+
+## Final Project
+- Presenting Lesson 10 to the class
