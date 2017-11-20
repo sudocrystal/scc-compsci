@@ -9,12 +9,12 @@
   - Book class
     - state: fields?
       - title, author, pages, genre, lastPage, rating
+      - How are fields, parameters, and local vars different?
     - constructor
-      - this
+      - this(), this.x
     - behavior: methods?
       - read(int)
       - percentRead
       - setRating
-  - How are fields and parameters, local vars different?
   - accessors and mutators
   - toString

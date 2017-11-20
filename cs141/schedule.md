@@ -89,13 +89,14 @@
 - P5.js
 
 ## Week 10
-- critters
+- critters???
   - Lecture
-  - HW: Something classes related
+  - HW: Car Shopping?
 - inheritance (9.1, 9.3)
   - Lecture
 
 ## Week 11
 - ArrayList
   - Lecture
+  - Lab: ItemReceipt
 - review for final
