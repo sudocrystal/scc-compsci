@@ -131,15 +131,16 @@
 - Lists
   + Lecture
   + Activity
+- Practice Time
+  + Coding Bat: Lists
 - Lab Time
-  + Lab: Student Account Generator
+  + Holiday Shopping in partners
 - Lab Time
-  + Lab: Student Account Generator
-- Lab Time
-  + Lab: SPAM Preventer
+  + Holiday Shopping Continued
+  + Lab: GPA Reporter
 
 ## Week 9 (3 days)
-- Lab Time
+- Open Lab time / Midterm Review
 - Midterm \#2
   + MC Exam
 - Meet Edison

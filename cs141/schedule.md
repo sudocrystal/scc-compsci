@@ -98,5 +98,5 @@
 ## Week 11
 - ArrayList
   - Lecture
-  - Lab: ItemReceipt
+  - Lab: Music Player
 - review for final
