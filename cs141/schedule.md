@@ -86,13 +86,14 @@
 - toString, constructors, encapsulation (8.3-8.5)
   - Lecture
   - Practice
-- P5.js
+- P5.js (optional)
+  - Extra Credit HW
 
 ## Week 10
-- critters???
+- inheritance (9.1, 9.3)
   - Lecture
   - HW: Car Shopping?
-- inheritance (9.1, 9.3)
+- ArrayList
   - Lecture
 
 ## Week 11

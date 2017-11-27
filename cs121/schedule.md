@@ -148,7 +148,8 @@
   + Thanksgiving task
 
 ## Week 10
-- EdPy Lessons 1-5
+- EdPy Lessons 1 and part of 2
+- EdPy Lesson 2
 
 ## Week 11
 - EdPy Lessons 6-10
