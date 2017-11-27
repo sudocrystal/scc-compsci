@@ -1,26 +1,23 @@
 ## Day 17/20
 
 + Lecture
-  - Define an Athlete class
+  - Define an Student class
     - fields
     - constructors
     - accessors
     - mutators
     - toString
   - Subclasses
-    - public class BaseballPlayer extends Athlete
+    - public class HighSchoolStudent extends Student
     - Instantiate
-      - as Athlete = new Athlete
-      - as BaseballPlayer = new Athlete
-      - as BaseballPlayer = new BaseballPlayer
+      - as superclass = new superclass
+      - as subclass = new subclass
+      - as superclass = new subclass
   - Inheritance
-    - gets everything that's in Athlete but then also has it's own extra information
+    - gets everything that's in superclass but then also has it's own extra information
   - Overriding a method
-    - both Athlete and BaseballPlayer have X(), which one gets called?
+    - both superclass and subclass have X(), which one gets called?
     - making an inheritance table
   - super
     - used in a constructor
     - used to call a super class's methods
-
-# Athlete
-- name, position, team,
