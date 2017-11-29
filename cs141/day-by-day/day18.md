@@ -22,3 +22,11 @@
     - get(i)
     - set(i,x)
     - indexOf(x), -1 if not found
+
++ Problems
+  - duplicateList
+    - Ex 10.4 doubleList
+  - maxToEnd
+    - Ex 10.6 minToFront
+  - maxLength
+    - Ex 10.3 removeEvenLength
