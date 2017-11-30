@@ -148,11 +148,11 @@
   + Thanksgiving task
 
 ## Week 10
-- EdPy Lessons 1 and part of 2
-- EdPy Lesson 2
+- EdPy Lessons 1-7
 
 ## Week 11
-- EdPy Lessons 6-10
+- EdPy Lessons 8 & 9
+- Group Project for Final
 
 ## Final Project
-- Presenting Lesson 10 to the class
+- Presenting Project
