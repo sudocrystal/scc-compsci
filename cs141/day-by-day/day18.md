@@ -11,6 +11,7 @@
     - methods for inserting, deleting, and searching
   - Limitations of ArrayList
     - must hold Objects
+    - Wrapper classes / auto-boxing, auto-unboxing
   - import java.util.ArrayList
   - ArrayList methods
     - add(x)
@@ -30,3 +31,4 @@
     - Ex 10.6 minToFront
   - maxLength
     - Ex 10.3 removeEvenLength
+    - removing in a for-loop needs to account for reindexing
