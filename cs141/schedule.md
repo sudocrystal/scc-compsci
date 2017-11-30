@@ -95,9 +95,10 @@
   - HW: Car Shopping?
 - ArrayList
   - Lecture
+  - Lab: GroceryList
 
 ## Week 11
 - ArrayList
-  - Lecture
+  - PracticeIt
   - Lab: Music Player
 - review for final
