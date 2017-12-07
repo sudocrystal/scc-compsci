@@ -2,9 +2,8 @@
 
 + Final Practice
   - Work on a Practice Final on Practice It (Exams 9 through 13)
-  - Make a study sheet to record the types of things you need to remember about each type of problem
 
-## Instructor Notes Sheet
+## Things to remember by Problem Type
 
 1. Array Mystery
  - Pay attention to starting index (`0`? `1`? something else?)
