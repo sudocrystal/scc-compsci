@@ -34,7 +34,7 @@
 5. Line-based Processing
   - THERE IS NO SUCH THING AS nextString()
   - When there is a line of text to be read in (`while(in.hasNextLine())`), read in a line of text using `in.nextLine()` (save in a variable, like `String line = in.nextLine();`)
-  - Then pass that information to a new Scanner Object (`Scanner lineScan = new Scanner(line);`) and use token-based reading methods on that scanner to analyze the data (`lineScan.next()`, etc)
+  - If the tokens in that line need to be evaluated separately, pass that information to a new Scanner Object (`Scanner lineScan = new Scanner(line);`) and use token-based reading methods on that scanner to analyze the data (`lineScan.next()`, etc)
   - It is good practice to read in information to a variable so that you don't accidentally read in information in an if-statement, which often causes logic errors
 
 6. Array Problem
