@@ -2,7 +2,7 @@
 
 ## Details
 - Instructor: Crystal Hess
-- Office Hours: M/Tu/Wed 11:30-12:30, Th/Fri 9:30-10:30
+- Office Hours:
 - Office Hours Location: Science Building, Room 2813
 - Class Days/Times:
 - Class Location:
@@ -23,7 +23,6 @@ Students should be able to:
 - identify, create, and use _loops_ (while/for)
 - identify, create, and use _strings_ and associated operations
 - identify, create, and use _lists_
-- identify and use _classes_ and _Objects_
 - _test_ code
 - _debug_ code
 - read and work with unfamiliar code
@@ -36,21 +35,18 @@ Placement into ENGL& 101, and MATH 099 with grade of 2.0 or better, or instructo
 
 ## Required Text
 - No required text.
-- _optional_
-  + [How to Think like a Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/index.html)
-  + Introduction to Programming Using Python by Y. Daniel Liang
 
 ## Grading Policy
 | Activity            | Percentage
 |---------------------|-------------
-| Classroom Contract  | 30
-| Labs (10)           | 50
-| Weekly Quizzes (10) | 10
-| Midterms (2)        | 10
+| Practice            | 30
+| Weekly Quizzes      | 10
+| Homework            | 30
+| Midterms (2)        | 20
 | Final Project (1)   | 10
 
 ## Classroom Contract
-Thirty percent of your grade will be based on your ability to uphold the classroom contract as follows:
+You are expected to uphold the classroom contract as follows:
 - **Be Prepared**: You are expected to complete all pre-work and homework before class starts so that you are ready to be engaged in conversations and activities.
 - **Be Present**: You are expected to be in class, on time, and actively present in the learning process.
 - **Participate**: You are expected to be an active contributor in class. This means both asking questions and helping others.

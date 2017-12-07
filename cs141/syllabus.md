@@ -2,7 +2,7 @@
 
 ## Details
 - Instructor: Crystal Hess
-- Office Hours: M/Tu/Wed 11:30-12:30, Th/Fri 9:30-10:30
+- Office Hours:
 - Office Hours Location: Science Building, Room 2813
 - Class Days/Times:
 - Class Location:
@@ -30,10 +30,7 @@ Prerequisite: ENGL& 101 (may be taken concurrently) and MATH& 141 or MATH 111 wi
 ## Required Software
 - [JGrasp]()
 
-## Required Text
-- No required text.
-- _optional_
-  + Introduction to Java Programming by Y. Daniel Liang
+## Text
   + Building Java Programs: A Back to Basics Approach by Stuart Reges and Marty Stepp
 
 ## Classroom Contract
@@ -48,11 +45,10 @@ You are expected to uphold the classroom contract as follows:
 ## Grading Policy
 | Activity            | Percentage
 |---------------------|-------------
-| Programming HW      | 30
-| Labs (10)           | 20
-| Weekly Quizzes (10) | 0
-| Midterm  (1)        | 20
-| Final Exam (1)      | 30
+| Practice            | 25
+| Homework            | 25
+| Midterm  (1)        | 25
+| Final Exam (1)      | 25
 
 ## Academic Integrity
 Academic honesty and integrity is expected. Shoreline Community College has a strict policy on cheating and plagiarism. You are cheating if you copy, steal, borrow, consult, or use any means to obtain answers from classmates or unauthorized sources for any assignment inside or ourside class. Any student found guilty of cheating and/or plagiarism will receive a zero for assignment. If it happens a second time, you will fail the course. Please see the Shoreline Dishonesty in Academics Policy (#5033) [here](https://www.shoreline.edu/currentstudents/student-policies.aspx)
@@ -62,9 +58,9 @@ All code you submit must be your own work. You may discuss general ideas of how 
 
 **Here are some do’s and don’ts:**
 - DO NOT work as a partner with another student on an assignment.
-- DO NOT show (or send!) you solution for an assignment (or look at someone else’s solution) for any reason at any time. EVER.
+- DO NOT show (or send!) you solution to another person for any reason at any time. EVER.
+- DO NOT look at someone else’s solution.
 - DO NOT post any piece of solution code anywhere online (on Canvas, on message boards, forums, file sharing sites and services, or any other online system).
-- DO ask/post questions about specification/instructions
 
 Please note that both parties involved in a cheating case are treated equally. That is, helping someone else cheat is just as bad as reading someone else’s solution. There are many resources for students who are struggling, and the right thing to do in this situation is to point them to these resources.
 
