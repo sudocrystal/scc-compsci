@@ -7,3 +7,8 @@
   - number of sentences
   - number of words that begin with a vowel
 + PracticeIt Problems
+
+
+Character.isAlphabetic()
+Character.toLowerCase()
+Character.isLetter()
