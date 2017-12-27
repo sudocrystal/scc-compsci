@@ -17,6 +17,9 @@
 | [Week 11](#week-11) | [Day 19](day-by-day/day19.md) | [Day 20](day-by-day/day20.md) | ArrayList, Final Review
 
 ## Pre-Course
+- Syllabus Quiz
+- Setting up your Dev Environment
+- Optional Practice Exercises
 
 ## Week 1 (1 day only)
 - Intro to Java Programming (BJP ch1)

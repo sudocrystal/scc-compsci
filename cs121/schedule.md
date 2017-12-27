@@ -12,10 +12,12 @@
 | [Week 06](#week-6)  | Pseudocode, String Operations
 | [Week 07](#week-7)  | Unfamiliar, Lists
 | [Week 08](#week-8)  | Classes, Midterm 2
-| [Week 09](#week-9)  |
-| [Week 10](#week-10) |
+| [Week 09](#week-9)  | Edison Robots
+| [Week 10](#week-10) | Edison Robots
 
-## Week 1 (3 days)
+Each bullet is a day.
+
+## Week 1
 - Introductions
   + Names
   + Syllabus
@@ -151,7 +153,7 @@
 - EdPy Lessons 1-7
 
 ## Week 11
-- EdPy Lessons 8 & 9
+- EdPy Lessons 8 & 9 (optional 10)
 - Group Project for Final
 
 ## Final Project
