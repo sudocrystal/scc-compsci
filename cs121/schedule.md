@@ -28,9 +28,6 @@ Each bullet is a day.
   + Activity: 1 page guide to buying a computer
 - Data Basics
   + Lecture: Data/Binary
-  + optional activity: Secret messages & binary clocks
-
-## Week 2
 - Algorithms
   + Lecture: Algorithms
   + Activity: robot maze instructions
@@ -38,6 +35,8 @@ Each bullet is a day.
   + Lecture: How to Google & its importance
   + Lecture: Hello World, Comments, Special Characters
   + Lab: ASCII Art
+
+## Week 2 (4 days)
 - Types, Operators, Expressions
   + (Talk about ASCII and \\ weirdness)
   + Lecture
@@ -49,11 +48,11 @@ Each bullet is a day.
 - Lab Time
   + Review predicting the result
   + Lab: Madlibs
-
-## Week 3
 - Lab Time
   + MadLibs lab Time
   + Notes to read on debugging (I've already covered in class several times at this point)
+
+## Week 3
 - Turtle Graphics
   - Lecture: Introduction to Turtle
   - Practice making initials with two turtles
@@ -67,11 +66,11 @@ Each bullet is a day.
 - Lab Time
   + Review predicting the result
   + Lab: Nursery Rhymes
-
-## Week 4
 - Decisions
   + Lecture: Conditional Operators, If Statements
   + Predict the Result
+
+## Week 4
 - Modules
   + Reviewed Predict the Result
   + Lecture: math and random
@@ -84,11 +83,11 @@ Each bullet is a day.
 - Reading code you didn't write
   + A look at various programs that you didn't write and analyzing them
   + Midterm Review Study Guide Posted
-
-## Week 5
 - Lab Time
   + Reviewed Practice with Functions
   + Lab: Super Sale
+
+## Week 5
 - Lab Time
   + Lab: Super Sale
 - Midterm \#1
@@ -96,14 +95,13 @@ Each bullet is a day.
 - Repetition
   + Lecture on simple for-loops and while loops
   + Predicting the Result
-- CANCELLED
-
-## Week 6
 - Fixing Loops
   + Review Predicting the Result
   + Fix the Loops
 - Lab Time
   + Lab: Nursery Rhymes Continued
+
+## Week 6
 - Review loops
   + Review predicting the Result
   + Play with Turtle Art
@@ -111,19 +109,18 @@ Each bullet is a day.
   + Turtle Art
 - Pseudocoding
   + Lab: Election Program
-
-## Week 7
 - More Lab Practice
   + Complete Election Program
   + Homework: Cookie Time
 - String Operations
   + Lecture
   + Activity
+
+## Week 7 (4 days)
 - Strings in Loops
   + Lecture
 - Lab Time
   + Lab: Match Maker
-- No class
 
 ## Week 8
 - Comparing code solutions
@@ -141,7 +138,7 @@ Each bullet is a day.
   + Holiday Shopping Continued
   + Lab: GPA Reporter
 
-## Week 9 (3 days)
+## Week 9
 - Open Lab time / Midterm Review
 - Midterm \#2
   + MC Exam
