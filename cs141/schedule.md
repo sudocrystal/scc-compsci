@@ -2,13 +2,13 @@
 
 ## At a Glance
 
-| Week  | M   | W    | Topic
-|-------|-----|------|-------
-|       |     | [Day 00](day-by-day/day00.md) |  
-| [Week 01](#week-1) | [Day 01](day-by-day/day01.md) | [Day 02](day-by-day/day02.md) | Introduction to Java, Primitive Data Types, Definite Loops
-| [Week 02](#week-2) | [Day 03](day-by-day/day03.md) | [Day 04](day-by-day/day04.md) | Parameters, Graphics
-| [Week 03](#week-3) | [Day 05](day-by-day/day05.md) | [Day 06](day-by-day/day06.md) | Conditionals
-| [Week 04](#week-4) | [Day 07](day-by-day/day07.md) | [Day 08](day-by-day/day08.md) | Text Processing, While Loops, Fencepost
+| Chapter                    | Days |  |
+|----------------------------|------|--|
+| Introduction to Java | [Day 00](day-by-day/day00.md) | [Day 01](day-by-day/day01.md)
+| Primitive Data Types, Definite Loops | [Day 02](day-by-day/day02.md) | |
+| Parameters, Graphics  | [Day 03](day-by-day/day03.md) | [Day 04](day-by-day/day04.md)
+| Conditionals | [Day 05](day-by-day/day05.md) | [Day 06](day-by-day/day06.md)
+| While Loops, Fencepost, Boolean Logic | [Day 07](day-by-day/day07.md) | [Day 08](day-by-day/day08.md) 
 | [Week 05](#week-5) | [Day 09](day-by-day/day09.md) | [Day 10](day-by-day/day10.md) | Random, Assertions, Booleans, More While
 | [Week 06](#week-6) | [Day 11](day-by-day/day11.md) | [Day 12](day-by-day/day12.md) | Midterm 1, File Processing
 | [Week 07](#week-7) |  | [Day 13](day-by-day/day13.md) | Files, Arrays
