@@ -2,7 +2,7 @@
 
 ## At a Glance
 
-| Week  | M/T | W/TH | Topic
+| Week  | M   | W    | Topic
 |-------|-----|------|-------
 |       |     | [Day 00](day-by-day/day00.md) |  
 | [Week 01](#week-1) | [Day 01](day-by-day/day01.md) | [Day 02](day-by-day/day02.md) | Introduction to Java, Primitive Data Types, Definite Loops
@@ -11,10 +11,10 @@
 | [Week 04](#week-4) | [Day 07](day-by-day/day07.md) | [Day 08](day-by-day/day08.md) | Text Processing, While Loops, Fencepost
 | [Week 05](#week-5) | [Day 09](day-by-day/day09.md) | [Day 10](day-by-day/day10.md) | Random, Assertions, Booleans, More While
 | [Week 06](#week-6) | [Day 11](day-by-day/day11.md) | [Day 12](day-by-day/day12.md) | Midterm 1, File Processing
-| [Week 07](#week-7) | [Day 13](day-by-day/day13.md) | [Day 14](day-by-day/day14.md) | Files, Arrays
-| [Week 08](#week-8) | [Day 15](day-by-day/day15.md) | [Day 16](day-by-day/day16.md) | More Arrays, Objects and Classes, Instance Methods
-| [Week 09](#week-9) | [Day 17](day-by-day/day17.md) | [Day 18](day-by-day/day18.md)| Classes, Inheritance
-| [Week 10](#week-10) | [Day 19](day-by-day/day19.md) |  | ArrayList
+| [Week 07](#week-7) |  | [Day 13](day-by-day/day13.md) | Files, Arrays
+| [Week 08](#week-8) | [Day 14](day-by-day/day14.md) | [Day 15](day-by-day/day15.md) | More Arrays, Objects and Classes, Instance Methods
+| [Week 09](#week-9) | [Day 16](day-by-day/day16.md) | [Day 17](day-by-day/day17.md) | Classes, Inheritance
+| [Week 10](#week-10) | [Day 18](day-by-day/day18.md) | [Day 19](day-by-day/day19.md) | ArrayList
 | [Week 11](#week-11) | [Day 20](day-by-day/day20.md) |  | Final Review
 
 ## Pre-Course
