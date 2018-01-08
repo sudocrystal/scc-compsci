@@ -1,19 +1,19 @@
 # Day 02/20
 
-+ PracticeIt, not graded but highly recommended
-+ Lanterns
-  - formatting:
-    - Curlys
-    - Tabbing
-    - Blank Lines
-    - main at top
-+ Explain Homework #1: Song
 + Things we should know
   - class declaration
   - main method declaration
   - printing to the screen
   - defining and calling a method
++ Review Exercise: Lanterns
+  - formatting:
+    - Curlys
+    - Tabbing
+    - Blank Lines
+    - main at top
++ Explain Homework #1: Cumulative Song
 + Lecture
+  - Literals
   - Data Types
   - Variables
     - Naming
@@ -21,12 +21,21 @@
     - Initializing
   - Expressions, Operators
     - Order of operations
-    - Shortcuts
-  - Assignment
-+ Lab: Expressions and Variables (~20 mins)
-+ More Lecture
+  - Assignment Operator and Shortcut Assignment
   - For Loops
-  - Basic
-  - Dependent on i
-  - Dependent on i and j
-+ PracticeIt
+    - Basic Syntax
+    - Sequential
+    - Nested
+  - Loop Tables
++ Learning Practice
+
+## Programs for class
+```java
+public class Day02DataAndLoops {
+
+   public static void main(String[] args) {
+
+   }
+
+}
+```
