@@ -24,21 +24,22 @@ Each bullet is a day.
   + Expectations
   + Quiz
 - Hardware Basics
-  + Lecture: Hardware
+  + Notes: Hardware
   + Activity: 1 page guide to buying a computer
 - Data Basics
-  + Lecture: Data/Binary
+  + Notes: Data/Binary
 - Algorithms
-  + Lecture: Algorithms
+  + Notes: Algorithms
   + Activity: robot maze instructions
+  + Notes: How to Google & its importance
 - Effective Searching / Hello World
-  + Lecture: How to Google & its importance
-  + Lecture: Hello World, Comments, Special Characters
+  + Notes: Hello World, Comments, Special Characters
+  + (Talk about ASCII and \\ weirdness)
   + Lab: ASCII Art
 
 ## Week 2 (4 days)
+- NO CLASS MONDAY - MLK DAY
 - Types, Operators, Expressions
-  + (Talk about ASCII and \\ weirdness)
   + Lecture
   + Activity: Predicting the result
 - Variables, Assignments, User Input
@@ -49,8 +50,8 @@ Each bullet is a day.
   + Review predicting the result
   + Lab: Madlibs
 - Lab Time
+  + Notes: debugging (I've already covered in class several times at this point)
   + MadLibs lab Time
-  + Notes to read on debugging (I've already covered in class several times at this point)
 
 ## Week 3
 - Turtle Graphics
