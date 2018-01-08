@@ -38,7 +38,7 @@ Each bullet is a day.
   + Lab: ASCII Art
 
 ## Week 2 (4 days)
-- NO CLASS MONDAY - MLK DAY
+- **NO CLASS MONDAY - MLK DAY**
 - Types, Operators, Expressions
   + Lecture
   + Activity: Predicting the result
@@ -50,16 +50,12 @@ Each bullet is a day.
   + Review predicting the result
   + Lab: Madlibs
 - Lab Time
-  + Notes: debugging (I've already covered in class several times at this point)
+  + Notes: debugging (no lecture)
   + MadLibs lab Time
 
 ## Week 3
-- Turtle Graphics
-  - Lecture: Introduction to Turtle
-  - Practice making initials with two turtles
-  - HW: reading on chapter 4 (has intro to loops, but we won't cover in class for a little while)
 - Control Flow
-  + Examples: Turtle and Song
+  + Examples: Song
   + Quiz
 - Functions
   + Lecture: Functions - Parameters, Arguments
@@ -70,11 +66,11 @@ Each bullet is a day.
 - Decisions
   + Lecture: Conditional Operators, If Statements
   + Predict the Result
-
-## Week 4
 - Modules
   + Reviewed Predict the Result
   + Lecture: math and random
+
+## Week 4
 - Functions
   + Lecture: Functions - Return types
   + Practice with Functions
@@ -87,22 +83,26 @@ Each bullet is a day.
 - Lab Time
   + Reviewed Practice with Functions
   + Lab: Super Sale
-
-## Week 5
 - Lab Time
   + Lab: Super Sale
+
+## Week 5
 - Midterm \#1
   + Midterm in class
+- Turtle Graphics
+  - Lecture: Introduction to Turtle
+  - Practice making initials with two turtles
+  - HW: reading on chapter 4 (has intro to loops, but we won't cover in class for a little while)
 - Repetition
   + Lecture on simple for-loops and while loops
   + Predicting the Result
 - Fixing Loops
   + Review Predicting the Result
-  + Fix the Loops
-- Lab Time
-  + Lab: Nursery Rhymes Continued
+  + for vs while loops
 
 ## Week 6
+- Lab Time
+  + Lab: Nursery Rhymes Continued
 - Review loops
   + Review predicting the Result
   + Play with Turtle Art
@@ -113,11 +113,12 @@ Each bullet is a day.
 - More Lab Practice
   + Complete Election Program
   + Homework: Cookie Time
+
+## Week 7 (4 days)
+- **NO CLASS MONDAY - PRESIDENTS DAY**
 - String Operations
   + Lecture
   + Activity
-
-## Week 7 (4 days)
 - Strings in Loops
   + Lecture
 - Lab Time
@@ -140,19 +141,15 @@ Each bullet is a day.
   + Lab: GPA Reporter
 
 ## Week 9
-- Open Lab time / Midterm Review
 - Midterm \#2
   + MC Exam
-- Meet Edison
-  + EdPy Worksheets
-  + Thanksgiving task
-
-## Week 10
 - EdPy Lessons 1-7
 
-## Week 11
+## Week 10
 - EdPy Lessons 8 & 9 (optional 10)
-- Group Project for Final
+
+## Week 11
+- Project Work
 
 ## Final Project
 - Presenting Project
