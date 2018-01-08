@@ -21,6 +21,7 @@
     - Initializing
   - Expressions, Operators
     - Order of operations
+    - Casting
   - Assignment Operator and Shortcut Assignment
   - For Loops
     - Basic Syntax
