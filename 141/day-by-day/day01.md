@@ -12,9 +12,13 @@
   - JGrasp
   - class declaration
   - main declaration
-  - SOPrint / SOPrintln
+  - SOPrint vs SOPrintln
+    - semicolons terminate statements
+    - whitespace matters inside String literals
   - Escape Sequences
     - `\n, \t, \\, \"`
+  - Comments
+    - single, block, commenting out
   - Methods
     - Defining
     - Calling
