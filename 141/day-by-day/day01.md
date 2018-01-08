@@ -23,6 +23,12 @@
     - Defining
     - Calling
 + Learning Practice
+  - Self-Check
+    - Self-Check 1.5
+    - Self-Check 1.7 - 1.14
+    - Self-Check 1.17 - 1.23
+  - Exercises
+    - Exercises 1.7 - 1.10
 
 ## Programs for class
 
