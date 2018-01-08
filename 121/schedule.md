@@ -18,11 +18,13 @@
 Each bullet is a day.
 
 ## Week 1
-- Introductions
-  + Names
+- Introduction to class
+  + Information to Waitlisted students
+  + Introduce Self
   + Syllabus
-  + Expectations
-  + Quiz
+  + Student Introductions
+  + Where to find things in canvas
+  + WK 1 Quiz
 - Hardware Basics
   + Notes: Hardware
   + Activity: 1 page guide to buying a computer
