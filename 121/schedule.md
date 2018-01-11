@@ -28,19 +28,21 @@ Each bullet is a day.
 - Hardware Basics
   + Notes: Hardware
   + Activity: 1 page guide to buying a computer
+- Buying a computer
+  + Partner Activity time
 - Data Basics
   + Notes: Data/Binary
 - Algorithms
   + Notes: Algorithms
   + Activity: robot maze instructions
   + Notes: How to Google & its importance
-- Effective Searching / Hello World
-  + Notes: Hello World, Comments, Special Characters
-  + (Talk about ASCII and \\ weirdness)
-  + Lab: ASCII Art
 
 ## Week 2 (4 days)
 - **NO CLASS MONDAY - MLK DAY**
+- Hello World
+  + Notes: Hello World, Comments, Special Characters
+  + (Talk about ASCII and \\ weirdness)
+  + Lab: ASCII Art
 - Types, Operators, Expressions
   + Lecture
   + Activity: Predicting the result
@@ -51,11 +53,13 @@ Each bullet is a day.
 - Lab Time
   + Review predicting the result
   + Lab: Madlibs
+
+## Week 3
+<!--
 - Lab Time
   + Notes: debugging (no lecture)
   + MadLibs lab Time
-
-## Week 3
+-->
 - Control Flow
   + Examples: Song
   + Quiz
