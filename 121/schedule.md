@@ -35,12 +35,13 @@ Each bullet is a day.
 - Algorithms
   + Notes: Algorithms
   + Activity: robot maze instructions
-  + Notes: How to Google & its importance
 
 ## Week 2 (4 days)
 - **NO CLASS MONDAY - MLK DAY**
+  + HW: Week 2 quiz
 - Hello World
-  + Notes: Hello World, Comments, Special Characters
+  + Notes: How to Google & its importance
+  + Notes: Hello World, Comments, EscapeSeqs
   + (Talk about ASCII and \\ weirdness)
   + Lab: ASCII Art
 - Types, Operators, Expressions
