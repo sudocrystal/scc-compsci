@@ -15,11 +15,6 @@
     - systematic approach
     - multiple items on the same line (row)
     - scaling with a constant
-+ Explain Homework #2: Rocket Ship
-  - Rocket Ship Part
-    - Reduce Redundancy in a single line by using nested loops
-    - Reduce Redundancy in structure with methods
-    - Class constant for size
 + Learning Practice
     - Self-Check 2.22 and 2.23
     - Self-Check 2.32 and 2.33
