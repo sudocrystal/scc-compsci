@@ -92,7 +92,7 @@ public class Day03ForLoops {
 ```java
 public class Day03ForLoops {
    // class constant - cannot be reassigned; ALL_CAPS; must be given a value at start
-//    public static final int SIZE = 5;
+   public static final int SIZE = 5;
 
    public static void main(String[] args) {
       dotBox();
@@ -124,34 +124,34 @@ public class Day03ForLoops {
    // This method shows how to systematically produce repetitive ASCII art
    public static void dotNumBox() {
       // First without a systematic approach
-//       for(int line = 1; line <= 8; line++) {
-//          for(int dots = 1; dots <= 8 - line; dots++) {
-//             System.out.print(".");
-//          }
-//          System.out.print(line);
-//          System.out.println();
-//       }
+      for(int line = 1; line <= 8; line++) {
+         for(int dots = 1; dots <= 8 - line; dots++) {
+            System.out.print(".");
+         }
+         System.out.print(line);
+         System.out.println();
+      }
 
       // With a systematic approach
-//       for(int line = 1; line <= 8; line++) {
-//         for(int dots = 1; dots <= -1 * line + 8; dots++) {
-//            System.out.print(".");
-//         }
-//         System.out.print(line);
-//         System.out.println();
-//      }  
+      for(int line = 1; line <= 8; line++) {
+        for(int dots = 1; dots <= -1 * line + 8; dots++) {
+           System.out.print(".");
+        }
+        System.out.print(line);
+        System.out.println();
+     }  
 
       // With a second set of dots
-//       for(int line = 1; line <= 8; line++) {
-//         for(int dots = 1; dots <= -1 * line + 8; dots++) {
-//            System.out.print(".");
-//         }
-//         System.out.print(line);
-//         for(int dots = 1; dots <= 1 * line - 1; dots++) {
-//            System.out.print(".");
-//         }
-//         System.out.println();
-//      }
+      for(int line = 1; line <= 8; line++) {
+        for(int dots = 1; dots <= -1 * line + 8; dots++) {
+           System.out.print(".");
+        }
+        System.out.print(line);
+        for(int dots = 1; dots <= 1 * line - 1; dots++) {
+           System.out.print(".");
+        }
+        System.out.println();
+     }
    }
 
    // This is PracticeIt Exercise 2.22 which produces:
@@ -169,16 +169,16 @@ public class Day03ForLoops {
 
    // This method allows the dot/num box above to be scaled using the class constant
    public static void scaledDotNumBox() {
-//       for (int line = 1; line <= SIZE; line++) {
-//          for (int dots = 1; dots <= -1 * line + SIZE; dots++) {
-//             System.out.print(".");
-//          }
-//          System.out.print(line);
-//          for (int dots = 1; dots <= 1 * line - 1; dots++) {
-//             System.out.print(".");
-//          }
-//          System.out.println();
-//       }
+      for (int line = 1; line <= SIZE; line++) {
+         for (int dots = 1; dots <= -1 * line + SIZE; dots++) {
+            System.out.print(".");
+         }
+         System.out.print(line);
+         for (int dots = 1; dots <= 1 * line - 1; dots++) {
+            System.out.print(".");
+         }
+         System.out.println();
+      }
    }
 
    // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
