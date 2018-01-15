@@ -24,8 +24,15 @@
     - Basic Syntax
     - Sequential
     - Nested
-  - Loop Tables
 + Learning Practice
+  - Primitive Data
+    - Self-Check 2.1 - 2.3
+    - Self-Check 2.5 - 2.13
+  - Definite Loops
+    - Self-Check 2.21
+    - Self-Check 2.26 - 2.31
+    - Exercises 2.4 - 2.6
+    - Exercise 2.9
 
 ## Programs for class
 ```java
@@ -126,9 +133,9 @@ public class Day02DataAndLoops {
 
    public static void main(String[] args) {
       expressionMystery();
-      forLoop();
-      beer();
-      nestedLoop();
+      //forLoop();
+      //beer();
+      //nestedLoop();
    }
 
    // should print the "beer song" from 10 to 1
@@ -138,7 +145,7 @@ public class Day02DataAndLoops {
    }
 
    public static void forLoop() {
-      
+
    }
 
    public static void nestedLoop() {
