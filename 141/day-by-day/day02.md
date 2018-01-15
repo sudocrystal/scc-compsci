@@ -35,6 +35,8 @@
     - Exercise 2.9
 
 ## Programs for class
+
+### a
 ```java
 public class Day02Cake {
    public static void main(String[] args) {
@@ -120,6 +122,7 @@ public class Day02Cake {
 
 ```
 
+### b
 ```java
 /*
 |   literal type       |  examples           | java data type
@@ -191,6 +194,8 @@ public class Day02DataAndLoops {
 
 
 ## Solutions
+
+### a
 ```java
 public class Day02Cake {
    public static void main(String[] args) {
@@ -277,6 +282,7 @@ public class Day02Cake {
 */
 ```
 
+### b
 ```java
 /*
 |   literal type       |  examples           | java data type
