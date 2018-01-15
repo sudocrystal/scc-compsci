@@ -3,154 +3,191 @@
 + Things we should already know
   + Review a nested for-loop  
     - nested
-    - scope
-+ Lecture: Loops with Constants and scaling
-
-+ Lab: for loops (~1 hour)
-  - do 1, 2, 3, 5 together
-  - 6, 11-17 on your own
-
-Self-Check 2.35 - 2.37
-
-
-+ Work through creation of the following:
-  - put solution in a method!
-  - First without the second set of dots
-  - Then add second set of dots
-  - Then allow scaling
-  ```
-  ....1
-  ...2.
-  ..3..
-  .4...
-  5....
-  ```
-+ With the person next to you, work out:
-  - PracticeIt - Exercise 2.22 DollarFigure
-  - PracticeIt - Exercise 2.23 DollarFigure2
++ Lecture
+  + Class Constants
+    - `public static final`
+    - should be in all caps
+    - must be given a starting value
+    - can't be reassigned
+  + Loop Tables
+    - tracing a nested for-loop
+  + Nested Loops
+    - systematic approach
+    - multiple items on the same line (row)
+    - scaling with a constant
 + Explain Homework #2: Rocket Ship
-  - Creative Part
   - Rocket Ship Part
     - Reduce Redundancy in a single line by using nested loops
     - Reduce Redundancy in structure with methods
     - Class constant for size
-
++ Learning Practice
+    - Self-Check 2.22 and 2.23
+    - Self-Check 2.32 and 2.33
+    - Self-Check 2.37 and 2.38
+    - Exercises 2.12 and 2.13
+    - Exercises 2.16 and 2.17
 
 ## Programs for class
 ```java
-public class DotBox {
-  public static void main(String[] args) {
-    box();
-  }
-  public static void box() {
-  }
+public class Day03ForLoops {
+   // class constant - cannot be reassigned; ALL_CAPS; must be given a value at start
+//    public static final int SIZE = 5;
+
+   public static void main(String[] args) {
+      dotBox();
+      dotNumBox();
+      dollarFigure();
+      scaledDotNumBox();
+      dollarFigure2();
+   }
+
+   /*
+      This method creates a box made out of periods (5 x 4)
+      ....
+      ....
+      ....
+      ....
+      ....
+      How do we make this dot-box longer? wider?
+      How could we print the line number at the front of each row?
+   */
+   public static void dotBox() {
+      for(int line = 1; line <= 5; line++) {
+         for(int dot = 1; dot <= 4; dot++) {
+            System.out.print(".");
+         }
+         System.out.println();
+      }
+   }
+
+   // This method shows how to systematically produce repetitive ASCII art
+   public static void dotNumBox() {
+      // First without a systematic approach
+
+      // With a systematic approach
+
+      // With a second set of dots
+
+   }
+
+   // This is PracticeIt Exercise 2.22 which produces:
+   /*
+      $$$$$$$**************$$$$$$$
+      **$$$$$$************$$$$$$**
+      ****$$$$$**********$$$$$****
+      ******$$$$********$$$$******
+      ********$$$******$$$********
+      **********$$****$$**********
+      ************$**$************
+   */
+   public static void dollarFigure() {
+   }
+
+   // This method allows the dot/num box above to be scaled using the class constant
+   public static void scaledDotNumBox() {
+   }
+
+   // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
+   public static void dollarFigure2() {
+   }
 }
 ```
 
 ## Solutions
 ```java
-public class DotBox {
-  public static final int SIZE = 5;
-  public static void main(String[] args) {
-    box();
-  }
-  public static void box() {
-    for (int line = 1; line <= SIZE; line++) {
-      for (int dots = 1; dots <= -1 * line + SIZE; dots++) {
-        System.out.print(".");
+public class Day03ForLoops {
+   // class constant - cannot be reassigned; ALL_CAPS; must be given a value at start
+//    public static final int SIZE = 5;
+
+   public static void main(String[] args) {
+      dotBox();
+      dotNumBox();
+      dollarFigure();
+      scaledDotNumBox();
+      dollarFigure2();
+   }
+
+   /*
+      This method creates a box made out of periods (5 x 4)
+      ....
+      ....
+      ....
+      ....
+      ....
+      How do we make this dot-box longer? wider?
+      How could we print the line number at the front of each row?
+   */
+   public static void dotBox() {
+      for(int line = 1; line <= 5; line++) {
+         for(int dot = 1; dot <= 4; dot++) {
+            System.out.print(".");
+         }
+         System.out.println();
       }
-      System.out.print(line);
-      for (int dots = 1; dots <= 1 * line - 1; dots++) {
-        System.out.print(".");
-      }
-      System.out.println();
-    }
-  }
-}
-```
+   }
 
+   // This method shows how to systematically produce repetitive ASCII art
+   public static void dotNumBox() {
+      // First without a systematic approach
+//       for(int line = 1; line <= 8; line++) {
+//          for(int dots = 1; dots <= 8 - line; dots++) {
+//             System.out.print(".");
+//          }
+//          System.out.print(line);
+//          System.out.println();
+//       }
 
-```java
-/*
-1   2   3   4
-2   4   6   8
-*/
-public class Loops {
-  public static void main(String[] args) {
-    for(int i=0;)
-  }
-}
-```
+      // With a systematic approach
+//       for(int line = 1; line <= 8; line++) {
+//         for(int dots = 1; dots <= -1 * line + 8; dots++) {
+//            System.out.print(".");
+//         }
+//         System.out.print(line);
+//         System.out.println();
+//      }  
 
-```java
-public class Table {
-    public static void main(String[] arg) {
-      for(int line = 0; line < 5; line++) {
-        for (int stars = 1; stars <= multiplier * line + shift; stars++) {
-          System.out.print("*");
-        }
-        System.out.println();
-      }
-    }
-}
-```
+      // With a second set of dots
+//       for(int line = 1; line <= 8; line++) {
+//         for(int dots = 1; dots <= -1 * line + 8; dots++) {
+//            System.out.print(".");
+//         }
+//         System.out.print(line);
+//         for(int dots = 1; dots <= 1 * line - 1; dots++) {
+//            System.out.print(".");
+//         }
+//         System.out.println();
+//      }
+   }
 
-```java
-public class Bottles {
-  public static void main(String[] args) {
+   // This is PracticeIt Exercise 2.22 which produces:
+   /*
+      $$$$$$$**************$$$$$$$
+      **$$$$$$************$$$$$$**
+      ****$$$$$**********$$$$$****
+      ******$$$$********$$$$******
+      ********$$$******$$$********
+      **********$$****$$**********
+      ************$**$************
+   */
+   public static void dollarFigure() {
+   }
 
-    System.out.println("10 bottles of beer on the wall, 10 bottles of beer");
-    System.out.println("Take one down, pass it around, 9 bottles of beer on the wall");
+   // This method allows the dot/num box above to be scaled using the class constant
+   public static void scaledDotNumBox() {
+//       for (int line = 1; line <= SIZE; line++) {
+//          for (int dots = 1; dots <= -1 * line + SIZE; dots++) {
+//             System.out.print(".");
+//          }
+//          System.out.print(line);
+//          for (int dots = 1; dots <= 1 * line - 1; dots++) {
+//             System.out.print(".");
+//          }
+//          System.out.println();
+//       }
+   }
 
-  }
-}
-```
-
-```java
-public class Count2 {
-    public static void main(String[] args) {
-        for (  ) {
-            System.out.println(  );
-        }
-    }
-}
-```
-
-```java
-public class Stars {
-  public static void main(String[] args) {
-    for( ) {
-
-    }
-  }
-}
-```
-
-## Solutions
-
-```java
-/*
-1   2   3   4
-2   4   6   8
-*/
-public class Loops {
-  public static void main(String[] args) {
-    for(int row=1; row<=10; row++) {
-      for(int col=1; col<=4; col++) {
-        System.out.print(row*col + "\t");
-      }
-      System.out.println();
-    }
-  }
-}
-```
-
-```java
-public class Stars {
-  public static void main(String[] args) {
-      for(int i=0; i<6;i++) {
-        System.out.println(3*i+8);
-      }
-  }
+   // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
+   public static void dollarFigure2() {
+   }
 }
 ```
