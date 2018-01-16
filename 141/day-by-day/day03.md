@@ -175,6 +175,13 @@ public class Day03ForLoops {
       ************$**$************
    */
    public static void dollarFigure() {
+      for(int line = 1; line <= 7; line++) {
+         for(int star = 1; star <=  2 * line - 2; star++) {
+            System.out.print("*");
+         }
+         // 4 more loops
+         System.out.println();
+      }
    }
 
    // This method allows the dot/num box above to be scaled using the class constant
@@ -193,6 +200,19 @@ public class Day03ForLoops {
 
    // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
    public static void dollarFigure2() {
+      for(int line = 1; line <= SIZE; line++) {
+         for(int star = 1; star <=  2 * line - 2; star++) {
+            System.out.print("*");
+         }
+         for(int dollar = 1; dollar <= -1 * line + (SIZE + 1); dollar++) {
+            System.out.print("$");
+         }
+         for(int star = 1; star <= -2 * line + (SIZE + 1) * 2; star++) {
+            System.out.print("*");
+         }
+         // two more loops
+         System.out.println();
+      }
    }
 }
 ```
