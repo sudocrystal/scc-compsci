@@ -56,6 +56,16 @@ public class Day03ForLoops {
    }
 
    // This method shows how to systematically produce repetitive ASCII art
+   /*
+   .......1
+   ......2
+   .....3
+   ....4
+   ...5
+   ..6
+   .7
+   8
+   */
    public static void dotNumBox() {
       // First without a systematic approach
 
