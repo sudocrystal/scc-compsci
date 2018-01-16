@@ -72,7 +72,6 @@ public class Day03ForLoops {
       // With a systematic approach
 
       // With a second set of dots
-
    }
 
    // This is PracticeIt Exercise 2.22 which produces:
