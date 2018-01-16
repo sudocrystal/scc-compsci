@@ -1,5 +1,6 @@
 # Day 03/20
 
++ Show how to find my feedback on code
 + Things we should already know
   + Review a nested for-loop  
     - nested
