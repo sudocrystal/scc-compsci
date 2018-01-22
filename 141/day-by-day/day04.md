@@ -31,12 +31,6 @@
     - substring(x), substring(x,y)
     - toUpperCase, toLowerCase
     - .equals, .equalsIngnoreCase
-  - User Input
-    - nextInt
-    - nextDouble
-    - next, nextLine
-    - nextLine().charAt()
-    - Scanner problems
 + Learning Practice
 
 ## Programs for class
@@ -141,10 +135,6 @@ public class Day04ParametersObjects {
       System.out.println("Is is \"Hello World\"? ");
       System.out.println("Index of \"e\"? ");
    }
-
-   // This method
-   // takes an amount of money as a parameter
-   // and returns the amount of pennies in the amount given
 }
 ```
 
