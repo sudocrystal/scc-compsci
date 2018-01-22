@@ -62,14 +62,14 @@ Each bullet is a day.
   + MadLibs lab Time
 -->
 - Control Flow
-  + Examples: Song
-  + Quiz
+  + Lecture + Down By The Bay Example
+  + WK 3 Quiz
 - Functions
   + Lecture: Functions - Parameters, Arguments
   + Activity: Predicting the result
 - Lab Time
   + Review predicting the result
-  + Lab: Nursery Rhymes
+  + HW: Nursery Rhymes
 - Decisions
   + Lecture: Conditional Operators, If Statements
   + Predict the Result
