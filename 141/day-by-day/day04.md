@@ -32,6 +32,15 @@
     - toUpperCase, toLowerCase
     - .equals, .equalsIngnoreCase
 + Learning Practice
+  - Self-Check
+    - Self-Check 3.1 and 3.2
+    - Self-Check 3.6 - 3.11
+    - Self-Check 3.13 - 3.15
+    - Self-Check 3.17 - 3.19
+  - Exercises
+    - Exercise 3.1 and 3.2
+    - Exercise 3.9 - 3.11
+    - Exercise 3.17 and 3.18
 
 ## Programs for class
 
@@ -74,20 +83,14 @@ public class Day04ASCII {
 
 ### b
 ```java
-// import the Scanner class
-// import java.util.Scanner;
-
 public class Day04ParametersObjects {
 
    public static void main(String[] args) {
       methodsWithParams();
-      //quadratic();
+      //quadratic(1, -7, 12); // 4.0. 3.0
+      //quadratic(1, 3, 2);   // -1.0, -2.0
       //sillyString("Shoreline");
       //sillyString("Hello World");
-
-      // TODO: create a Scanner object called in
-      // TODO: read in an amount of money and store in variable cash
-      //pennies(in, cash);
    }
 
    // this methods shows calling a method with different arguments
@@ -121,6 +124,7 @@ public class Day04ParametersObjects {
    public static void quadratic(int a, int b, int c) {
 //       double firstRoot = quadPlus(a,b,c);
 //       double secondRoot = quadMinus(a,b,c);
+//       System.out.println("First root = " + firstRoot);
 
    }
 
@@ -146,3 +150,6 @@ public class Day04ParametersObjects {
 ```
 
 ### b
+```java
+
+```
