@@ -2,20 +2,17 @@
 
 + Complete 8 problems
   - check with a partner?
+  - Review passing parameters/prompt and print/return
 + Lecture
-  - Scanner / If
-    - next vs nextLine
-    - nextLine().charAt()
-    - Scanner problems
   - Common Algorithms
     - Cumulative Sum
     - Max
     - Replicate String
     - Reverse String
++ Homework #3: Uber vs Lyft
+  - Show this homework for buyin on CandyMachine activity :)
 + Candy Machine
   - Partner Activity
-+ Homework #3: Uber vs Lyft
-  - Talk about
 + Learning Practice
   - Exercise 4.4 and 4.5
   - Exercise 4.12 and 4.13
