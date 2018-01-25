@@ -65,14 +65,16 @@ Each bullet is a day.
 + Lab Time
   - Review predicting the result
   - HW: Nursery Rhymes
++ Lab Time
+  - Nursery Rhymes
 + Decisions
   - Lecture: Conditional Operators, If Statements
   - Predict the Result
+
+## Week 4
 + Modules
   - Reviewed Predict the Result
   - Lecture: math and random
-
-## Week 4
 + Functions
   - Lecture: Functions + Return types
   - Practice with Functions
