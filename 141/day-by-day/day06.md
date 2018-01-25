@@ -1,4 +1,3 @@
-
 # Day 06/20
 
 + Complete 8 problems
@@ -48,7 +47,7 @@ public class Day06CommonAlgos {
 
    // This method should take a string as a parameter
    // and return the string with each letter repeated
-   // replicate("apple") --> "aappppllee"
+   // replicateLetter("apple") --> "aappppllee"
    public static String replicateLetter(String s) {
       return "";
    }
@@ -114,7 +113,7 @@ public class Day06CommonAlgos {
    
    // This method should take a string as a parameter
    // and return the string with each letter repeated
-   // replicate("apple") --> "aappppllee"
+   // replicateLetter("apple") --> "aappppllee"
    public static String replicateLetter(String s) {
       String result = "";
       for(int i = 0; i < s.length(); i++) {
