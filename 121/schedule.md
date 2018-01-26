@@ -72,13 +72,13 @@ Each bullet is a day.
   - Predict the Result
 
 ## Week 4
++ Functions
+  - Lecture: Functions with Return statements
+  - Practice with Functions 
+  - Quiz
 + Modules
   - Reviewed Predict the Result
   - Lecture: math and random
-+ Functions
-  - Lecture: Functions + Return types
-  - Practice with Functions
-  - Quiz
 + Live code
   - Coffee Stand
 + Reading code you didn't write
