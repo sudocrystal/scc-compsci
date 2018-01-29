@@ -1,54 +1,91 @@
 # Day 07/20
 
-+ Review Cumulative sum
-
++ Go over Candy machine
+  - printf
+  - variable scope
 + Lecture
-  - fence post problems
-    - Example in notes 1, 2, 3, 4, 5
+  - fence post problem
   - while loops
-    - Example in notes
-    - Example PracticeIt Exercise 5.19 firstDigit
-    - Example PracticeIt Exercise 5.1 showTwos
   - do-while loops
-  - Random tid-bits
-    - Math.abs
-    - !text.equals("")
-    - text.charAt(text.length()-1)
-+ Lab: while loops
++ Learning Practice
 
 ## Programs for class
 ```java
-import java.util.*;
+import java.util.Scanner;
 
-public class Day07FencePost {
+public class CandyMachine {
+
    public static void main(String[] args) {
-      for(int i=1; i<=10; i++)
-         System.out.print(i);
-      System.out.println();
+      Scanner console = new Scanner(System.in);
+
+      System.out.println("Welcome to my Candy Machine!");
+      double money = collectMoney(console);
+      String choice = pickCandy(console);
+      double cost = candyCost(choice);
+      dispenseCandy(money, cost);
    }
- }
+
+   public static double collectMoney(Scanner console) {
+      System.out.print("money > $");
+      double money = console.nextDouble();
+      System.out.println("\nOK, $" + money + " received.\n");
+      return money;
+   }
+
+   public static String pickCandy(Scanner console) {
+      System.out.println("choices");
+      System.out.print("pick > ");
+      String answer = console.next();
+      return answer;
+   }
+
+   public static double candyCost(String choice) {
+      //double cost = 0;
+      if(choice.equals("A") || choice.equals("a"))
+         return 0.65;     // cost = 0.65;
+      else if(choice.equals("B") || choice.equals("b"))
+         return 0.50;
+      return -1;          // return cost;
+   }
+
+   public static void dispenseCandy(double money, double cost) {
+      System.out.println();
+      double change = money - cost;
+      if(change < 0)    // money < cost
+         System.out.println("You can't afford this candy. Your " + money + " is returned.");
+      else              // money >= cost
+         System.out.println("Take your yummy candy! Your change is $" + change);
+   }
+}
 ```
 
 ```java
-import java.util.*;
+import java.util.Scanner;
 
-public class Day07SentinelLoops {
-   private static Scanner in = new Scanner(System.in);
+public class Day07FencepostAndWhile {
 
    public static void main(String[] args) {
-//       int choice = options();     
-//       System.out.println( firstDigit(1234) );
-//       System.out.println( firstDigit(-910) );
+      Scanner console = new Scanner(System.in);
+
+      fencepost(10);
+      whileAndDoWhile(console);   
+//       System.out.println("firstDigit(1234) = " + firstDigit(1234) );
+//       System.out.println("firstDigit(-910) = " + firstDigit(-910) );
 //       showTwos(7);
 //       showTwos(18);
 //       showTwos(68);
 //       showTwos(120);
    }
 
-   // returns the choice a user makes (1-5)
-   // repeatedly prompts until a valid choice (1-5) is picked
-   public static int options() {
-      return 0;
+   // This method demonstrates fencepost problems
+   public static void fencepost(int n) {
+      for(int i=1; i<=n; i++)
+         System.out.print(i);
+      System.out.println();
+   }
+
+   // This method demonstrates while and do while loops
+   public static void whileAndDoWhile(Scanner console) {
    }
 
    // returns the first digit of a number

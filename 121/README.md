@@ -74,20 +74,17 @@ Each bullet is a day.
 ## Week 4
 + Functions
   - Lecture: Functions with Return statements
-  - Practice with Functions 
-  - Quiz
 + Modules
-  - Reviewed Predict the Result
   - Lecture: math and random
+  - Practice with Functions
 + Live code
   - Coffee Stand
+  - Quiz
 + Reading code you didn't write
   - A look at various programs that you didn't write and analyzing them
   - Midterm Review Study Guide Posted
 + Lab Time
   - Reviewed Practice with Functions
-  - Lab: Super Sale
-+ Lab Time
   - Lab: Super Sale
 
 ## Week 5
