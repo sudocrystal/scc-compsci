@@ -1,5 +1,8 @@
 # Day 07/20
 
++ Midterm next week (review materials)
++ PracticeIt Ex 4.18
+  - trim, bounds, off by one
 + Go over Candy machine
   - printf
   - variable scope
@@ -7,7 +10,17 @@
   - fence post problem
   - while loops
   - do-while loops
+  - short circuit evaluation preview
 + Learning Practice
+  - Self-Check
+    - Self-Check 5.1
+    - Self-Check 5.3 and 5.4
+    - Self-Check 5.8
+    - Self-Check 5.9 and 5.10
+    - Self-Check 5.12 and 5.13
+  - Exercises
+    - Exercise 5.6
+    - Exercise 5.18
 
 ## Programs for class
 ```java
@@ -17,11 +30,13 @@ public class CandyMachine {
 
    public static void main(String[] args) {
       Scanner console = new Scanner(System.in);
-
+     
       System.out.println("Welcome to my Candy Machine!");
+      
       double money = collectMoney(console);
       String choice = pickCandy(console);
       double cost = candyCost(choice);
+      
       dispenseCandy(money, cost);
    }
 
@@ -41,10 +56,12 @@ public class CandyMachine {
 
    public static double candyCost(String choice) {
       //double cost = 0;
-      if(choice.equals("A") || choice.equals("a"))
+      if(choice.equals("A") || choice.equals("a")) {
          return 0.65;     // cost = 0.65;
-      else if(choice.equals("B") || choice.equals("b"))
+      }
+      else if(choice.equals("B") || choice.equals("b")) {
          return 0.50;
+      }
       return -1;          // return cost;
    }
 
