@@ -8,7 +8,7 @@
 | Primitive Data Types, Definite Loops | [Day 02](day-by-day/day02.md) | [Day 03](day-by-day/day03.md)
 | Parameters, Objects | [Day 04](day-by-day/day04.md) |
 | Conditionals | [Day 05](day-by-day/day05.md) | [Day 06](day-by-day/day06.md)
-| While Loops, Fencepost, Boolean Logic | [Day 07](day-by-day/day07.md) | [Day 08](day-by-day/day08.md)
+| Fencepost, While Loops, Random, Boolean Logic | [Day 07](day-by-day/day07.md) | [Day 08](day-by-day/day08.md)
 | Midterm Review and Exam | [Day 09](day-by-day/day09.md) | [Day 10](day-by-day/day10.md)
 | File Processing | [Day 11](day-by-day/day11.md) | [Day 12](day-by-day/day12.md)
 | Arrays | [Day 13](day-by-day/day13.md) | [Day 14](day-by-day/day14.md)
