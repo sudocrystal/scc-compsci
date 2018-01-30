@@ -75,19 +75,20 @@ Each bullet is a day.
 + Functions
   - Lecture: Functions with Return statements
 + Modules
+  - review Number Evaluation
   - Lecture: math and random
++ Practice with functions (partner activity)
   - Practice with Functions
 + Live code
   - Coffee Stand
   - Quiz
-+ Reading code you didn't write
-  - A look at various programs that you didn't write and analyzing them
++ Fixing Broken Code that you didn't write
+  - Grade Calculator
   - Midterm Review Study Guide Posted
-+ Lab Time
-  - Reviewed Practice with Functions
-  - Lab: Super Sale
 
 ## Week 5
++ Lab Time
+  - Lab: Super Sale
 + Midterm \#1
   - Midterm in class
 + Turtle Graphics
