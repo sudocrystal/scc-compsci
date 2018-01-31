@@ -10,28 +10,31 @@
     - allSmallDigits (below)
     - reversed (below)
     - mention testing for the false case in the loop, true only if the loop executes entirely without returning false
-+ Lab: boolean logic
-+ (if time) modify candy machine so that bad user input is handled
+
 
 ## Programs for class
 ```java
-public class Day08RandomNums {
+import java.util.Random;
+
+public class Day08RandomBooleansAssertions {
+
    public static void main(String[] args) {
-
-   }
-
-   public static double decimalRound(double num, int places) {
-      return 0.0;
-   }
-}
-```
-
-```java
-public class Day08BooleanLogic {
-   public static void main(String[] args) {
+      int x = random();
+//       isFactor(3,x);
+//       isFactor(0,x);
 //       System.out.println( isEven(10) );
 //       System.out.println( allSmallDigits(1234) );
 //       System.out.println( isReverse("hello","olleh") );
+   }
+
+   // returns a random integer between 1 and 100
+   public static int random() {
+      return 0;
+   }
+
+   // returns true if x is a factor of y
+   public static boolean isFactor(int x, int y) {
+      return false;
    }
 
    // returns true is num is even, false if it's odd
