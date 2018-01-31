@@ -19,7 +19,6 @@
     - Self-Check 5.9 and 5.10
     - Self-Check 5.12 and 5.13
   - Exercises
-    - Exercise 5.6
     - Exercise 5.18
 
 ## Programs for class
@@ -30,13 +29,13 @@ public class CandyMachine {
 
    public static void main(String[] args) {
       Scanner console = new Scanner(System.in);
-     
+
       System.out.println("Welcome to my Candy Machine!");
-      
+
       double money = collectMoney(console);
       String choice = pickCandy(console);
       double cost = candyCost(choice);
-      
+
       dispenseCandy(money, cost);
    }
 
@@ -130,7 +129,7 @@ public class Day07FencepostAndWhile {
 
    public static void main(String[] args) {
       Scanner console = new Scanner(System.in);
-      
+
       //fencepost(10);
       //whileAndDoWhile(console);   
 //      System.out.println("firstDigit(1234) = " + firstDigit(1234) );
@@ -140,7 +139,7 @@ public class Day07FencepostAndWhile {
       showTwos(68);
       showTwos(120);
    }
-   
+
    // This method demonstrates fencepost problems
    public static void fencepost(int n) {
       // THIRD: equally more elegant
@@ -164,7 +163,7 @@ public class Day07FencepostAndWhile {
 //       }
 //       System.out.println();
    }
-   
+
    // This method demonstrates while and do while loops
    public static void whileAndDoWhile(Scanner console) {
       // SOLUTION WITH A DO-WHILE LOOP

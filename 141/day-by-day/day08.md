@@ -12,7 +12,17 @@
     - allSmallDigits (below)
     - reversed (below)
     - mention testing for the false case in the loop, true only if the loop executes entirely without returning false
-
++ Learning Practice
+  - Self-Check
+    - Self-Check 5.6 and 5.7
+    - Self-Check 5.11
+    - Self-Check 5.14 - 5.17
+    - Self-Check 5.28 and 5.29
+  - Exercises
+    - Exercise 5.6 and 5.7
+    - Exercise 5.11
+    - Exercise 5.13 and 5.14
+    - Exercise 5.22
 
 ## Programs for class
 ```java
