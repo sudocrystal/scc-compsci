@@ -23,10 +23,11 @@
   - PracticeIt
     - Self-Check
       - Self-Check 4.1
+        - This is kind of a terrible problem. Don't grade completion
         - hint on (d): use addition and modulus
         - hint on (g): magnitude means ignore whether the number is positive or negative (use absolute value)
       - Self-Check 4.2 - 4.11
-      - Self-Check 4.14
+      - Self-Check 4.13
     - Exercises
       - Exercise 4.1 (remember that an int divided by an int is an int)
 
@@ -96,18 +97,18 @@ public class Day05InputDecisions {
    public static void main(String[] args) {
       // creates a Scanner object called console for User Input
       Scanner console = new Scanner(System.in);
-      
+
       //String multiPhrase = repeatPhrase("something",3);
       //System.out.println(multiPhrase);
       //repeatPhrase(console);
-      
+
       double finalPercentage = calcGrade(console);
       System.out.println("Expected Final Grade: " + finalPercentage);
       double finalGpa = calcGPA(finalPercentage);
       System.out.println("Expected GPA: " + finalGpa);
    }
-   
-   // takes a phrase and a number 
+
+   // takes a phrase and a number
    // prints the phrase to the screen that number of times
    // what if "returns"?
    public static String repeatPhrase(String phrase, int times) {
@@ -117,11 +118,11 @@ public class Day05InputDecisions {
       }
       return result;
    }
-   
+
    // prompts for a phrase and a number
    // prints the phrase to the screen, one letter per line, all caps
    // repeatPhrase() where the user types in "try" and 3
-   /* should produce: 
+   /* should produce:
       TTT
       RRR
       YYY
@@ -132,7 +133,7 @@ public class Day05InputDecisions {
       //phrase = phrase.toUpperCase();
       System.out.print("How many times? ");
       int times = console.nextInt();
-      
+
       for(int letter = 0; letter < phrase.length(); letter++) {
          for(int num = 1; num <= times; num++) {
             //System.out.print(phrase.charAt(letter));
@@ -141,7 +142,7 @@ public class Day05InputDecisions {
          System.out.println();
       }
    }
-   
+
    // prompts for your percentage grade in the following categories:
    // Individual Homework (30%)
    // Learning Practice (20%)
@@ -157,11 +158,11 @@ public class Day05InputDecisions {
       double midterm = console.nextDouble();
       System.out.print("Final? ");
       double finalexam = console.nextDouble();
-      
+
       return hw * 0.3 + practice * 0.2 + midterm*0.2 + finalexam*0.3;
    }
-   
-   // takes a percentage grade as a parameter 
+
+   // takes a percentage grade as a parameter
    // returns the calculated gpa, according to the following:
    // >= 95% is a 4.0
    // 94 is a 3.9
@@ -169,7 +170,7 @@ public class Day05InputDecisions {
    // 92 is a 3.7
    // 91 is a 3.6
    // 90 is a 3.5
-   // else return 2.0 for now 
+   // else return 2.0 for now
    public static double calcGPA(double percent) {
       if(percent >= 95) {
          return 4.0;
