@@ -79,16 +79,17 @@ Each bullet is a day.
   - Lecture: math and random
 + Practice with functions (partner activity)
   - Practice with Functions
-+ Live code
-  - Coffee Stand
   - Quiz
++ More Practice with Functions
+  - Review some of first and give time to complete
 + Fixing Broken Code that you didn't write
   - Grade Calculator
   - Midterm Review Study Guide Posted
 
 ## Week 5
-+ Lab Time
-  - Lab: Super Sale
++ Live code
+  - Coffee Stand
+  - HW: Super Sale
 + Midterm \#1
   - Midterm in class
 + Turtle Graphics
