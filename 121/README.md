@@ -80,11 +80,11 @@ Each bullet is a day.
 + Practice with functions (partner activity)
   - Practice with Functions
   - Quiz
+  - Midterm Review Study Guide Posted
 + More Practice with Functions
   - Review some of first and give time to complete
 + Fixing Broken Code that you didn't write
   - Grade Calculator
-  - Midterm Review Study Guide Posted
 
 ## Week 5
 + Live code
