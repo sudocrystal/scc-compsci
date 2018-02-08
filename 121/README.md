@@ -89,19 +89,22 @@ Each bullet is a day.
 ## Week 5
 + Live code
   - Coffee Stand
-  - HW: Super Sale
+  - HW: Super Sale (due end of week)
 + Midterm \#1
   - Midterm in class
 + Turtle Graphics
-  + Lecture: Introduction to Turtle
-  + Practice making initials with two turtles
-  + HW: reading on chapter 4 (has intro to loops, but we won't cover in class for a little while)
+  - Lecture: Introduction to Turtle
+  - My Turtle House
++ Turtle Graphics - intro to loops
+  - Fancy Turtle House
 + Repetition
   - Lecture on simple for-loops and while loops
   - Predicting the Result
+<!--
 + Fixing Loops
   - Review Predicting the Result
   - for vs while loops
+-->
 
 ## Week 6
 + Lab Time
