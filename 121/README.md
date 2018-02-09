@@ -98,8 +98,10 @@ Each bullet is a day.
 + Turtle Graphics - intro to loops
   - Fancy Turtle House
 + Repetition
-  - Lecture on simple for-loops and while loops
-  - Predicting the Result
+  - Turtle Loops
+  - Homework
+    - Lecture on simple for-loops and while loops
+    - Predicting the Result
 <!--
 + Fixing Loops
   - Review Predicting the Result
