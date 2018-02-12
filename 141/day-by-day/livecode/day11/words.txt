@@ -1,53 +1,23 @@
-Air
-Aircraft
-Airforce
-Airport
-Album
+Air         Aircraft    Airforce
+Airport Album
 Alphabet
-Apple
+       Apple
 Arm
-Army
+       Army
+   Baby
 Baby
-Baby
-Backpack
-Balloon
-Banana
-Bank
-Barbecue
-Bathroom
-Bathtub
-Bed
-Bet
-Bee
-Bird
-Bomb
-Book
-Boss
-Bottle
-Bowl
-Box
-Boy
-Brain
-Bridge
-Butterfly
-Button
-Cappuccino
+         Backpack
+Balloon Banana Bank Barbecue
+Bathroom Bathtub Bed Bet Bee
+Bird          Bomb Book Boss Bottle
+Bowl Box Boy Brain Bridge
+Butterfly Button         Cappuccino
 Car
-Car-race
-Carpet
-Carrot
-Cave
-Chair
-Chief
-Child
-Chisel
-Chocolates
-Circus
-Clock
-Clown
-Coffee
-Comet
+Car-race Carpet Carrot Cave Chair Chief
+Child Chisel Chocolates Circus Clock
+Clown Coffee
+                  Comet
+
+
 Compass
-Computer
-Cup
-Cycle
+Computer         Cup     Cycle
