@@ -102,20 +102,13 @@ Each bullet is a day.
   - Homework
     - Lecture on simple for-loops and while loops
     - Predicting the Result
-<!--
-+ Fixing Loops
-  - Review Predicting the Result
-  - for vs while loops
--->
 
 ## Week 6
++ for and while Loops
+  - Lecture: for and while loops
+  - Fixing Loops
 + Lab Time
   - Lab: Nursery Rhymes Continued
-+ Review loops
-  - Review predicting the Result
-  - Play with Turtle Art
-+ Lab Time
-  - Turtle Art
 + Pseudocoding
   - Lab: Election Program
 + More Lab Practice
