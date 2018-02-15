@@ -110,9 +110,12 @@ Each bullet is a day.
 + Lab Time
   - Lab: Nursery Rhymes Continued
 + Pseudocoding
+  - Complete nursery rhymes together
   - Lab: Election Program
 + More Lab Practice
   - Complete Election Program
++ More Loop Practice
+  - Turtle Loops
   - Homework: Cookie Time
 
 ## Week 7 (4 days)
