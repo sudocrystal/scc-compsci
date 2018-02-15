@@ -114,8 +114,8 @@ Each bullet is a day.
   - Lab: Election Program
 + More Lab Practice
   - Complete Election Program
-+ More Loop Practice
   - Turtle Loops
++ More Loop Practice
   - Homework: Cookie Time
 
 ## Week 7 (4 days)
