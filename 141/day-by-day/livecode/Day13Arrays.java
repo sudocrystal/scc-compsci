@@ -1,52 +1,8 @@
-# Day 13/20
-
-+ Lecture
-  - array fundamentals
-    - declaring
-      - array syntax
-    - accessing and modifying a single element
-    - initializing using a loop
-      - array.length
-    - initializing using shorthand syntax {}s
-    - printing
-      - can't print by just saying SOP(a)
-      - show manually with for loop
-      - then with Array.toString(a)
-+ Learning Practice
-  - Self-Check 7.1 - 7.9, do 7.4 last
-+ Lecture (cont)
-  - Count negative numbers in the Array
-  - Make all negative numbers positive
-  - Find the min in the Array
-  - Check if two arrays contain the same values
-    - can't use == on the entire array
-    - do it manually, then show them Arrays.equals(a,b)
-
-## Programs for class
-```java
 import java.util.*;
 
 public class Day13Arrays {
    public static void main(String[] args) {
-      arrayFundamentals();
 
-//       Random rand = new Random();
-//       int[] values =
-//       System.out.println("Count of neg = " + countNeg(values));
-
-//       makePositive(values);
-
-
-//       System.out.println("Min value = " + findMin(decimals));
-
-//       String[] words1 = {"apple","pear"};
-//       String[] words2 = {"apple","pear"};
-//       String[] words3 = {"orange","apple","banana"};
-//       System.out.println(Arrays.toString(words1) + " == " + Arrays.toString(words2) + "? \t\t\t\t\t" + areEqual(words1,words2));
-//       System.out.println(Arrays.toString(words2) + " == " + Arrays.toString(words3) + "? \t" + areEqual(words2,words3));
-   }
-
-   public static void arrayFundamentals() {
    }
 
    // returns a count of the negative numbers in the array
@@ -54,7 +10,7 @@ public class Day13Arrays {
       return 0;
    }
 
-   // make all negative values positive
+   //make all negative values positive
    public static void makePositive(int[] arr) {
    }
 
@@ -68,7 +24,7 @@ public class Day13Arrays {
    // **fun** can you check if they are the same, but not same order?
    public static boolean areEqual(String[] list1, String[] list2) {
       return false;
-   }      
+   }
 }
 ```
 
@@ -120,6 +76,5 @@ public class Day13Arrays {
    // **fun** can you check if they are the same, but not same order?
    public static boolean areEqual(String[] list1, String[] list2) {
       return false;
-   }      
+   }
 }
-```
