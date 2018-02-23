@@ -1,10 +1,9 @@
 ## Day 14/20
 
 + Lecture
-  - review pass by value, pass by reference (addFriend)
-    - Show arrays are references to each other
-  - Show debugger on an array (rotateLeft)
-    - rotateRight?
+  - pass by value vs pass by reference
+    - swap with primitives
+    - swap with an array
+    - show arrays are references to each other
   - array mystery (mystery)
-  - reverse an array (reverse)
-+ Lab: Arrays
+    - Show debugger on an array 

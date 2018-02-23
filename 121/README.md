@@ -125,14 +125,15 @@ Each bullet is a day.
   - Activity
 + Strings in Loops
   - Lecture
++ CodingBat: Strings
+  - No day made me change plans for this day to coding bat
 + Lab Time
-  - Lab: Match Maker
+  - Account Generator
 
 ## Week 8
 + Comparing code solutions
-  - Complete Match Maker
-  - Look at different solutions
-  - Account Generator
+  - Look at different solutions from Account Generator
+  - HW: Match Maker
 + Lists
   - Lecture
   - Activity
