@@ -21,6 +21,14 @@
 
 ### Day16MoreOOP.java
 ```java
+/*
+  This program uses real data from data.gov to populate a "database"
+  of information about the regitered Pets in Seattle!
+
+  Original Data here:
+  https://catalog.data.gov/dataset/seattle-pet-licenses
+*/
+
 import java.util.*;
 import java.io.*;
 
@@ -41,8 +49,7 @@ public class Day16MoreOOP {
    }
 
    public static PetLicense[] loadInput(Scanner in) {
-      //dump header
-      String header = in.nextLine();
+      String header = in.nextLine(); //dump header
       PetLicense[] data = new PetLicense[66043];
       int i = 0;
 
@@ -54,8 +61,7 @@ public class Day16MoreOOP {
             //System.out.println(Arrays.toString(rowData));
             int license = Integer.parseInt(rowData[1]);
             int zip = Integer.parseInt(rowData[6]);
-            PetLicense p = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
-            data[i++] = p;
+            data[i++] = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
          }
          else {
             //System.out.println("bad data field(s): " + Arrays.toString(rowData));
