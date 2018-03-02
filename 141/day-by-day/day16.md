@@ -1,13 +1,108 @@
 # Day 16/20
 
 + Lecture
-  - Review a class structure
-    - fields
-    - constructors
-    - accessors
-    - mutators
-    - toString
-  - Item class
-    - write this class with a partner
-    - discuss three different constructors and show how that works
-  - Test the class
+  - What is a CSV file?
+  - How does loadInput work?
+    - ```split(",")```
+    - ```Integer.parseInt()```
+    - ```new PetLicense```
+  - WHat's in PetLicense.java
+    - getName
+    - why no setName
+    - getZip, setZip
+  - Write findByName
+    - contains
+    - toLowerCase() and stringing together of dot notation
+    - NullPointerException in the array
++ Partnered Exercise
+  - Do something else interesting with the program!
+
+## Programs for class
+
+### Day16MoreOOP.java
+```java
+import java.util.*;
+import java.io.*;
+
+public class Day16MoreOOP {
+
+   public static void main(String[] args) throws FileNotFoundException {
+      Scanner input = new Scanner(new File("Seattle_Pet_Licenses.csv"));
+      PetLicense[] petDB = loadInput(input);
+      System.out.println(Arrays.toString(petDB));
+
+//       String lookupName = "Love";
+//       int count = findByName(petDB, lookupName);
+//       System.out.printf("%s was found %d times in the database.",lookupName,count);
+   }
+
+   public static int findByName(PetLicense[] db, String name) {
+      return 0;
+   }
+
+   public static PetLicense[] loadInput(Scanner in) {
+      //dump header
+      String header = in.nextLine();
+      PetLicense[] data = new PetLicense[66043];
+      int i = 0;
+
+      while(in.hasNextLine()) {
+         String row = in.nextLine();
+         String[] rowData = row.split(",");
+         if(rowData.length == 7 && rowData[6].length() == 5
+            && !rowData[6].replace(" ","").equals("") && !Character.isLetter(rowData[1].charAt(0))) {
+            //System.out.println(Arrays.toString(rowData));
+            int license = Integer.parseInt(rowData[1]);
+            int zip = Integer.parseInt(rowData[6]);
+            PetLicense p = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
+            data[i++] = p;
+         }
+         else {
+            //System.out.println("bad data field(s): " + Arrays.toString(rowData));
+         }
+      }  
+      return data;
+   }
+}
+```
+
+### PetLicense.java
+```java
+public class PetLicense {
+
+   //fields
+   private String issueDate;
+   private int licenseNumber;
+   private String name;
+   private String species;
+   private String primaryBreed;
+   private String secondaryBreed;
+   private int zipCode;
+
+   //constructors
+   public PetLicense() {
+   }
+
+   public PetLicense(String issueDate, int licenseNumber, String name, String species, String primaryBreed, String secondaryBreed, int zipCode) {
+      this.issueDate = issueDate;
+      this.licenseNumber = licenseNumber;
+      this.name = name;
+      this.species = species;
+      this.primaryBreed = primaryBreed;
+      this.secondaryBreed = secondaryBreed;
+      this.zipCode = zipCode;
+   }
+
+   //accessors
+
+   //mutators
+
+   //toString
+   public String toString() {
+      return name;
+   }
+}
+```
+
+### Seattle_Pet_Licenses.csv
+[Seattle_Pet_Licenses.csv](livecode/day16/Seattle_Pet_Licenses.csv)

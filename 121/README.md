@@ -146,6 +146,7 @@ Each bullet is a day.
   - Lab: GPA Reporter
 
 ## Week 9
++ Robot Introduction / Study Questions
 + Midterm \#2
   - MC Exam
 + EdPy Lessons 1-7
