@@ -36,7 +36,7 @@
 
 ## Programs for class
 
-### a
+### Day02Cake.java
 ```java
 public class Day02Cake {
    public static void main(String[] args) {
@@ -122,7 +122,7 @@ public class Day02Cake {
 
 ```
 
-### b
+### Day02DataAndLoops.java
 ```java
 /*
 |   literal type       |  examples           | java data type
@@ -195,7 +195,7 @@ public class Day02DataAndLoops {
 
 ## Solutions
 
-### a
+### Day02Cake.java
 ```java
 public class Day02Cake {
    public static void main(String[] args) {
@@ -282,7 +282,7 @@ public class Day02Cake {
 */
 ```
 
-### b
+### Day02DataAndLoops.java
 ```java
 /*
 |   literal type       |  examples           | java data type

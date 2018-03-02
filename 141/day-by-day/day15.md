@@ -22,6 +22,8 @@
     - PracticeIt Self-Check 8.2: An object is an entity that encapsulates related data and behavior, while a class is the blueprint for a type of objects.
 
 ## Programs for Class
+
+### Day15OOP.java
 ```java
 import java.awt.Point;
 import java.util.*;
@@ -31,24 +33,24 @@ public class Day15OOP {
    public static void main(String[] args) {
       Point one = new Point(1,0);
       Point two = new Point(2,300);
-      
+
       System.out.println("one = " + one + ", two = " + two);
       pointsAreObjects(one,two);
-      
+
 //       one.move(1,1);
 //       one.translate(1,1);
-   
+
 //       usingGraph(one,two);
 
       System.out.println("one = " + one + ", two = " + two);
    }
-   
+
    public static void pointsAreObjects(Point first, Point second) {
       System.out.println("\tfirst = " + first + ", second = " + second);
 
       System.out.println("\tfirst = " + first + ", second = " + second);
    }
-   
+
    public static void usingGraph(Point p1, Point p2) {
       System.out.println("\n\n===GRAPH OF POINTS===");
       Graph g = new Graph();
@@ -60,6 +62,7 @@ public class Day15OOP {
 }
 ```
 
+### Point.java
 ```java
 /*
    This is an example of what happens inside java.awt.Point
@@ -75,7 +78,7 @@ public class Day15OOP {
 // object: a particular instance of a class with it's own unique state
 public class Point {
 
-   // fields/instance variables: (combined make up the object's state) 
+   // fields/instance variables: (combined make up the object's state)
    // should be private and declared (but not initialized)
    int x;
    int y;
@@ -102,19 +105,19 @@ public class Point {
    // use "set", take a parameter for new value, changes field variable
    public void setX(int newX) {
    }
-   
+
    // OTHER BEHAVIOR: other methods that don't follow the structure
    // of accessors and mutators
-   
+
    // Moves this point to the specified location in the (x,y) coordinate plane.
    public void move(int x, int y) {
    }
-   
-   // Translates this point, at location (x,y), by dx along the x axis 
+
+   // Translates this point, at location (x,y), by dx along the x axis
    // and dy along the y axis so that it now represents the point (x+dx,y+dy).
    public void translate(int dx, int dy) {
    }
-   
+
    // toString: allows you to print out the state of an Object
    // must return a string, should NOT have System.out.println here
    public String toString() {
@@ -123,6 +126,7 @@ public class Point {
 }
 ```
 
+### Graph.java
 ```java
 import java.awt.Point;
 import java.util.*;
@@ -130,17 +134,17 @@ import java.util.*;
 public class Graph {
    //class constant for the size of graph
    public static final int SIZE = 10;
-   
+
    //instance variables
    private char[][] grid;
-   
+
    //constructor
    public Graph() {
       grid = new char[SIZE][SIZE];
       for (char[] row : grid)
          Arrays.fill(row, ' ');
    }
-   
+
    //(unconventional) mutator
    public void addPoint(Point p) {
       if(p.x > grid.length || p.y > grid[0].length) {
@@ -151,18 +155,18 @@ public class Graph {
          grid[p.y][p.x] = 'x';
       }
    }
-   
+
    //toString
    public String toString() {
       //toString returns a String (does not print) so
       //this creates a variable to return at method end
       String toReturn = " ";
-      
+
       // top row of x cords
       for(int col = 0; col < SIZE; col++)
          toReturn += col % 10; // ensures that larger grids don't offset char plot
       toReturn += "\n";
-      
+
       // grid of the graph, preceeded by the y cords
       for(int row = 0; row < grid.length; row++) {
          toReturn += row;
@@ -171,7 +175,7 @@ public class Graph {
          }
          toReturn += "\n";
       }
-      
+
       // returns constructed String representation of Graph
       return toReturn;
    }

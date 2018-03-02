@@ -22,6 +22,8 @@
     - Exercise 5.18
 
 ## Programs for class
+
+### CandyMachine.java
 ```java
 import java.util.Scanner;
 
@@ -75,6 +77,7 @@ public class CandyMachine {
 }
 ```
 
+### Day07FencepostAndWhile.java
 ```java
 import java.util.Scanner;
 
