@@ -34,6 +34,13 @@
     - Overriding a method
       - both superclass and subclass have X(), which one gets called?
       - making an inheritance table
++ Learning Practice
+  - Self-Check
+    - All 4 Self-Check problems
+  - Exercises
+    - Exercise 9.1 - 9.4
+  - Challenge
+    - Exercises 9.9 and 9.10
 
 ## Programs for class
 

@@ -12,7 +12,7 @@
       - can't print by just saying SOP(a)
       - show manually with for loop
       - then with Array.toString(a)
-+ Learning Practice
++ First Practice
   - Self-Check 7.1 - 7.9, do 7.4 last
 + Lecture (cont)
   - Count negative numbers in the Array
@@ -21,6 +21,12 @@
   - Check if two arrays contain the same values
     - can't use == on the entire array
     - do it manually, then show them Arrays.equals(a,b)
++ Learning Practice
+  - Self-Check
+    - Self-Check 7.1 - 7.11
+    - Self-Check 7.13 - 7.15
+  - Exercises
+    - Exercise 7.1 - 7.3
 
 ## Programs for class
 ```java

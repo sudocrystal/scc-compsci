@@ -18,6 +18,15 @@
     - s.charAt(i)-'a'
     - asciitable.com
     - Character.isLetter()
++ Learning Practice
+  - Self-Check
+    - Self-Check 7.17 - 7.26
+  - Exercises
+    - Exercise 7.4
+    - Exercise 7.9 and 7.10
+    - Exercise 7.13 and 7.15
+  - Challenge
+    - Exercise 7.14
 
 # Programs for Class
 ```java

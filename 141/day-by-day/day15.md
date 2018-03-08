@@ -20,6 +20,14 @@
   - Graph example
   - Object vs Class
     - PracticeIt Self-Check 8.2: An object is an entity that encapsulates related data and behavior, while a class is the blueprint for a type of objects.
++ Learning Practice
+  - Self-Check
+    - Self-Check 8.1 - 8.6
+    - Self-Check 8.8 and 8.10
+    - Self-Check 8.12 - 8.14
+    - Self-Check 8.16 - 8.18
+  - Exercises
+    - Exercise 8.1 - 8.4 
 
 ## Programs for Class
 

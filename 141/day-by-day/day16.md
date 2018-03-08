@@ -16,6 +16,15 @@
     - NullPointerException in the array
 + Partnered Exercise
   - Do something else interesting with the program!
++ Learning Practice
+  - Self-Check
+    - Self-Check 8.7
+    - Self-Check 8.11
+    - Self-Check 8.15
+    - Self-Check 8.19 and 8.20
+    - Self-Check 8.26 and 8.27
+  - Exercises
+    - Exercise 8.7 - 8.9
 
 ## Programs for class
 
