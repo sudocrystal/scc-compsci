@@ -8,7 +8,7 @@ public class Day18ArrayList {
 //       ArrayList<Integer> values = createList(5,200);
 //       System.out.println("initial values = " + values);
 //       
-//       //duplicateList(values);
+//       duplicateList(values);
 //       //maxToEnd(values);
 //       
 //       System.out.println("values = " + values);
@@ -18,6 +18,9 @@ public class Day18ArrayList {
 // 		
 // 		int len = maxLength(words);
 // 		System.out.println("highest # of chars = " + len);
+
+//       removeStartWith(words,'c');
+//       System.out.println("words contains " + words);
 	}
    
    public static void learnArrayList() {
@@ -59,7 +62,11 @@ public class Day18ArrayList {
 	public static int maxLength(ArrayList<String> list) {
       return 0;
    }
-	
+   
+   // remove all elements in list that begin with specified char
+   public static void removeStartWith(ArrayList<String> list, char c) {
+   }
+
 }
 
 // Helpful translation from array to ArrayList:

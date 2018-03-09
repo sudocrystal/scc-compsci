@@ -58,11 +58,14 @@ public class Day18ArrayList {
 //       
 //       System.out.println("values = " + values);
 
-// 		ArrayList<String> words = createWordList();
-// 		System.out.println("words contains " + words);
-// 		
-// 		int len = maxLength(words);
-// 		System.out.println("highest # of chars = " + len);
+    // ArrayList<String> words = createWordList();
+    // System.out.println("words contains " + words);
+    //
+    // int len = maxLength(words);
+    // System.out.println("highest # of chars = " + len);
+
+    // removeStartWith(words,'c');
+    // System.out.println("words contains " + words);
 	}
 
    public static void learnArrayList() {
@@ -73,7 +76,7 @@ public class Day18ArrayList {
       nums.add(2);
 
       System.out.println("nums contains = " + nums);
-		System.out.println("# of elements = " + nums.size());
+		  System.out.println("# of elements = " + nums.size());
    }
 
    // this method should create a list of 'numElements' number of ints
@@ -105,6 +108,9 @@ public class Day18ArrayList {
       return 0;
    }
 
+   // remove all elements in list that begin with specified char
+   public static void removeStartWith(ArrayList<String> list, char c) {
+   }
 }
 
 // Helpful translation from array to ArrayList:
@@ -142,8 +148,11 @@ public class Day18ArrayList {
 		ArrayList<String> words = createWordList();
 		System.out.println("words contains " + words);
 
-		int len = maxLength(words);
-		System.out.println("highest # of chars = " + len);
+		// int len = maxLength(words);
+		// System.out.println("highest # of chars = " + len);
+
+    removeStartWith(words,'c');
+    System.out.println("words contains " + words);
 	}
 
    public static void learnArrayList() {
@@ -154,7 +163,7 @@ public class Day18ArrayList {
       nums.add(2);
 
       System.out.println("nums contains = " + nums);
-		System.out.println("# of elements = " + nums.size());
+      System.out.println("# of elements = " + nums.size());
    }
 
    // this method should create a list of 'numElements' number of ints
@@ -236,6 +245,15 @@ public class Day18ArrayList {
       return len;
     }
 
+    // remove all elements in list that begin with specified char
+    public static void removeStartWith(ArrayList<String> list, char c) {
+       for(int i = 0; i < list.size(); i++) {
+          if(list.get(i).charAt(0) == c) {
+             list.remove(i);
+             i--;
+          }
+       }
+    }
 }
 
 // Helpful translation from array to ArrayList:
