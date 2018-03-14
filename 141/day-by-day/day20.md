@@ -53,5 +53,5 @@
     - if you add to the end of an ArrayList while you are processing it, you want to make sure that your loop does not run `i < list.size()` because the size is constantly changing; instead save the original size of the list first and `i < size` so you don't process new elements too
 
 8. Classes Problem
-- if you are placing a method inside of a class, you have access to all the fields (state information) of that class
-- to access data inside of a class, you can refer to state information as `this.day` or `getDay()`
+  - if you are placing a method inside of a class, you have access to all the fields (state information) of that class
+  - to access data inside of a class, you can refer to state information as `this.day` or `getDay()`
