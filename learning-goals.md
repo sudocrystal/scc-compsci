@@ -16,7 +16,6 @@ Students should be able to:
 - identify, create, and use _loops_ (while/for)
 - identify, create, and use _strings_ and associated operations
 - identify, create, and use _lists_
-- identify and use _classes_ and _Objects_
 - _test_ code
 - _debug_ code
 - read and work with unfamiliar code
