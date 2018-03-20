@@ -1,4 +1,4 @@
-# CS121 + Introduction to Computer Science (python)
+# CS121 - Introduction to Computer Science (python)
 
 ## At a Glance
 
