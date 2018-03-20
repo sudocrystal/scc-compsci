@@ -1,5 +1,7 @@
 # Day 11/20
 
+<!-- ADD A PROBLEM COMPARING TOKEN TO TOKEN -->
+
 + Lecture: Token-based File Processing
   - Grab starter files
   - Big Data = Why we need to be able to read files and make conclusions
@@ -136,7 +138,7 @@ public class Day11FileProcessing {
    public static void sumAll(Scanner in) {
       int count = 0;
       int sum = 0;
-      
+
       while(in.hasNext()) {
          if(in.hasNextInt()) {
             int next = in.nextInt();
@@ -149,7 +151,7 @@ public class Day11FileProcessing {
             System.out.println("Ignoring " + trash);
          }
       }
-      
+
       System.out.println("Total ints = " + count);
       System.out.println("Sum = " + sum);
       double average = (double)sum / count;
@@ -174,7 +176,7 @@ public class Day11FileProcessing {
          String next = in.next().toUpperCase();  
          if(next.charAt(0) == 'A') {
             a++;
-         } 
+         }
          else if(next.charAt(0) == 'B') {
             b++;
          }
@@ -193,7 +195,7 @@ public class Day11FileProcessing {
    //    Nikita = 3.83 average for 3 grades
    public static void gradeReport(Scanner in) throws FileNotFoundException {
       PrintStream outFile = new PrintStream(new File("gradeReport.txt"));
-      
+
       while(in.hasNext()) {
          String name = in.next();
          int num = 0;
