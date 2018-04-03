@@ -17,7 +17,7 @@
 
 Each bullet is a day.
 
-## Week 1
+## Week 1 (3 days)
 + Introduction to class
   - Information to Waitlisted students
   - Introduce Self
@@ -30,14 +30,13 @@ Each bullet is a day.
   - Activity: 1 page guide to buying a computer
 + Buying a computer
   - Partner Activity time
+
+## Week 2
 + Data Basics
   - Notes: Data/Binary
 + Algorithms
   - Notes: Algorithms
   - Activity: robot maze instructions
-
-## Week 2 (4 days)
-+ **NO CLASS MONDAY + MLK DAY**
   - HW: Week 2 quiz
 + Hello World
   - Notes: How to Google & its importance
@@ -51,7 +50,7 @@ Each bullet is a day.
   - review predicting the result
   - Lecture
   - Activity: Predicting the result
-+ Lab Time
++ (remove?) Lab Time
   - Review predicting the result
   - Lab: Madlibs
 
