@@ -16,3 +16,18 @@
 | Inheritance | [Day 17](day-by-day/day17.md)
 | ArrayLists| [Day 18](day-by-day/day18.md) | [Day 19](day-by-day/day19.md)
 | Final Review | [Day 20](day-by-day/day20.md)
+
+## Long Homeworks
+
+| Week | Homework Due
+|------|------------------------
+|  1   | EnvSetup
+|  2   | SongA, SongB
+|  3   | RocketShip1, RocketShip2
+|  4   | Admissions, UberLyft
+|  5   |
+|  6   | GuessingGame
+|  7   | DiaryAnalysis
+|  8   | PhraseGuess
+|  9   | TicketSystem
+|  10  |
