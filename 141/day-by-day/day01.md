@@ -1,4 +1,4 @@
-# Day 01/20
+# Start of the Quarter
 
 + Introduce Self
 + Syllabus
@@ -6,6 +6,11 @@
   + groups of 4
   + three things: name, something they enjoy about coding, one interesting thing about themselves
   + share out
+
+# Day 01/20
+
++ Preview Quiz
+  - Talk about the importance of previewing material
 + Lecture
   - JDK / Java
     - Compiled vs. Interpreted Languages
@@ -23,6 +28,7 @@
     - Defining
     - Calling
 + Learning Practice
+  Talk about the importance of actually practicing material
   - Self-Check
     - Self-Check 1.5
     - Self-Check 1.7 - 1.14
