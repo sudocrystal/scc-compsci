@@ -5,8 +5,11 @@
   - main method declaration
   - printing to the screen
   - defining and calling a method
++ Practice Reflection Discussion - Egg2
+  - Do individually and then discuss
 + Review Exercise: Cake
   - With a partner, analyze the expected output and complete the program
++ Finding feedback on HW #0: go through grades page
 + Explain Homework #1: Cumulative Song
 + Lecture
   - Literals
@@ -287,9 +290,9 @@ public class Day02Cake {
 /*
 |   literal type       |  examples           | java data type
 |----------------------|---------------------|-----------------
-| whole numbers        |    |  
-| decimal numbers      |    |
-| series of characters |    |
+| whole numbers        |  4, -5, 19, 1000, 0 |  int
+| decimal numbers      |  3.14, -2.1, 0.0    |  double
+| series of characters |  "hi", "0", "#!@"   |  String
 */
 
 public class Day02DataAndLoops {
