@@ -28,12 +28,11 @@ Each bullet is a day.
 + Hardware Basics
   - Notes: Hardware
   - Activity: 1 page guide to buying a computer
-+ Buying a computer
-  - Partner Activity time
++ Data Basics
+  - 15 minutes to complete buying computer summary (or delegate)
+  - Notes: Data/Binary
 
 ## Week 2
-+ Data Basics
-  - Notes: Data/Binary
 + Algorithms
   - Notes: Algorithms
   - Activity: robot maze instructions
@@ -50,7 +49,7 @@ Each bullet is a day.
   - review predicting the result
   - Lecture
   - Activity: Predicting the result
-+ (remove?) Lab Time
++ Lab Time
   - Review predicting the result
   - Lab: Madlibs
 
