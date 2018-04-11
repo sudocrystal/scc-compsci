@@ -1,27 +1,23 @@
 # Day 03/20
 
-+ Show how to find my feedback on code
-+ Things we should already know
-  + Review a nested for-loop  
-    - nested
 + Lecture
   + Class Constants
     - `public static final`
     - should be in all caps
     - must be given a starting value
     - can't be reassigned
-  + Loop Tables
-    - tracing a nested for-loop
   + Nested Loops
     - systematic approach
     - multiple items on the same line (row)
     - scaling with a constant
 + Learning Practice
-    - Self-Check 2.22 and 2.23
-    - Self-Check 2.32 and 2.33
-    - Self-Check 2.37 and 2.38
-    - Exercises 2.12 and 2.13
-    - Exercises 2.16 and 2.17
+    - Self-Check
+      - Self-Check 2.22 and 2.23
+      - Self-Check 2.32 and 2.33
+      - Self-Check 2.37 and 2.38
+    - Exercises
+      - Exercises 2.12 and 2.13
+      - Exercises 2.16 and 2.17
 
 ## Programs for class
 ```java
