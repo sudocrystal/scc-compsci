@@ -55,6 +55,7 @@ Each bullet is a day.
 
 ## Week 3
 + Control Flow
+  - Share Mablibs with peer, discuss one thing that was hard or cool :)
   - Lecture: Control Flow, simple functions
   - WK 3 Quiz
 + Functions
