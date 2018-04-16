@@ -87,8 +87,9 @@ public class Day04ParametersObjects {
 
    public static void main(String[] args) {
       methodsWithParams();
-      //quadratic(1, -7, 12); // 4.0. 3.0
-      //quadratic(1, 3, 2);   // -1.0, -2.0
+      //ten();
+      //quadratic(1, -7, 12);       // 4.0, 3.0
+      //quadratic(1, 3, 2);         // -1.0, -2.0
       //sillyString("Shoreline");
       //sillyString("Hello World");
    }
@@ -116,6 +117,11 @@ public class Day04ParametersObjects {
       System.out.println("I love " + fave + " " + num + " times more than anything else in the world!");
    }
 
+   // this method should return the int literal 10
+   public static void ten() {
+      System.out.println("10");
+   }
+
    // From PracticeIt BJP4 Exercise 3.8: quadratic
    // This method solves quadratic equations and prints their roots
    // A quadratic roots can be found using the equations:
@@ -124,7 +130,6 @@ public class Day04ParametersObjects {
    public static void quadratic(int a, int b, int c) {
 //       double firstRoot = quadPlus(a,b,c);
 //       double secondRoot = quadMinus(a,b,c);
-//       System.out.println("First root = " + firstRoot);
 
    }
 
@@ -233,10 +238,6 @@ public class Day04ParametersObjects {
       sillyString("Hello World");
    }
 
-   public static int ten() {
-      return 10;
-   }
-
    // this methods shows calling a method with different arguments
    public static void methodsWithParams() {
       love("naps", "sunrises", "vacation");
@@ -260,6 +261,11 @@ public class Day04ParametersObjects {
       System.out.println("I love " + fave + " " + num + " times more than anything else in the world!");
    }
 
+   // this method should return the int literal 10
+   public static int ten() {
+      return 10;
+   }
+
    // From PracticeIt BJP4 Exercise 3.8: quadratic
    // This method solves quadratic equations and prints their roots
    // A quadratic roots can be found using the equations:
@@ -268,8 +274,7 @@ public class Day04ParametersObjects {
    public static void quadratic(int a, int b, int c) {
       double firstRoot = quadPlus(a,b,c);
       double secondRoot = quadMinus(a,b,c);
-      System.out.println(firstRoot);
-      System.out.println(secondRoot);
+      System.out.println(firstRoot + ", " + secondRoot);
    }
 
    public static double quadPlus(int a, int b, int c) {
