@@ -20,6 +20,7 @@
       - if/else if/else
 + Learning Practice
   - 8 independent problems
+    - Do odd problems
   - PracticeIt
     - Self-Check
       - Self-Check 4.1
