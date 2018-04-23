@@ -72,6 +72,7 @@ Each bullet is a day.
 
 ## Week 4
 + Functions
+  - go over Predicting problems which are similar to assignment for the day except PRINT instead of RETURN
   - Lecture: Functions with Return statements
 + Modules
   - review Number Evaluation
@@ -82,10 +83,10 @@ Each bullet is a day.
   - Midterm Review Study Guide Posted
 + More Practice with Functions
   - Review some of first and give time to complete
-+ Fixing Broken Code that you didn't write
-  - Grade Calculator
 
 ## Week 5
++ Fixing Broken Code that you didn't write
+  - Grade Calculator
 + Live code
   - Coffee Stand
   - HW: Super Sale (due end of week)
