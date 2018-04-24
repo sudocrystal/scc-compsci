@@ -77,17 +77,19 @@ Each bullet is a day.
 + Modules
   - review Number Evaluation
   - Lecture: math and random
+  - Quiz
 + Practice with functions (partner activity)
   - Practice with Functions
-  - Quiz
   - Midterm Review Study Guide Posted
+<!--
 + More Practice with Functions
   - Review some of first and give time to complete
+-->
++ Fixing Broken Code that you didn't write
+  - Grade Calculator
 + NO CLASS - Day of Learning
 
 ## Week 5
-+ Fixing Broken Code that you didn't write
-  - Grade Calculator
 + Live code
   - Coffee Stand
   - HW: Super Sale (due end of week)
@@ -98,13 +100,13 @@ Each bullet is a day.
   - My Turtle House
 + Turtle Graphics - intro to loops
   - Fancy Turtle House
-
-## Week 6
 + Repetition
   - Turtle Loops
   - Homework
     - Lecture on simple for-loops and while loops
     - Predicting the Result
+
+## Week 6
 + for and while Loops
   - Lecture: for and while loops
   - Fixing Loops
