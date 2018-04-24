@@ -83,6 +83,7 @@ Each bullet is a day.
   - Midterm Review Study Guide Posted
 + More Practice with Functions
   - Review some of first and give time to complete
++ NO CLASS - Day of Learning
 
 ## Week 5
 + Fixing Broken Code that you didn't write
@@ -97,36 +98,35 @@ Each bullet is a day.
   - My Turtle House
 + Turtle Graphics - intro to loops
   - Fancy Turtle House
+
+## Week 6
 + Repetition
   - Turtle Loops
   - Homework
     - Lecture on simple for-loops and while loops
     - Predicting the Result
-
-## Week 6
 + for and while Loops
   - Lecture: for and while loops
   - Fixing Loops
 + Lab Time
   - Lab: Nursery Rhymes Continued
-+ Pseudocoding
++ What is Pseudocode?
   - Complete nursery rhymes together
   - Lab: Election Program
 + More Lab Practice
   - Complete Election Program
   - Turtle Loops
+
+## Week 7
 + More Loop Practice
   - Homework: Cookie Time
-
-## Week 7 (4 days)
-+ **NO CLASS MONDAY + PRESIDENTS DAY**
 + String Operations
   - Lecture
   - Activity
 + Strings in Loops
   - Lecture
 + CodingBat: Strings
-  - No day made me change plans for this day to coding bat
+  - Snow day made me change plans for this day to coding bat
 + Lab Time
   - Account Generator
 
@@ -146,15 +146,16 @@ Each bullet is a day.
   - Lab: GPA Reporter
 
 ## Week 9
++ NO CLASS - Labor Day
 + Robot Introduction / Study Questions
-+ Midterm \#2
-  - MC Exam
 + EdPy Lessons 1-7
++ Midterm \#2 (Friday?)
+  - MC Exam
 
 ## Week 10
 + EdPy Lessons 8 & 9 (optional 10)
 
-## Week 11
+## Week 11 (4 days)
 + Project Work
 
 ## Final Project
