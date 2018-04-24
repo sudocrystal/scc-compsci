@@ -127,17 +127,18 @@ Each bullet is a day.
   - Lecture
 + CodingBat: Strings
   - Snow day made me change plans for this day to coding bat
-+ Lab Time
-  - Account Generator
++ Multicultural Week Panel
 
 ## Week 8
++ Lab Time
+  - Account Generator
 + Comparing code solutions
   - Look at different solutions from Account Generator
   - HW: Match Maker
 + Lists
   - Lecture
   - Activity
-+ Practice Time
++ Practice Time - **cut this???**
   - Coding Bat: Lists
 + Lab Time
   - Holiday Shopping in partners
