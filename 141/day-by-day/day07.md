@@ -1,8 +1,6 @@
 # Day 07/20
 
-+ Midterm next week (review materials)
-+ PracticeIt Ex 4.18
-  - trim, bounds, off by one
++ Midterm soon!
 + Go over Candy machine
   - printf
   - variable scope
