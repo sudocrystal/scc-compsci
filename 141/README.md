@@ -22,12 +22,12 @@
 | Week | Homework Due
 |------|------------------------
 |  1   | EnvSetup
-|  2   | SongA, SongB
-|  3   | RocketShip1, RocketShip2
-|  4   | Admissions, UberLyft
-|  5   |
-|  6   | GuessingGame
+|  2   | Song
+|  3   | RocketShip
+|  4   | Admissions, UberLyft, MyCalorieTracker
+|  5   | GuessingGame,
+|  6   |
 |  7   | DiaryAnalysis
 |  8   | PhraseGuess
-|  9   | TicketSystem
+|  9   | TicketSystem, 
 |  10  |
