@@ -8,7 +8,6 @@
   - fence post problem
   - while loops
   - do-while loops
-  - short circuit evaluation preview
 + Learning Practice
   - Self-Check
     - Self-Check 5.1
