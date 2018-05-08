@@ -102,15 +102,13 @@ Each bullet is a day.
   - Fancy Turtle House
 + Repetition
   - Turtle Loops
-  - Homework
-    - Lecture on simple for-loops and while loops
-    - Predicting the Result
 
 ## Week 6
 + for and while Loops
   - Lecture: for and while loops
-  - Fixing Loops
+  - Predicting the Result
 + Lab Time
+  - Fixing Loops
   - Lab: Nursery Rhymes Continued
 + What is Pseudocode?
   - Complete nursery rhymes together
@@ -118,10 +116,10 @@ Each bullet is a day.
 + More Lab Practice
   - Complete Election Program
   - Turtle Loops
-
-## Week 7
 + More Loop Practice
   - Homework: Cookie Time
+
+## Week 7
 + String Operations
   - Lecture
   - Activity

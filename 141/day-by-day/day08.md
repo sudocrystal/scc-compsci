@@ -78,8 +78,7 @@ public class Day08RandomBooleansAssertions {
 import java.util.*;
 
 public class Day08RandomBooleansAssertions {
-
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 		//int x	= random();
 		//System.out.println("x =	" + x);
 		//System.out.println(isFactor(0,x));
@@ -127,14 +126,14 @@ public class Day08RandomBooleansAssertions {
        }
        x /= 10;
 		}
-		//POINT I'M	ASKING ABOUT: What is true	when we get	here?
-		//A: no number	is	greater than 4; all digits	have been processed
+		//POINT I'M ASKING ABOUT: What is true when we get here?
+		//A: no number is greater than 4; all digits have been processed
 		return true;
 	}
 
-	// returns true if the strings are reverse of each	other
+	// returns true if the strings are reverse of each other
 	// e.g. isReverse("hello","olleh") --> true
-	// e.g. isReverse("time","fine")	--> false
+	// e.g. isReverse("time","fine") --> false
 	public static boolean isReverse(String s1, String s2) {
     if (s1.length() != s2.length()) {
       return false;
