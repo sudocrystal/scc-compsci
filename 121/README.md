@@ -108,16 +108,17 @@ Each bullet is a day.
   - Lecture: for and while loops
   - Predicting the Result
 + Lab Time
-  - Fixing Loops
-  - Lab: Nursery Rhymes Continued
-+ What is Pseudocode?
-  - Complete nursery rhymes together
-  - Lab: Election Program
+  - Lab: Nursery Rhymes Continued (partnered)
+  - Fixing Loops (HW)
++ Discuss assignments from yesterday
+  - Review Fixing Loops
+  - Time to complete nursery rhymes together
 + More Lab Practice
-  - Complete Election Program
-  - Turtle Loops
+  - What is Pseudocode?
+  - Election Program (partnered)
 + More Loop Practice
-  - Homework: Cookie Time
+  - Finish Election Program
+  - Individual Homework: Cookie Time
 
 ## Week 7
 + String Operations
