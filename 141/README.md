@@ -17,6 +17,8 @@
 | ArrayLists| [Day 18](day-by-day/day18.md) | [Day 19](day-by-day/day19.md)
 | Final Review | [Day 20](day-by-day/day20.md)
 
+<!-- Remove from default display
+
 ## Long Homeworks
 
 | Week | Homework Due
@@ -29,5 +31,7 @@
 |  6   |
 |  7   | DiaryAnalysis
 |  8   | PhraseGuess
-|  9   | TicketSystem, 
+|  9   | TicketSystem,
 |  10  |
+
+-->
