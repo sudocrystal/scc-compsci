@@ -126,8 +126,13 @@ Each bullet is a day.
   - Activity
 + Strings in Loops
   - Lecture
+  - Predicting assignment
 + CodingBat: Strings
   - Snow day made me change plans for this day to coding bat
+  - Quiz
++ Account Generator
+  - Account Generator (Partner Activity)
+  - HW: MatchMaker
 + Multicultural Week Panel
 
 ## Week 8
