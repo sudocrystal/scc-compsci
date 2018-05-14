@@ -1,8 +1,6 @@
 # Day 12/20
 
 + Lecture
-  - Review of relative paths
-    - "../"
   - Patterns
     - process the entire line
     - process each token on each line
@@ -28,7 +26,8 @@ public class Day12LineBasedProcessing {
       Scanner console = new Scanner(System.in);
 
       Scanner file = new Scanner(new File("more_numbers.txt"));
-      echoFile(file);
+      echoContents(file);
+      //echoFile(file);
       //cleanFile(file);
       //createCleanFile(file);
       //countSpaces(file);
@@ -37,19 +36,24 @@ public class Day12LineBasedProcessing {
       //maxTokens(file);
    }
 
+   // Should echo the contents of a file, removing all spacing and new lines
+   // pattern: token-based processing: process a file token by token
+   public static void echoContents(Scanner in) {
+   }
+
    // Should echo the contents of a file, maintaining all spacing
-   // pattern: processes a file line by line
+   // pattern: line-based processing: processes a file line by line
    public static void echoFile(Scanner in) {
    }
 
    // Should echo the contents of a file to the console
-   // preserve line breaks, but removing all extra spaces
+   // preserve line breaks, but removing extra spaces between tokens
    // pattern: processes a file line by line, evaluating each token
    public static void cleanFile(Scanner in) {
    }
 
    // Should echo the contents of a file to A NEW FILE
-   // preserve line breaks, but removing all extra spaces
+   // preserve line breaks, but removing extra spaces between tokens
    public static void createCleanFile(Scanner in) {
    }
 
@@ -86,6 +90,7 @@ public class Day12LineBasedProcessing {
       Scanner console = new Scanner(System.in);
 
       Scanner file = new Scanner(new File("more_numbers.txt"));
+      //echoContents(file);
       //echoFile(file);
       //cleanFile(file);
       //createCleanFile(file);
@@ -95,8 +100,17 @@ public class Day12LineBasedProcessing {
       //maxTokens(file);
    }
 
+   // Should echo the contents of a file, removing all spacing and new lines
+   // pattern: token-based processing: process a file token by token
+   public static void echoContents(Scanner in) {
+      while(in.hasNextInt()) {
+         int line = in.nextInt();
+         System.out.println(line);
+      }
+   }
+
    // Should echo the contents of a file, maintaining all spacing
-   // pattern: processes a file line by line
+   // pattern: line-based processing: processes a file line by line
    public static void echoFile(Scanner in) {
       while(in.hasNextLine()) {
          String line = in.nextLine();
@@ -105,8 +119,8 @@ public class Day12LineBasedProcessing {
    }
 
    // Should echo the contents of a file to the console
-   // preserve line breaks, but removing all extra spaces
-   // pattern: processes a file line by line, evaluating each token
+   // preserve line breaks, but removing extra spaces between tokens
+   // pattern: processes a file line by line, evaluating each token on a line
    public static void cleanFile(Scanner in) {
       while(in.hasNextLine()) {
          String line = in.nextLine();
@@ -121,7 +135,7 @@ public class Day12LineBasedProcessing {
    }
 
    // Should echo the contents of a file to A NEW FILE
-   // preserve line breaks, but removing all extra spaces
+   // preserve line breaks, but removing extra spaces between tokens
    public static void createCleanFile(Scanner in) throws FileNotFoundException {
       PrintStream outFile = new PrintStream(new File("clean_numbers.txt"));
       while(in.hasNextLine()) {
@@ -174,7 +188,7 @@ public class Day12LineBasedProcessing {
       int mostTokens = 0;
       while(in.hasNextLine()) {
          String line = in.nextLine();
-         System.out.println(line);
+         //System.out.println(line);
          Scanner lineScan = new Scanner(line);
          int count = 0;
          while(lineScan.hasNext()) {
