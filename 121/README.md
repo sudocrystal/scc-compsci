@@ -126,7 +126,7 @@ Each bullet is a day.
   - Activity
 + Strings in Loops
   - Lecture
-  - Predicting assignment
+  - String Manipulation; together and OYO
 + CodingBat: Strings
   - Snow day made me change plans for this day to coding bat
   - Quiz
