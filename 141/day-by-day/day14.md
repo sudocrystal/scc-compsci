@@ -13,6 +13,7 @@
         - arr[i+1] means i < arr.length-1
         - arr[i-1] means int i = 1
       - Confusing i with arr[i]
+        - try arrayMystery again with second if `i < 0` instead of `a[i] < 0`
   - parallel arrays
   - letterFrequency problem
     - s.charAt(i)-'a'
