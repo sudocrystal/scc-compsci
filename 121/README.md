@@ -136,15 +136,10 @@ Each bullet is a day.
 + Multicultural Week Panel
 
 ## Week 8
-+ Lab Time
-  - Account Generator
-+ Comparing code solutions
-  - Look at different solutions from Account Generator
-  - HW: Match Maker
 + Lists
   - Lecture
   - Activity
-+ Practice Time - **cut this???**
++ Practice Time
   - Coding Bat: Lists
 + Lab Time
   - Holiday Shopping in partners
@@ -154,6 +149,7 @@ Each bullet is a day.
 
 ## Week 9
 + NO CLASS - Labor Day
++ NO CLASS - Crystal takes a personal day
 + Robot Introduction / Study Questions
 + EdPy Lessons 1-7
 + Midterm \#2 (Friday?)
