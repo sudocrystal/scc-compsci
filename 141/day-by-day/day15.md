@@ -9,9 +9,9 @@
     - Objects are pass by reference
   - Make our own Point Class
     - fields
+    - toString
     - constructors
     - accessors and mutators
-    - toString
     - state, behavior
   - Adding behavior to our point class
     - move
@@ -27,7 +27,7 @@
     - Self-Check 8.12 - 8.14
     - Self-Check 8.16 - 8.18
   - Exercises
-    - Exercise 8.1 - 8.4 
+    - Exercise 8.1 - 8.4
 
 ## Programs for Class
 
