@@ -140,7 +140,10 @@ Each bullet is a day.
   - Lecture
   - Activity
 + Practice Time
+  - More Practice with Lists
   - Coding Bat: Lists
++ Live code
+  - Movie Theater
 + Lab Time
   - Holiday Shopping in partners
 + Lab Time
