@@ -1,5 +1,6 @@
 # Day 07/20
 
++ HW Reflection
 + Midterm soon!
 + Go over Candy machine
   - printf

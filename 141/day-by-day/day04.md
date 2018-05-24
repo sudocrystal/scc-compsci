@@ -1,5 +1,6 @@
 # Day 04/20
 
++ HW Reflection
 + Things we should know
   - using a systematic approach to breaking down repetitive ascii art
   - using methods to repeat larger structures

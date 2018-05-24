@@ -1,5 +1,6 @@
 # Day 05/20
 
++ HW Reflection
 + Lecture
   - User Input
     - nextInt

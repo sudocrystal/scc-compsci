@@ -1,5 +1,7 @@
 ## Day 15/20
 
++ HW Reflection
++ Talk about Phrase Guess
 + Lecture
   - OOP vs Procedural Programming
     - PracticeIt Self-Check 8.1: Procedural programming treats a program as a sequence of actions or commands, while object-oriented programming looks at a program as a group of interacting entities named objects with related data and behavior.
@@ -9,6 +11,7 @@
     - Objects are pass by reference
   - Make our own Point Class
     - fields
+      - Show the difference between _class_/_object_ and explain _state_ using the debugger
     - toString
     - constructors
     - accessors and mutators
@@ -16,7 +19,7 @@
   - Adding behavior to our point class
     - move
     - translate
-    - other?
+  - Objects are pass by reference like arrays
   - Graph example
   - Object vs Class
     - PracticeIt Self-Check 8.2: An object is an entity that encapsulates related data and behavior, while a class is the blueprint for a type of objects.
@@ -33,7 +36,7 @@
 
 ### Day15OOP.java
 ```java
-import java.awt.Point;
+//import java.awt.Point;
 import java.util.*;
 
 public class Day15OOP {
@@ -43,12 +46,6 @@ public class Day15OOP {
       Point two = new Point(2,300);
 
       System.out.println("one = " + one + ", two = " + two);
-      pointsAreObjects(one,two);
-
-//       one.move(1,1);
-//       one.translate(1,1);
-
-//       usingGraph(one,two);
 
       System.out.println("one = " + one + ", two = " + two);
    }
@@ -136,7 +133,7 @@ public class Point {
 
 ### Graph.java
 ```java
-import java.awt.Point;
+//import java.awt.Point;
 import java.util.*;
 
 public class Graph {

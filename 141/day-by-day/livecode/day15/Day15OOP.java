@@ -1,4 +1,4 @@
-import java.awt.Point;
+//import java.awt.Point;
 import java.util.*;
 
 public class Day15OOP {
@@ -8,12 +8,6 @@ public class Day15OOP {
       Point two = new Point(2,300);
 
       System.out.println("one = " + one + ", two = " + two);
-      pointsAreObjects(one,two);
-
-//       one.move(1,1);
-//       one.translate(1,1);
-
-//       usingGraph(one,two);
 
       System.out.println("one = " + one + ", two = " + two);
    }

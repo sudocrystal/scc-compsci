@@ -1,5 +1,6 @@
 # Day 02/20
 
++ HW Reflection
 + Things we should know
   - class declaration
   - main method declaration

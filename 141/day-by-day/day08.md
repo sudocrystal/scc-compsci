@@ -1,5 +1,6 @@
 # Day 08/20
 
++ HW Reflection
 + Lecture
   - pseudorandom numbers
     - Self-Check 5.5

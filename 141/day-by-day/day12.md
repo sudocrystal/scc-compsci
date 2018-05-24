@@ -1,5 +1,6 @@
 # Day 12/20
 
++ HW Reflection
 + Lecture
   - Patterns
     - process the entire line
