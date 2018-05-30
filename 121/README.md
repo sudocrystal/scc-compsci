@@ -154,12 +154,12 @@ Each bullet is a day.
 + NO CLASS - Labor Day
 + NO CLASS - Crystal takes a personal day
 + Robot Introduction / Study Questions
-+ EdPy Lessons 1-7
++ EdPy Lessons 1-5
 + Midterm \#2 (Friday?)
   - MC Exam
 
 ## Week 10
-+ EdPy Lessons 8 & 9 (optional 10)
++ EdPy Lessons 6-9 (optional 10)
 
 ## Week 11 (4 days)
 + Project Work
