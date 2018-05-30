@@ -1,6 +1,15 @@
 # Day 16/20
 
-+ Lecture
++ No reflection? Forgot to write one.
++ Lecture - Part 1
+  - Go over the parts of creating a class
+  - Pet.java
+    - name, species, primary and secondary breed
+    - fields, constructor, toString, accessors, mutators
+  - PetTester.java
+    - Pet p
+    - Pet[] pets
++ Lecture - Part 2
   - What is a CSV file?
   - How does loadInput work?
     - ```split(",")```
@@ -88,11 +97,8 @@ public class PetLicense {
    //fields
    private String issueDate;
    private int licenseNumber;
-   private String name;
-   private String species;
-   private String primaryBreed;
-   private String secondaryBreed;
    private int zipCode;
+   private Pet animal;
 
    //constructors
    public PetLicense() {
@@ -101,11 +107,8 @@ public class PetLicense {
    public PetLicense(String issueDate, int licenseNumber, String name, String species, String primaryBreed, String secondaryBreed, int zipCode) {
       this.issueDate = issueDate;
       this.licenseNumber = licenseNumber;
-      this.name = name;
-      this.species = species;
-      this.primaryBreed = primaryBreed;
-      this.secondaryBreed = secondaryBreed;
       this.zipCode = zipCode;
+      animal = new Pet(name, species, primaryBreed, secondaryBreed);
    }
 
    //accessors
@@ -114,7 +117,7 @@ public class PetLicense {
 
    //toString
    public String toString() {
-      return name;
+      return "" + licenseNumber;
    }
 }
 ```
