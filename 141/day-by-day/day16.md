@@ -15,14 +15,16 @@
     - ```split(",")```
     - ```Integer.parseInt()```
     - ```new PetLicense```
-  - WHat's in PetLicense.java
+    - ```data[i++]``` / post-fix notation
+  - What's in PetLicense.java
     - getName
-    - why no setName
+    - toString
     - getZip, setZip
-  - Write findByName
-    - contains
-    - toLowerCase() and stringing together of dot notation
-    - NullPointerException in the array
+  - Day16MoreOOP.java
+    - Write findByName
+      - contains
+      - toLowerCase() and stringing together of dot notation
+      - NullPointerException in the array
 + Partnered Exercise
   - Do something else interesting with the program!
 + Learning Practice
