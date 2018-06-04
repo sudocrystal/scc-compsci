@@ -34,6 +34,8 @@
     - Overriding a method
       - both superclass and subclass have X(), which one gets called?
       - making an inheritance table
++ Introduction to ACM Graphics
+  - If there's time, do an introduction to ACM Graphics for building upon later
 + Learning Practice
   - Self-Check
     - All 4 Self-Check problems
