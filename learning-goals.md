@@ -2,23 +2,22 @@
 
 ## CS121 Learning Objectives (Pre-CS1, CS0)
 Outcomes:
-1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
-1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
-1. **Solve small, independent problems given an algorithm.**
+1. Identify and use programming language constructs such as sequence, selection, iteration, and procedures.
+1. Examine and explain syntax, semantics, and practical effects of programming statements and procedures.
+1. **Develop solutions to small, independent problems given an algorithm.**
 1. Recognize and use test cases to verify that solutions meet specifications.
-1. Analyze reasoning, design and effectiveness of alternative solutions.
+1. Examine and compare reasoning, design and effectiveness of alternative solutions.
 
 Students should be able to:
-- use _pseudocode_ to plan code
 - identify, create, and use _variables_
 - identify, create, and use _functions_
 - identify, create, and use _conditionals_ (if/elif/else)
 - identify, create, and use _loops_ (while/for)
 - identify, create, and use _strings_ and associated operations
 - identify, create, and use _lists_
-- _test_ code
-- _debug_ code
-- read and work with unfamiliar code
+- describe and evaluate blocks of code
+- _test_ and _debug_ code
+- investigate and adapt unfamiliar code
 
 ## CS141 Learning Objectives (CS1)
 Outcomes:
