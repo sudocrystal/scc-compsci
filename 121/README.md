@@ -17,7 +17,7 @@
 
 Each bullet is a day.
 
-## Week 1 (3 days)
+## Week 1 
 + Introduction to class
   - Information to Waitlisted students
   - Introduce Self
@@ -31,12 +31,12 @@ Each bullet is a day.
 + Data Basics
   - 15 minutes to complete buying computer summary (or delegate)
   - Notes: Data/Binary
-
-## Week 2
 + Algorithms
   - Notes: Algorithms
   - Activity: robot maze instructions
   - HW: Week 2 quiz
+
+## Week 2
 + Hello World
   - Notes: How to Google & its importance
   - Notes: Hello World, Comments, EscapeSeqs

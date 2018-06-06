@@ -6,7 +6,7 @@ Outcomes:
 1. Examine and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. **Develop solutions to small, independent problems given an algorithm.**
 1. Recognize and use test cases to verify that solutions meet specifications.
-1. Examine and compare reasoning, design and effectiveness of alternative solutions.
+1. Examine and compare reasoning, design, and effectiveness of alternative solutions.
 
 Students should be able to:
 - identify, create, and use _variables_
