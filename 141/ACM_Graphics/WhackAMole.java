@@ -1,101 +1,112 @@
-
 /**
- * 	Tina Ostrander
- * 	File: WhackaMole.java
- * 	Date: 2/9/2016
  *  Description: Play Whack-a-Mole game
- *  Modified by suland 1/31/2018
+ * 	File: WhackaMole.java
+ * 	Author: Tina Ostrander 2/9/2016
+ *    Modified by Susan Uland 1/31/2018
+ *    Modified by Crystal Hess 6/10/2018
  */
 
-import java.awt.Color;
-import java.awt.Font;
+import java.awt.*;
 import java.awt.event.MouseEvent;
-
-import acm.graphics.GLabel;
-import acm.graphics.GObject;
-import acm.graphics.GOval;
+import acm.graphics.*;
 import acm.program.GraphicsProgram;
 import acm.util.RandomGenerator;
+import java.util.*;
 
 public class WhackAMole extends GraphicsProgram {
-	private static final int WIN_SIZE = 400;
-	private static final int MOLE_SIZE = 30;
-	private static final int NUM_MOLES = 3;
+	// class constants
+	private static final int WIN_SIZE = 500;
+	private static final int NUM_MOLES = 5;
 
-	// Declare class variable
+	// class variable
 	private static RandomGenerator gen;
-	// Declare instance variables
-	private GOval mole1, mole2, mole3;
+
+	// instance variables
+	private ArrayList <Block> moles;
 	private GLabel status;
 	private int deadMoleCount;
 
+	// game setup
 	public void init() {
 		this.setSize(WIN_SIZE, WIN_SIZE);
-		gen = new RandomGenerator();
-
-		deadMoleCount = 0;
-		status = new GLabel("Dead Mole Count: " + deadMoleCount, 10, 50);
-		status.setFont(new Font("Arial", Font.BOLD, 24));
-		status.setColor(Color.RED);
+		this.getGCanvas().setBackground(Color.GREEN.darker());
+		this.gen = new RandomGenerator();
+		this.moles = new ArrayList <Block>();
+		this.deadMoleCount = 0;
+		this.status = new GLabel("", 5, WIN_SIZE - 25);
+		this.status.setFont(new Font("Tahoma", Font.BOLD, 20));
+		this.status.setColor(Color.BLUE);
 		this.add(status);
+		updateStatus();
+		loadingScreen();
 		drawMoles();
+		updateStatus();
 		this.addMouseListeners(); // this gives the program "ears"
 	}
 
-	public void moveMoles() {
-
-		mole1.setLocation(gen.nextInt(WIN_SIZE - MOLE_SIZE), gen.nextInt(WIN_SIZE - MOLE_SIZE));
-		mole2.setLocation(gen.nextInt(WIN_SIZE - MOLE_SIZE), gen.nextInt(WIN_SIZE - MOLE_SIZE));
-		mole3.setLocation(gen.nextInt(WIN_SIZE - MOLE_SIZE), gen.nextInt(WIN_SIZE - MOLE_SIZE));
-
+	public void run() {
+		// the game runs while there are moles to be caught
+		while (moles.size() > 0) {
+			this.pause(gen.nextInt(1000) + 500);
+			moveMoles();
+			updateStatus();
+		}
+		status.setLabel("GAME OVER! You caught " + deadMoleCount + " moles!");
 	}
 
-	public void run() {
-		while (true) {
-			pause(1000);
-			moveMoles();
+	public void loadingScreen() {
+		GLabel instructions = new GLabel("CATCH THE MOLES!\nclick to begin...", 15, 200);
+		instructions.setColor(Color.BLACK);
+		instructions.setFont(new Font("Tahoma", Font.BOLD, 25));
+		this.add(instructions);
+		waitForClick();
+		this.remove(instructions);
+	}
 
-			if (deadMoleCount == 3)
-				status.setLabel("Game Over");
-		}
-
+	public void updateStatus() {
+		this.status.setLabel("Moles:   CAUGHT - " + deadMoleCount + "  ALIVE - " + moles.size());
 	}
 
 	public void drawMoles() {
-		mole1 = new GOval(MOLE_SIZE, MOLE_SIZE);
-		mole1.setFilled(true);
-		add(mole1, gen.nextInt(WIN_SIZE - MOLE_SIZE), gen.nextInt(WIN_SIZE - MOLE_SIZE));
+		for (int i = 0; i < NUM_MOLES; i++) {
+			generateMole();
+		}
+	}
 
-		mole2 = new GOval(MOLE_SIZE, MOLE_SIZE);
-		mole2.setFilled(true);
-		add(mole2, gen.nextInt(WIN_SIZE - MOLE_SIZE), gen.nextInt(WIN_SIZE - MOLE_SIZE));
+	public void generateMole() {
+		Mole mole = new Mole(gen.nextInt(WIN_SIZE - Mole.MOLE_WIDTH), gen.nextInt(WIN_SIZE - Mole.MOLE_WIDTH));
+		this.moles.add(mole);
+		this.add(mole);
+	}
 
-		mole3 = new GOval(MOLE_SIZE, MOLE_SIZE);
-		mole3.setFilled(true);
-		add(mole3, gen.nextInt(WIN_SIZE - MOLE_SIZE), gen.nextInt(WIN_SIZE - MOLE_SIZE));
-	}// end addMoles
+	public void moveMoles() {
+		for (Block b: moles) {
+         if(b instanceof Mole) {
+			   b.setLocation(gen.nextInt(WIN_SIZE - Mole.MOLE_WIDTH), gen.nextInt(WIN_SIZE - Mole.MOLE_WIDTH));
+		   }
+      }
+	}
 
 	public void mousePressed(MouseEvent e) {
 		// Grab x and y coordinates of mouse press
 		int x = e.getX();
 		int y = e.getY();
-		println(x + ", " + y);
+		System.out.println("clicked at " + x + ", " + y);
 
 		// Get the thing that was clicked on
 		GObject obj = getElementAt(x, y);
-		System.out.println(obj);
+		System.out.println("  ===> " + obj);
 
-		// If some oval was clicked
-		if (obj instanceof GOval) {
-			remove(obj);
-			deadMoleCount++;
-			status.setLabel("Dead Mole Count: " + deadMoleCount);
+		if (obj instanceof Mole) {
+			this.moles.remove(obj);
+			this.remove(obj);
+			this.deadMoleCount++;
+		} else {
+			generateMole();
 		}
-		moveMoles();
 	}
 
 	public static void main(String[] args) {
 		new WhackAMole().start(args);
 	}
-
-}// end class
+}
