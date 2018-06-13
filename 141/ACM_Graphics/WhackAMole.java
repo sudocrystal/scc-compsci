@@ -19,7 +19,7 @@ public class WhackAMole extends GraphicsProgram {
 	private static final int NUM_MOLES = 5;
 
 	// class variable
-	private static RandomGenerator gen;
+	private static Random gen;
 
 	// instance variables
 	private ArrayList <Block> moles;
@@ -30,8 +30,8 @@ public class WhackAMole extends GraphicsProgram {
 	public void init() {
 		this.setSize(WIN_SIZE, WIN_SIZE);
 		this.getGCanvas().setBackground(Color.GREEN.darker());
-		this.gen = new RandomGenerator();
-		this.moles = new ArrayList <Block>();
+		this.gen = new Random();
+		this.moles = new ArrayList<Block>();
 		this.deadMoleCount = 0;
 		this.status = new GLabel("", 5, WIN_SIZE - 25);
 		this.status.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -39,7 +39,7 @@ public class WhackAMole extends GraphicsProgram {
 		this.add(status);
 		updateStatus();
 		loadingScreen();
-		drawMoles();
+		addThings();
 		updateStatus();
 		this.addMouseListeners(); // this gives the program "ears"
 	}
@@ -48,14 +48,14 @@ public class WhackAMole extends GraphicsProgram {
 		// the game runs while there are moles to be caught
 		while (moles.size() > 0) {
 			this.pause(gen.nextInt(1000) + 500);
-			moveMoles();
+			moveThings();
 			updateStatus();
 		}
 		status.setLabel("GAME OVER! You caught " + deadMoleCount + " moles!");
 	}
 
 	public void loadingScreen() {
-		GLabel instructions = new GLabel("CATCH THE MOLES!\nclick to begin...", 15, 200);
+		GLabel instructions = new GLabel("CATCH THE MOLES! click to begin...", 15, 200);
 		instructions.setColor(Color.BLACK);
 		instructions.setFont(new Font("Tahoma", Font.BOLD, 25));
 		this.add(instructions);
@@ -67,7 +67,7 @@ public class WhackAMole extends GraphicsProgram {
 		this.status.setLabel("Moles:   CAUGHT - " + deadMoleCount + "  ALIVE - " + moles.size());
 	}
 
-	public void drawMoles() {
+	public void addThings() {
 		for (int i = 0; i < NUM_MOLES; i++) {
 			generateMole();
 		}
@@ -79,7 +79,7 @@ public class WhackAMole extends GraphicsProgram {
 		this.add(mole);
 	}
 
-	public void moveMoles() {
+	public void moveThings() {
 		for (Block b: moles) {
          if(b instanceof Mole) {
 			   b.setLocation(gen.nextInt(WIN_SIZE - Mole.MOLE_WIDTH), gen.nextInt(WIN_SIZE - Mole.MOLE_WIDTH));
@@ -104,6 +104,16 @@ public class WhackAMole extends GraphicsProgram {
 		} else {
 			generateMole();
 		}
+      
+      //easter egg for faster testing
+      if(x < 10 && y < 10) {
+         for(int i = 0; i < moles.size(); i++) {
+            if(moles.get(i) instanceof Mole) {
+               this.remove(moles.get(i));
+               this.moles.remove(moles.get(i));
+            }
+         }
+      }
 	}
 
 	public static void main(String[] args) {
