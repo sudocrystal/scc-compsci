@@ -1,6 +1,6 @@
-# Learning Objectives
+# Shoreline Computer Science Courses
 
-## [CS121](121/) Learning Outcomes and Objectives (Pre-CS1, CS0)
+## [CS121](121/) Introduction to Programming - Python (Pre-CS1, CS0)
 Outcomes:
 1. Identify and use programming language constructs such as sequence, selection, iteration, and procedures.
 1. Examine and explain syntax, semantics, and practical effects of programming statements and procedures.
@@ -19,7 +19,7 @@ Students should be able to:
 - _test_ and _debug_ code
 - investigate and adapt unfamiliar code
 
-## [CS141](141/) Learning Outcomes and Objectives (CS1)
+## [CS141](141/) Computer Science I - Java (CS1)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
@@ -36,7 +36,7 @@ Students should be able to:
 - _debug_ code
 - read and work with unfamiliar code
 
-## [CS143](143/) Learning Outcomes and Objectives (CS2)
+## [CS143](143/) Computer Science II - Java (CS2)
 Outcomes:
 1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
 1. Recognize and use coding patterns and programming language constructs such as sequence, selection, iteration, and procedures.
@@ -51,3 +51,10 @@ Students should be able to:
 - read and write _recursive methods_, including _recursive tracing_, _helper functions_, complex recursive solutions, and _recursive backtracking_
 - process data, including: _searching_ and _sorting_
 - analyze code in regards to _complexity_, _performance analysis_, and _dynamic memory management_
+
+## [CS190](190/) Computing and Society
+Outcomes:
+1. x
+
+Students should be able to:
+- x 
