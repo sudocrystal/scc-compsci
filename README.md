@@ -25,7 +25,7 @@ Optional:
 - Graphics
 
 ## [CS141](141/) Computer Science I - Java (CS1)
-This course will explore common computational problem-solving techniques useful to computer scientists, but also to anyone who has large data sets, repetitive processes or other needs for computation.
+This course will explore common computational problem-solving techniques useful to computer scientists, but also to anyone who has large data sets, repetitive processes or other needs for computation. Topics include: fundamental programming-in-the-small abilities and concepts, including procedural programming (methods, parameters, return, values), basic control structures (sequence, if/else, for loop, while loop), file processing, arrays, and an introduction to defining objects.
 
 Due to the amount of material and quick pace for consumption, prior programming experience is expected.
 
@@ -56,21 +56,31 @@ Optional:
 - Recursion
 
 ## [CS143](143/) Computer Science II - Java (CS2)
+This course is a continuation of Computer Science fundamentals. Topics include: a more in-depth look at object oriented programming, data abstraction and implementation, including ADTs (abstract data types), stacks, queues, linked lists, binary trees, predefined collection classes , recursion, complexity, searching and sorting.
 
 ### Outcomes
 1. **Design and implement solutions to ambiguous problems.**
-1. Analyze and explain syntax, semantics, and practical effects of programming statements and procedures.
-1. Recognize and use coding patterns and programming data structures such as lists, trees, stacks and queues.
-1. Recognize and use test cases to verify that solutions meet specifications.
-1. Analyze reasoning, design and effectiveness of alternative solutions.
+1. Read and write code using _Object Oriented Programming_ principles, including: _classes_, _Objects_, _encapsulation_, _inheritance_ and _interfaces_
+1. Implement, utilize, and compare _List_ implementations (_Array_ and _Node_)
+1. Implement, utilize, and compare _Collection_ interfaces and classes, including: _abstractions_ (_List_, _Set_, _Map_, _Stack_, _Queue_) and _implementations_ (_Hash Table_ and _Tree_)
+1. Read and write _recursive methods_, including _recursive tracing_ and _helper functions_
+1. Process data, including: _searching_ and _sorting_
+1. Analyze code in regards to _complexity_, _performance analysis_, and _dynamic memory management_
 
-### Students should be able to
-- read and write code using _Object Oriented Programming_ principles, including: _classes_, _Objects_, _encapsulation_, _inheritance_ and _interfaces_
-- implement, utilize, and compare _List_ implementations (_Array_ and _Node_)
-- implement, utilize, and compare _Collection_ interfaces and classes, including: _abstractions_ (_List_, _Set_, _Map_, _Stack_, _Queue_) and _implementations_ (_Hash Table_ and _Tree_)
-- read and write _recursive methods_, including _recursive tracing_, _helper functions_, complex recursive solutions, and _recursive backtracking_
-- process data, including: _searching_ and _sorting_
-- analyze code in regards to _complexity_, _performance analysis_, and _dynamic memory management_
+### Course Outline and Topics
+1. Collections
+1. Recursion
+1. Searching and Sorting
+1. Stacks and Queues
+1. Implementing a Collections class
+1. Linked Lists
+1. Binary Trees
+
+Optional:
+- Specific language features to facilitate key topics
+- Graphical user interfaces
+- Recursive backtracking
+- Functional programming
 
 ## [CS190](190/) Computing and Society
 
