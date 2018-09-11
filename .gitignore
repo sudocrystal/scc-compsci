@@ -1,3 +1,5 @@
 # Ignore these files
 .DS_Store
 .class
+~*.docx
+~*.doc
