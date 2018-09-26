@@ -19,13 +19,18 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 | [Module 09](#Module-9)  | Edison Robots
 
 ## Module 1
+
 + Introduction to class
   - Information to Waitlisted students
   - Introduce Self
   - Syllabus
-  - Student Introductions
+  - Student Introductions (groups of 4: 1. name 2. prior technical exp - expectation is no programming 3. interesting thing about you)
   - Where to find things in canvas
   - WK 1 Quiz
+  - Crystal-isms:
+    - This is a collaborative environment. You will talk to each other (vocabulary usage, industry is collaborative, it's more fun when we help each other)
+    - Utilize office hours. I want to help students, but it has to be a two-way street.
+    - Panopto Recordings are not a sustainable substitute for being in class.
 + Hardware Basics
   - Notes: Hardware
   - Activity: 1 page guide to buying a computer (encourage use of Google Docs)
@@ -134,6 +139,8 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 + (Friday Lesson - Online Video)
   - ???
 
+<!-- STILL NEED TO RESTRUCTURE THE REST...
+
 ## Module 8
 + Lists
   - Lecture
@@ -165,3 +172,5 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 
 ## Final Project
 + Presenting Project
+
+-->
