@@ -2,22 +2,23 @@
 
 ## At a Glance
 
-| Week                | Topic
+Each module is approximately 1 week (5 day for daily, 4 for hybrid, 2 for block), except for the last Module (Robots) which is intended to cover two weeks time.
+
+In the following Module notes, each top-level bullet is supposed to represent a 50-minute class.
+
+| Module                | Topic
 |---------------------|-----------------------------------------
-| [Week 01](#week-1)  | Introduction to Computing
-| [Week 02](#week-2)  | Variables, Expressions, Statements
-| [Week 03](#week-3)  | Functions, Decisions
-| [Week 04](#week-4)  | Testing, Logical Operators
-| [Week 05](#week-5)  | Midterm 1, Repetition, Debugging
-| [Week 06](#week-6)  | Pseudocode, String Operations
-| [Week 07](#week-7)  | Unfamiliar, Lists
-| [Week 08](#week-8)  | Classes, Midterm 2
-| [Week 09](#week-9)  | Edison Robots
-| [Week 10](#week-10) | Edison Robots
+| [Module 01](#Module-1)  | Introduction to Computing
+| [Module 02](#Module-2)  | Variables, Expressions, Statements
+| [Module 03](#Module-3)  | Functions, Decisions
+| [Module 04](#Module-4)  | Testing, Logical Operators
+| [Module 05](#Module-5)  | Midterm 1, Repetition, Debugging
+| [Module 06](#Module-6)  | Pseudocode, String Operations
+| [Module 07](#Module-7)  | Unfamiliar, Lists
+| [Module 08](#Module-8)  | Classes, Midterm 2
+| [Module 09](#Module-9)  | Edison Robots
 
-Each bullet is a day.
-
-## Week 1 
+## Module 1
 + Introduction to class
   - Information to Waitlisted students
   - Introduce Self
@@ -27,20 +28,20 @@ Each bullet is a day.
   - WK 1 Quiz
 + Hardware Basics
   - Notes: Hardware
-  - Activity: 1 page guide to buying a computer
-+ Data Basics
-  - 15 minutes to complete buying computer summary (or delegate)
+  - Activity: 1 page guide to buying a computer (encourage use of Google Docs)
+  - HW: Complete buying computer summary
++ (Friday Lesson - Online Video) Data Basics
   - Notes: Data/Binary
 + Algorithms
   - Notes: Algorithms
   - Activity: robot maze instructions
-  - HW: Week 2 quiz
+  - HW: WK 2 quiz
 
-## Week 2
+## Module 2
 + Hello World
   - Notes: How to Google & its importance
-  - Notes: Hello World, Comments, EscapeSeqs
-  - (Talk about ASCII and \\ weirdness)
+  - Notes: Hello World, Comments, Escape Seqs
+  - (Talk about ASCII and \\ weirdness in Python)
   - Lab: ASCII Art
 + Types, Operators, Expressions
   - Lecture
@@ -49,11 +50,11 @@ Each bullet is a day.
   - review predicting the result
   - Lecture
   - Activity: Predicting the result
-+ Lab Time
++ (Friday Lesson - Online Video) Lab Time
   - Review predicting the result
   - Lab: Madlibs
 
-## Week 3
+## Module 3
 + Control Flow
   - Share Mablibs with peer, discuss one thing that was hard or cool :)
   - Lecture: Control Flow, simple functions
@@ -64,13 +65,13 @@ Each bullet is a day.
 + Lab Time
   - Review predicting the result
   - HW: Nursery Rhymes
-+ Lab Time
-  - Nursery Rhymes
 + Decisions
   - Lecture: Conditional Operators, If Statements
   - Predict the Result
++ (Friday Lesson - Online Video) Lab Time
+  - Nursery Rhymes - Complete and Partnered Online Review Activity
 
-## Week 4
+## Module 4
 + Functions
   - go over Predicting problems which are similar to assignment for the day except PRINT instead of RETURN
   - Lecture: Functions with Return statements
@@ -81,18 +82,15 @@ Each bullet is a day.
 + Practice with functions (partner activity)
   - Practice with Functions
   - Midterm Review Study Guide Posted
-<!--
-+ More Practice with Functions
-  - Review some of first and give time to complete
--->
 + Fixing Broken Code that you didn't write
   - Grade Calculator
-+ NO CLASS - Day of Learning
++ (Friday Lesson - Online Video) Code Review
+  - Partnered Assignment online to share/code review assignments from the week
 
-## Week 5
+## Module 5
 + Live code
   - Coffee Stand
-  - HW: Super Sale (due end of week)
+  - HW: Super Sale (due end of Module)
 + Midterm \#1
   - Midterm in class
 + Turtle Graphics
@@ -100,10 +98,10 @@ Each bullet is a day.
   - My Turtle House
 + Turtle Graphics - intro to loops
   - Fancy Turtle House
-+ Repetition
-  - Turtle Loops
++ (Friday Lesson - Online Video) Repetition
+  - Turtle Loops (figure out something to do with online partners)
 
-## Week 6
+## Module 6
 + for and while Loops
   - Lecture: for and while loops
   - Predicting the Result
@@ -116,11 +114,11 @@ Each bullet is a day.
 + More Lab Practice
   - What is Pseudocode?
   - Election Program (partnered)
-+ More Loop Practice
++ (Friday Lesson - Online Video) More Loop Practice
   - Finish Election Program
   - Individual Homework: Cookie Time
 
-## Week 7
+## Module 7
 + String Operations
   - Lecture
   - Activity
@@ -133,9 +131,10 @@ Each bullet is a day.
 + Account Generator
   - Account Generator (Partner Activity)
   - HW: MatchMaker
-+ Multicultural Week Panel
++ (Friday Lesson - Online Video)
+  - ???
 
-## Week 8
+## Module 8
 + Lists
   - Lecture
   - Activity
@@ -150,7 +149,7 @@ Each bullet is a day.
   - Holiday Shopping Continued
   - Lab: GPA Reporter
 
-## Week 9
+## Module 9
 + NO CLASS - Labor Day
 + NO CLASS - Crystal takes a personal day
 + Robot Introduction / Study Questions
@@ -158,10 +157,10 @@ Each bullet is a day.
 + Midterm \#2 (Friday?)
   - MC Exam
 
-## Week 10
+## Module 10
 + EdPy Lessons 6-9 (optional 10)
 
-## Week 11 (4 days)
+## Module 11 (4 days)
 + Project Work
 
 ## Final Project
