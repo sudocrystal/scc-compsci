@@ -33,7 +33,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
     - Panopto Recordings are not a sustainable substitute for being in class.
 + Hardware Basics
   - Notes: Hardware
-  - Activity: 1 page guide to buying a computer (encourage use of Google Docs)
+  - Activity: 1 page guide to buying a computer (teach use of Google Docs)
   - HW: Complete buying computer summary
 + (Friday Lesson - Online Video) Data Basics
   - Notes: Data/Binary
