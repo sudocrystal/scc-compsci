@@ -1,17 +1,16 @@
 # Day 02/20
 
-+ HW Reflection
++ HW Reflection (egg2 problem)
++ Review Exercise: Cake
+  - With a partner, analyze the expected output and complete the program
++ Finding feedback on HW #0: go through grades page, rubric & "view feedback"
++ Explain Homework #1: Cumulative Song
+  - due Sunday but Early Submissions by Friday at noon
 + Things we should know
   - class declaration
   - main method declaration
   - printing to the screen
   - defining and calling a method
-+ Practice Reflection Discussion - Egg2
-  - Do individually and then discuss
-+ Review Exercise: Cake
-  - With a partner, analyze the expected output and complete the program
-+ Finding feedback on HW #0: go through grades page
-+ Explain Homework #1: Cumulative Song
 + Lecture
   - Literals
   - Data Types
