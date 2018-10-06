@@ -26,6 +26,7 @@
 ## Check your classroom for
 - [ ] Appropriate software (IDE, etc)
 - [ ] Enough seats for number of students
+- [ ] Knowing how to lock/unlock the door using the hex wrench
 
 ## People to Know
 - Crystal, Tenure-track CS
