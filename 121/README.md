@@ -71,11 +71,11 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 + Lab Time
   - Review predicting the result
   - HW: Nursery Rhymes
-+ Decisions
++ Lab Time
+  - Nursery Rhymes - Complete and Partnered Online Review Activity
++ (Friday Lesson - Online Video) Decisions
   - Lecture: Conditional Operators, If Statements
   - Predict the Result
-+ (Friday Lesson - Online Video) Lab Time
-  - Nursery Rhymes - Complete and Partnered Online Review Activity
 
 ## Module 4
 + Functions
