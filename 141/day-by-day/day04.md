@@ -4,9 +4,9 @@
 + Things we should know
   - using a systematic approach to breaking down repetitive ascii art
   - using methods to repeat larger structures
-+ Review Exercise:
++ Partner Review Exercise:
   - numberTri and/or hourglass
-+ Explain Homework #2: Rocket Ship
++ Explain Homework #2: Repeating Ascii Art
   - Rocket Ship Part
     - Reduce Redundancy in a single line by using nested loops
     - Reduce Redundancy in structure with methods
@@ -16,6 +16,8 @@
     - information for processing: parameter vs argument
     - ordering and Types
     - overloading
+      - do PracticeIt Self-Check 3.6
+    - Value semantics (`add10`)
   - Return Types
     - void / something else
     - return statements
@@ -88,6 +90,9 @@ public class Day04ParametersObjects {
 
    public static void main(String[] args) {
       methodsWithParams();
+      //double value = 14;
+      //add10(value);
+      //System.out.println("After method, value is " + value);
       //ten();
       //quadratic(1, -7, 12);       // 4.0, 3.0
       //quadratic(1, 3, 2);         // -1.0, -2.0
@@ -231,6 +236,9 @@ public class Day04ParametersObjects {
 
    public static void main(String[] args) {
       //methodsWithParams();
+      //double value = 14;
+      //add10(value);
+      //System.out.println("After method, value is " + value);
       //int x = ten();
       //System.out.println("x = " + x);
       //quadratic(1, -7, 12); // 4.0, 3.0
@@ -260,6 +268,12 @@ public class Day04ParametersObjects {
    // this method overloads "love" for 2 parameters
    public static void love(String fave, int num) {
       System.out.println("I love " + fave + " " + num + " times more than anything else in the world!");
+   }
+
+   // this method adds 10 to the parameter value, ONLY IN THIS METHOD
+   public static void add10(double val) {
+      val += 10;
+      System.out.println("Inside method, value is " + val);
    }
 
    // this method should return the int literal 10
