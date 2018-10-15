@@ -81,6 +81,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 + Functions
   - go over Predicting problems which are similar to assignment for the day except PRINT instead of RETURN
   - Lecture: Functions with Return statements
+  - Number Evaluation (done mostly in class)
 + Modules
   - review Number Evaluation
   - Lecture: math and random
