@@ -91,13 +91,13 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Midterm Review Study Guide Posted
 + Fixing Broken Code that you didn't write
   - Grade Calculator
-+ (Friday Lesson - Online Video) Code Review
-  - Partnered Assignment online to share/code review assignments from the week
++ (Friday Lesson - Online Video) Live code
+  - Coffee Stand
+  - HW: Super Sale (due end of Monday)
 
 ## Module 5
-+ Live code
-  - Coffee Stand
-  - HW: Super Sale (due end of Module)
++ Code Review
+  - Partnered Assignment online to share/code review assignments from the week
 + Midterm \#1
   - Midterm in class
 + Turtle Graphics
