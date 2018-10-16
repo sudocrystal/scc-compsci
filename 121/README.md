@@ -83,12 +83,13 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Lecture: Functions with Return statements
   - Number Evaluation (done mostly in class)
 + Modules
+  - Midterm Review Study Guide Posted
   - review Number Evaluation
-  - Lecture: math and random
+  - Practice with Functions (First two problems)
   - Quiz
 + Practice with functions (partner activity)
-  - Practice with Functions
-  - Midterm Review Study Guide Posted
+  - Lecture: math and random
+  - Practice with Functions ("complete")
 + Fixing Broken Code that you didn't write
   - Grade Calculator
 + (Friday Lesson - Online Video) Live code
