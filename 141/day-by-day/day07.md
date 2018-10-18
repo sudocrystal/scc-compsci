@@ -1,6 +1,7 @@
 # Day 07/20
 
 + HW Reflection
+  - && and ||
 + Midterm soon!
 + Go over Candy machine
   - printf
@@ -8,6 +9,7 @@
 + Lecture
   - fence post problem
   - while loops
+    - use the debugger
   - do-while loops
 + Learning Practice
   - Self-Check
