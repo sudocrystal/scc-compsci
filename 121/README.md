@@ -8,17 +8,17 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 
 | Module                | Topic
 |---------------------|-----------------------------------------
-| [Module 01](#Module-1)  | Introduction to Computing
-| [Module 02](#Module-2)  | Variables, Expressions, Statements
-| [Module 03](#Module-3)  | Functions, Decisions
-| [Module 04](#Module-4)  | Testing, Logical Operators
-| [Module 05](#Module-5)  | Midterm 1, Repetition, Debugging
-| [Module 06](#Module-6)  | Pseudocode, String Operations
-| [Module 07](#Module-7)  | Unfamiliar, Lists
-| [Module 08](#Module-8)  | Classes, Midterm 2
-| [Module 09](#Module-9)  | Edison Robots
+| [Module 01](#Week-1)  | Introduction to Computing
+| [Module 02](#Week-2)  | Variables, Expressions, Statements
+| [Module 03](#Week-3)  | Functions, Decisions
+| [Module 04](#Week-4)  | Testing, Logical Operators
+| [Module 05](#Week-5)  | Midterm 1, Repetition, Debugging
+| [Module 06](#Week-6)  | Pseudocode, String Operations
+| [Module 07](#Week-7)  | Unfamiliar, Lists
+| [Module 08](#Week-8)  | Classes, Midterm 2
+| [Module 09](#Week-9)  | Edison Robots
 
-## Module 1
+## Week 1
 
 + Introduction to class
   - Information to Waitlisted students
@@ -43,7 +43,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Activity: robot maze instructions
   - HW: WK 2 quiz
 
-## Module 2
+## Week 2
 + Hello World
   - Notes: How to Google & its importance
   - Notes: Hello World, Comments, Escape Seqs
@@ -60,7 +60,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Review predicting the result
   - Lab: Madlibs
 
-## Module 3
+## Week 3
 + Control Flow
   - Share Mablibs with peer, discuss one thing that was hard or cool :)
   - Lecture: Control Flow, simple functions
@@ -77,7 +77,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Lecture: Conditional Operators, If Statements
   - Predict the Result
 
-## Module 4
+## Week 4
 + Functions
   - go over Predicting problems which are similar to assignment for the day except PRINT instead of RETURN
   - Lecture: Functions with Return statements
@@ -96,7 +96,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Coffee Stand
   - HW: Super Sale (due end of Monday)
 
-## Module 5
+## Week 5
 + Code Review
   - Partnered Assignment online to share/code review assignments from the week
 + Midterm \#1
@@ -106,30 +106,29 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - My Turtle House
 + Turtle Graphics - intro to loops
   - Fancy Turtle House
+  - Optional: Turtle Loops
 + (Friday Lesson - Online Video) Repetition
-  - Turtle Loops (figure out something to do with online partners)
-
-## Module 6
-+ for and while Loops
   - Lecture: for and while loops
   - Predicting the Result
+
+## Week 6
 + Lab Time
   - Lab: Nursery Rhymes Continued (partnered)
-  - Fixing Loops (HW)
-+ Discuss assignments from yesterday
-  - Review Fixing Loops
+  - Quiz 6
++ Lab Time
   - Time to complete nursery rhymes together
+  - Fixing Loops (HW)
 + More Lab Practice
   - What is Pseudocode?
   - Election Program (partnered)
-+ (Friday Lesson - Online Video) More Loop Practice
++ More Loop Practice
   - Finish Election Program
   - Individual Homework: Cookie Time
-
-## Module 7
-+ String Operations
++ (Friday Lesson - Online Video) String Operations
   - Lecture
   - Activity
+
+## Week 7
 + Strings in Loops
   - Lecture
   - String Manipulation; together and OYO
@@ -144,7 +143,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 
 <!-- STILL NEED TO RESTRUCTURE THE REST...
 
-## Module 8
+## Week 8
 + Lists
   - Lecture
   - Activity
@@ -159,7 +158,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Holiday Shopping Continued
   - Lab: GPA Reporter
 
-## Module 9
+## Week 9
 + NO CLASS - Labor Day
 + NO CLASS - Crystal takes a personal day
 + Robot Introduction / Study Questions
@@ -167,10 +166,10 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 + Midterm \#2 (Friday?)
   - MC Exam
 
-## Module 10
+## Week 10
 + EdPy Lessons 6-9 (optional 10)
 
-## Module 11 (4 days)
+## Week 11 (4 days)
 + Project Work
 
 ## Final Project
