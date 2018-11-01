@@ -4,7 +4,8 @@ import java.util.*;
 public class Day11FileProcessing {
   public static void main(String[] args) throws FileNotFoundException {
 		Scanner numFile = new Scanner(new File("numbers.txt"));
-		echo10(numFile);
+
+    echo10(numFile);
 		//echoAll(numFile);
 		//sumAll(numFile);
 		//System.out.println("Are all tokens increasing? " + isIncreasing(numFile));
