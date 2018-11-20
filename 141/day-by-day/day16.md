@@ -7,8 +7,8 @@
     - name, species, primary and secondary breed
     - fields, constructor, toString, accessors, mutators
   - PetTester.java
-    - Pet p
-    - Pet[] pets
+    - ```Pet p```
+    - ```Pet[] pets```
 + Lecture - Part 2
   - What is a CSV file?
   - How does loadInput work?
@@ -17,14 +17,15 @@
     - ```new PetLicense```
     - ```data[i++]``` / post-fix notation
   - What's in PetLicense.java
-    - getName
-    - toString
-    - getZip, setZip
+    - Write these:
+      - ```getName```
+      - ```toString```
+      - ```getZip, setZip```
   - Day16MoreOOP.java
-    - Write findByName
-      - contains
-      - toLowerCase() and stringing together of dot notation
-      - NullPointerException in the array
+    - Write ```findByName```
+      - ```contains```
+      - ```toLowerCase()``` and stringing together of dot notation
+      - ```NullPointerException``` in the array
 + Partnered Exercise
   - Do something else interesting with the program!
 + Learning Practice
@@ -74,18 +75,27 @@ public class Day16MoreOOP {
       int i = 0;
 
       while(in.hasNextLine()) {
-         String row = in.nextLine();
-         String[] rowData = row.split(",");
-         if(rowData.length == 7 && rowData[6].length() == 5
-            && !rowData[6].replace(" ","").equals("") && !Character.isLetter(rowData[1].charAt(0))) {
-            //System.out.println(Arrays.toString(rowData));
-            int license = Integer.parseInt(rowData[1]);
-            int zip = Integer.parseInt(rowData[6]);
-            data[i++] = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
-         }
-         else {
+        // get one row of input from the data file
+        String row = in.nextLine();
+
+        // use String.split() to separate out the data by commas
+        String[] rowData = row.split(",");
+
+        // make sure that the data is "clean" for processing
+        if(rowData.length == 7 && rowData[6].length() == 5
+           && !rowData[6].replace(" ","").equals("") && !Character.isLetter(rowData[1].charAt(0))) {
+           //System.out.println(Arrays.toString(rowData));
+
+           // turn the ID and zip from string to int
+           int license = Integer.parseInt(rowData[1]);
+           int zip = Integer.parseInt(rowData[6]);
+
+           // create a new PetLicense object with all the data provided
+           data[i++] = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
+        }
+        else {
             //System.out.println("bad data field(s): " + Arrays.toString(rowData));
-         }
+        }
       }  
       return data;
    }
@@ -288,13 +298,22 @@ public class Day16MoreOOP {
       int i = 0;
 
       while(in.hasNextLine()) {
+         // get one row of input from the data file
          String row = in.nextLine();
+
+         // use String.split() to separate out the data by commas
          String[] rowData = row.split(",");
+
+         // make sure that the data is "clean" for processing
          if(rowData.length == 7 && rowData[6].length() == 5
             && !rowData[6].replace(" ","").equals("") && !Character.isLetter(rowData[1].charAt(0))) {
             //System.out.println(Arrays.toString(rowData));
+
+            // turn the ID and zip from string to int
             int license = Integer.parseInt(rowData[1]);
             int zip = Integer.parseInt(rowData[6]);
+
+            // create a new PetLicense object with all the data provided
             data[i++] = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
          }
          else {
