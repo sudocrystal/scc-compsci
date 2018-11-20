@@ -31,13 +31,22 @@ public class Day16MoreOOP {
       int i = 0;
 
       while(in.hasNextLine()) {
+         // get one row of input from the data file
          String row = in.nextLine();
+
+         // use String.split() to separate out the data by commas
          String[] rowData = row.split(",");
+
+         // make sure that the data is "clean" for processing
          if(rowData.length == 7 && rowData[6].length() == 5
             && !rowData[6].replace(" ","").equals("") && !Character.isLetter(rowData[1].charAt(0))) {
             //System.out.println(Arrays.toString(rowData));
+
+            // turn the ID and zip from string to int
             int license = Integer.parseInt(rowData[1]);
             int zip = Integer.parseInt(rowData[6]);
+
+            // create a new PetLicense object with all the data provided
             data[i++] = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
          }
          else {
