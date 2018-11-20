@@ -121,25 +121,29 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 + More Lab Practice
   - What is Pseudocode?
   - Election Program (partnered)
-+ More Loop Practice
++ Lab Time
   - Finish Election Program
+  - Discussion of Comparing code
   - Individual Homework: Cookie Time
 + (Friday Lesson - Online Video) String Operations
   - Lecture
-  - Activity
+  - Analyze the Code (strings)
 
 ## Week 7
 + Strings in Loops
-  - Lecture
+  - Activity:
   - String Manipulation; together and OYO
 + CodingBat: Strings
   - Snow day made me change plans for this day to coding bat
   - Quiz
 + Account Generator
   - Account Generator (Partner Activity)
++ Lab Time
+  - Discussion of Comparing code
   - HW: MatchMaker
-+ (Friday Lesson - Online Video)
-  - ???
++ (Friday Lesson - Online Video) Lists
+  - Lecture
+  - Analyze the Code (lists)
 
 <!-- STILL NEED TO RESTRUCTURE THE REST...
 
