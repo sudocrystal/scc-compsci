@@ -14,8 +14,8 @@ public class Point {
 
    // fields/instance variables: (combined make up the object's state)
    // should be private and declared (but not initialized)
-   int x;
-   int y;
+   private int x;
+   private int y;
 
    // constructors: allow you to create an Object from this class
    // no return type, same name as the class, initalize all fields
@@ -28,10 +28,6 @@ public class Point {
    // accessors: allow you to access a field of an Object's state
    // use "get", return a field's value, no params
    public int getX() {
-      return 0;
-   }
-
-   public int getY() {
       return 0;
    }
 
@@ -54,7 +50,7 @@ public class Point {
 
    // toString: allows you to print out the state of an Object
    // must return a string, should NOT have System.out.println here
-   public String toString() {
-      return "";
-   }
+  //  public String toString() {
+  //     return "";
+  //  }
 }
