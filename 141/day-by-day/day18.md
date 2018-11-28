@@ -10,7 +10,7 @@
   - Limitations of Arrays
     - fixed size
     - adding, deleting, shifting can be tedious
-  - ArrayList
+  - ArrayList Benefits
     - auto sizing expansion
     - .size() gives elements actually in the list, not the capacity
     - methods for inserting, deleting, and searching
@@ -20,20 +20,15 @@
   - ```import java.util.ArrayList```
   - ```ArrayList<Integer> list = new ArrayList<Integer>();```
   - ArrayList methods
-    - add(x), toString(), size(), add(i,x), remove(i), clear(), get(i), set(i,x), indexOf(x), -1 if not found
-  - Problems
-    - duplicateList
-      - Ex 10.4 doubleList
-    - maxToEnd
-      - Ex 10.6 minToFront
-    - maxLength
-      - Ex 10.3 removeEvenLength
-      - removing in a for-loop needs to account for reindexing
+    - `add(x)`, `toString()`, `size()`, `add(i,x)`, `get(i)`, `set(i,x)`, `indexOf(x)` returns -1 if not found, `remove(i)`, `clear()`
+  - Problems in class
 + Learning Practice
   - Self-Check
     - All 6 Self-Check problems
   - Exercises
-    - Exercise 10.2
+    - Exercise 10.3
+    - Exercise 10.4
+    - Exercise 10.6
     - Exercise 10.7
     - Exercise 10.12
     - Exercise 10.14
@@ -50,11 +45,13 @@ public class Day18ArrayList {
 	public static void main(String[] args) {
       learnArrayList();
 
-//       ArrayList<Integer> values = createList(5,200);
+//       Random r = new Random();
+//       ArrayList<Integer> values = createList(r,5,200);
 //       System.out.println("initial values = " + values);
 //       
-//       //duplicateList(values);
+//       duplicateList(values);
 //       //maxToEnd(values);
+//       //removeOdd(values);
 //       
 //       System.out.println("values = " + values);
 
@@ -76,13 +73,13 @@ public class Day18ArrayList {
       nums.add(2);
 
       System.out.println("nums contains = " + nums);
-		  System.out.println("# of elements = " + nums.size());
+		System.out.println("# of elements = " + nums.size());
    }
 
    // this method should create a list of 'numElements' number of ints
    // where each int is a random number between 1 and 'high'
    // e.g. createList(3,15) might return [13, 1, 9]
-   public static ArrayList<Integer> createList(int numElements, int high) {
+   public static ArrayList<Integer> createList(Random r, int numElements, int high) {
       return null;
    }
 
@@ -96,6 +93,10 @@ public class Day18ArrayList {
 	// e.g. [1,29,54,2] ==> [1,29,2,54]
 	public static void maxToEnd(ArrayList<Integer> list) {
 	}
+
+   // remove all odd value elements (not odd indexed) in list
+   public static void removeOdd(ArrayList<Integer> list) {
+   }
 
    // this method returns a list of Strings
    public static ArrayList<String> createWordList() {
@@ -141,13 +142,14 @@ public class Day18ArrayList {
 //       System.out.println("initial values = " + values);
 //       
 //       //duplicateList(values);
-//       maxToEnd(values);
+//       //maxToEnd(values);
+//       removeOdd(values);
 //       
 //       System.out.println("values = " + values);
 
     ArrayList<String> words = createWordList();
     System.out.println("words contains " + words);
-    
+
 //     int len = maxLength(words);
 //     System.out.println("highest # of chars = " + len);
 
@@ -170,10 +172,10 @@ public class Day18ArrayList {
 
       System.out.println("nums contains = " + nums);
 		System.out.println("# of elements = " + nums.size());
-      
+
       for(int i = 0; i < nums.size(); i++)
          System.out.println(nums.get(i));
-      
+
       for(int x : nums)
          System.out.println(x);
    }
@@ -209,10 +211,26 @@ public class Day18ArrayList {
 	// e.g. [1,29,54,2] ==> [1,29,2,54]
 	public static void maxToEnd(ArrayList<Integer> list) {
       int max = list.get(0); //Integer.MIN_VALUE;
-      for(int x : list) 
+      for(int x : list)
          max = Math.max(max,x);
       list.add(list.remove(list.indexOf(max)));
 	}
+
+  // remove all odd value elements (not odd indexed) in list
+  public static void removeOdd(ArrayList<Integer> list) {
+      // for(int i = 0; i < list.size(); i++) {
+      //     if(list.get(i) % 2 == 1) {
+      //        list.remove(i);
+      //        i--;
+      //     }
+      // }
+
+      for(int i = list.size() - 1; i >= 0; i--) {
+         if(list.get(i) % 2 == 1) {
+             list.remove(i);
+         }
+      }
+  }
 
    // this method returns a list of Strings
    public static ArrayList<String> createWordList() {
