@@ -21,7 +21,7 @@ def gpa(decimal):
            65 : 1.8, 64 : 1.7, 63 : 1.6, 62 : 1.6, 61 : 1.5, 60 : 1.5,
            59 : 1.4, 58 : 1.4, 57 : 1.3, 56 : 1.3, 55 : 1.2, 54 : 1.2,
            53 : 1.1, 52 : 1.1, 51 : 1.0, 50 : 1.0, 49 : 0.9}
-    
+
     # returns the gpa, 0.0 if not in the map
     return map.get(decimal) if decimal in map else 0.0
 
@@ -30,9 +30,9 @@ def process(file,output):
     out = open(output,'w')
     class_gpa = []
     bell = [0,0,0,0,0]
-    
+
     # opens the input file (file)
-    with open(file, newline='') as csvfile:
+    with open(file, 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         # writes the header row
         out.write('GPA,NAME,DECIMAL\n')
@@ -41,17 +41,17 @@ def process(file,output):
             student = row['Student']
             #print(student)
             # as long as it's not the weird extra row
-            if student != "" and student.find("Points") == -1 and student != "Test Student":               
-                grade = float(row['Final Score'])
+            if student != "" and student.find("Points") == -1 and student != "Test Student":
+                grade = float(row['Current Score'])
                 if grade > 100:
                     grade = 100
                 # rounds and int's the decimal grade for lookup using gpa function
                 gpa_grade = '{0:.2}'.format(gpa(int(round(grade))))
                 # prints to screen
-                print(gpa_grade, '\t', grade, '\t', student)
+                print(str(gpa_grade) + '\t' + str(grade) + '\t' + student)
                 # writes to output file
                 out.write(gpa_grade + ',' + student + ',' + str(grade) + '\n')
-                
+
                 # calculates class stats
                 class_gpa += [float(gpa_grade)]
                 if grade >= 90:
@@ -75,11 +75,11 @@ def process(file,output):
     out.write("\n,Ds," + str(bell[3]))
     out.write("\n,Fs," + str(bell[4]))
     out.close()
-        
+
 #---------------------------
 for file in os.listdir('.'):
     if file.endswith('.csv') and file.startswith('GRADE_REPORT_') == False:
         output = 'GRADE_REPORT_' + file[file.index('-')+1:].replace('_','')
-        print('Processing',file)
+        print('Processing: ' + file)
         process(file, output)
-        print()
+        print("\n")
