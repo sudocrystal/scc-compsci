@@ -34,14 +34,15 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 + Hardware Basics
   - Notes: Hardware
   - Activity: 1 page guide to buying a computer (teach use of Google Docs)
-  - HW: Complete buying computer summary (they basically had no time to do this in class)
-+ (Friday Lesson - Online Video) Data Basics
-  - Complete Buying a Computer Assignment with partner offline
-  - Notes: Data/Binary
++ Hardware Basics
+  - Complete buying computer summary
 + Algorithms
   - Notes: Algorithms
   - Activity: robot maze instructions
   - HW: WK 2 quiz
++ (Friday Lesson - Online Video) Data Basics
+  - Complete Buying a Computer Assignment with partner offline
+  - Notes: Data/Binary
 
 ## Week 2
 + Hello World
