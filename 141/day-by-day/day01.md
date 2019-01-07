@@ -28,7 +28,7 @@
     - Defining
     - Calling
 + Learning Practice
-  Talk about the importance of actually practicing material
+  - Talk about the importance of actually practicing material
   - Self-Check
     - Self-Check 1.5
     - Self-Check 1.7 - 1.14
