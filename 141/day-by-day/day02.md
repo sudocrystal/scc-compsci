@@ -5,7 +5,7 @@
   - With a partner, analyze the expected output and complete the program
 + Finding feedback on HW #0: go through grades page, rubric & "view feedback"
 + Explain Homework #1: Cumulative Song
-  - due Sunday but Early Submissions by Friday at noon
+  - go over Early Submission idea
 + Things we should know
   - class declaration
   - main method declaration
