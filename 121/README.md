@@ -57,16 +57,16 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - review predicting the result
   - Lecture
   - Activity: Predicting the result
-+ (Friday Lesson - Online Video) Lab Time
++ Lab Time
   - Review predicting the result
   - Lab: Madlibs
-
-## Week 3
-+ Control Flow
-  - Share Mablibs with peer, discuss one thing that was hard or cool :)
++ (Friday Lesson - Online Video) Control Flow
   - Lecture: Control Flow, simple functions
   - WK 3 Quiz
+
+## Week 3
 + Functions
+  - Share Mablibs with peer, discuss one thing that was hard or cool :)
   - Lecture: Functions + Parameters, Arguments
   - Activity: Predicting the result
 + Lab Time
