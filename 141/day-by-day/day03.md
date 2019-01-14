@@ -9,6 +9,9 @@
     - can't be reassigned
   + Nested Loops
     - systematic approach
+      - multiplier * line + shift
+      - multiplier is calculated as change between rows
+      - shift is the amount needed after (m * line) to get example cases
     - multiple items on the same line (row)
     - scaling with a constant
 + Learning Practice
@@ -73,7 +76,7 @@ public class Day03ForLoops {
    }
 
    // This is PracticeIt Exercise 2.22 which produces:
-   /*
+   /* (size is 7)
       $$$$$$$**************$$$$$$$
       **$$$$$$************$$$$$$**
       ****$$$$$**********$$$$$****
@@ -90,6 +93,11 @@ public class Day03ForLoops {
    }
 
    // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
+   /* (size is 3)
+      $$$******$$$
+      **$$****$$**
+      ****$**$****
+   */
    public static void dollarFigure2() {
    }
 }
@@ -222,6 +230,11 @@ public class Day03ForLoops {
    }
 
    // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
+   /* (size is 3)
+      $$$******$$$
+      **$$****$$**
+      ****$**$****
+   */
    public static void dollarFigure2() {
       for(int line = 1; line <= SIZE; line++) {
          for(int star = 1; star <= 2 * line - 2; star++) {
