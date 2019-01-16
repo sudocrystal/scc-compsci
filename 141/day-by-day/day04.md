@@ -7,10 +7,9 @@
 + Partner Review Exercise:
   - numberTri and/or hourglass
 + Explain Homework #2: Repeating Ascii Art
-  - Rocket Ship Part
-    - Reduce Redundancy in a single line by using nested loops
-    - Reduce Redundancy in structure with methods
-    - Class constant for size
+  - Reduce Redundancy in a single line by using nested loops
+  - Reduce Redundancy in structure with methods
+  - Class constant for size
 + Lecture
   - Parameters
     - information for processing: parameter vs argument
