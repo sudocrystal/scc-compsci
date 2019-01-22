@@ -2,10 +2,12 @@
 
 + HW Reflection
 + Lecture
+  - review from last class with `repeatPhrase()`
   - User Input
     - nextInt
     - nextDouble
     - next
+  - `repeatPhrase(console)`
   - Decisions
     - relational operators
       - ==, .equals, !=, !.equals, <, >, <=, >=
@@ -40,16 +42,25 @@ import java.util.Scanner;
 public class Day05InputDecisions {
 
    public static void main(String[] args) {
-      // creates a Scanner object called console for User Input
-      Scanner console = new Scanner(System.in);
-
       repeatPhrase();
+
+//       // creates a Scanner object called console for User Input
+//       Scanner console = new Scanner(System.in);
+//       learningUserInput(console);
+
 //       repeatPhrase(console);
+
+//       learningIfStatements();
 
 //       double finalPercentage = calcGrade(console);
 //       System.out.println("Expected Final Grade: " + finalPercentage);
+
 //       double finalGpa = calcGPA(finalPercentage);
 //       TODO: print gpa
+   }
+
+   // This method shows how to do user input in Java
+   public static void learningUserInput(Scanner console) {
    }
 
    // takes a phrase and a number
@@ -69,6 +80,10 @@ public class Day05InputDecisions {
    public static void repeatPhrase(Scanner console) {
    }
 
+   // This method shows how to write if-statements in Java
+   public static void learningIfStatements() {
+   }
+
    // prompts for your percentage grade in the following categories:
    // Individual Homework (30%)
    // Learning Practice (20%)
@@ -82,9 +97,6 @@ public class Day05InputDecisions {
    // >= 95% is a 4.0
    // 94 is a 3.9
    // 93 is a 3.8
-   // 92 is a 3.7
-   // 91 is a 3.6
-   // 90 is a 3.5
    // else return 2.0 for now
    //TODO: GPA METHOD
 }
@@ -106,6 +118,7 @@ public class Day05InputDecisions {
 
       double finalPercentage = calcGrade(console);
       System.out.println("Expected Final Grade: " + finalPercentage);
+
       double finalGpa = calcGPA(finalPercentage);
       System.out.println("Expected GPA: " + finalGpa);
    }
