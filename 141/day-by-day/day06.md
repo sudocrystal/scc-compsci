@@ -12,8 +12,8 @@
     - Replicate String
       - char + char vs char + "" + char
     - Reverse String
-+ Show Homework #3
-  - Show this homework for buyin on CandyMachine activity :)
++ Show Homework \#3
+  - Show this homework for buy-in on CandyMachine activity :)
 + Candy Machine
   - Partner Activity
 + Learning Practice
