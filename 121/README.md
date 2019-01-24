@@ -100,6 +100,7 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 ## Week 5
 + Code Review
   - Partnered Assignment online to share/code review assignments from the week
+  - WK 5 Quiz
 + Midterm \#1
   - Midterm in class
 + Turtle Graphics
