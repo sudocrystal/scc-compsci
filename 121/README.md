@@ -52,13 +52,13 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Lab: ASCII Art
 + Types, Operators, Expressions
   - Lecture
-  - Activity: Predicting the result
+  - Activity: Predicting the result (operators, ...)
 + Variables, Assignments, User Input
   - review predicting the result
   - Lecture
   - Activity: Predicting the result
 + Lab Time
-  - Review predicting the result
+  - Review predicting the result (vars, ...)
   - Lab: Madlibs
 + (Friday Lesson - Online Video) Control Flow
   - Lecture: Control Flow, simple functions
@@ -68,25 +68,25 @@ In the following Module notes, each top-level bullet is supposed to represent a 
 + Functions
   - Share Mablibs with peer, discuss one thing that was hard or cool :)
   - Lecture: Functions + Parameters, Arguments
-  - Activity: Predicting the result
+  - Activity: Predicting the result (functions)
 + Lab Time
   - Review predicting the result
-  - HW: Nursery Rhymes
+  - Nursery Rhymes - Part 1
+  - Predicting the result (more functions)
 + Lab Time
-  - Nursery Rhymes - Complete and Partnered Online Review Activity
+  - Nursery Rhymes - Part 2 - Complete
 + (Friday Lesson - Online Video) Decisions
   - Lecture: Conditional Operators, If Statements
-  - Predict the Result
+  - Predict the Result (conditionals)
 
 ## Week 4
 + Functions
-  - go over Predicting problems which are similar to assignment for the day except PRINT instead of RETURN
+  - go over predicting problems
   - Lecture: Functions with Return statements
-  - Number Evaluation (done mostly in class)
+  - predicting the result (functions with returns)
 + Modules
   - Midterm Review Study Guide Posted
-  - review Number Evaluation
-  - Practice with Functions (First two problems)
+  - Number Evaluation
   - Quiz
 + Practice with functions (partner activity)
   - Lecture: math and random
