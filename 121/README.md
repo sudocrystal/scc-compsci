@@ -80,17 +80,18 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Predict the Result (conditionals)
 
 ## Week 4
-+ Functions
-  - go over predicting problems
-  - Lecture: Functions with Return statements
-  - predicting the result (functions with returns)
-+ Modules
++ Conditional Review
   - Midterm Review Study Guide Posted
+  - Go over conditionals predicting
+  - Tiny Text Adventure
++ Functions
+  - Lecture: Functions with Return statements
   - Number Evaluation
-  - Quiz
-+ Practice with functions (partner activity)
+  - predicting the result (functions with returns)
++ Modules (Math and Random)
   - Lecture: math and random
   - Practice with Functions ("complete")
+  - Quiz for HW
 + Fixing Broken Code that you didn't write
   - Grade Calculator
 + (Friday Lesson - Online Video) Live code
