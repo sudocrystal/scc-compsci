@@ -42,6 +42,7 @@
 
 ## People to Know
 - Crystal, Tenure-track CS, current CS FPC (as of 1/7/2019)
+- Kelsie, Pro-rata CS, Winter/Spring 2019 
 - Ali, Tenured ENGR, current ENGR FPC (as of 1/7/2019)
 - Eric, Tenured ENGR
 - Guy Hamilton, STEM Division Dean
