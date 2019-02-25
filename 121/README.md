@@ -149,32 +149,33 @@ In the following Module notes, each top-level bullet is supposed to represent a 
   - Analyze the Code (lists)
 
 ## Week 8
-+ Practice Time (Tuesday)
-  - More Practice with Lists
-  - Coding Bat: Lists (not due till Thursday)
-+ Live code
-  - Movie Theater
++ Practice Time
+  - Practice with Lists
 + Lab Time
-  - Holiday Shopping in partners (need to complete next week)
-+ (Friday Lesson) Lab Time
-  - WK8 Quiz: Midterm \#2 practice
-  - Begin HW #7: GPA Reporter
-
-## Week 9
+  - Live Code: Movie Theater
+  - Coding Bat: Lists (not due till Thursday)
++ Lab Time
+  - Holiday Shopping in partners
 + Lab Time
   - Complete Holiday Shopping
   - Comparison Discussion Post
-  - Work on HW \#7 (due tonight)
++ (Friday Lesson) Lab Time
+  - Quiz 8: Midterm \#2 practice
+  - HW #7: GPA Reporter (due Tuesday)
+  - look over midterm 2 study guide (tuesday is exam)
+
+## Week 9
++ Lab Time
+  - Robot distribution
+  - Q&A for midterm tomorrow
 + Midterm \#2
-+ Robot Introduction
-  - Complete Lesson 1
-+ (Thursday/Friday is Thanksgiving Break so no HW)
++ Robot Things
 
 ## Week 10
-+ EdPy Lessons 2-9 (optional 10)
++ More Robot Things
 
-## Week 11 (4 days)
-+ Group Project Work
+## Week 11 (1 days)
++ Robot Group Project Due
 
 ## Final Project
 + Presenting Project
