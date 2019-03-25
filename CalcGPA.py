@@ -25,6 +25,12 @@ def gpa(decimal):
     # returns the gpa, 0.0 if not in the map
     return map.get(decimal) if decimal in map else 0.0
 
+def c_round(per):
+    if per % 1 >= 0.5:
+        return math.ceil(per)
+    else:
+        return math.floor(per)
+
 def process(file,output):
     # opens output file
     out = open(output,'w')
@@ -46,7 +52,7 @@ def process(file,output):
                 if grade > 100:
                     grade = 100
                 # rounds and int's the decimal grade for lookup using gpa function
-                gpa_grade = '{0:.2}'.format(gpa(int(round(grade))))
+                gpa_grade = '{0:.2}'.format(gpa(int(c_round(grade))))
                 # prints to screen
                 print(str(gpa_grade) + '\t' + str(grade) + '\t' + student)
                 # writes to output file
