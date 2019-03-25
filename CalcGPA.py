@@ -48,6 +48,7 @@ def process(file,output):
             #print(student)
             # as long as it's not the weird extra row
             if student != "" and student.find("Points") == -1 and student != "Test Student":
+                #=================CHECK THAT THE FOLLOWING IS THE RIGHT FINAL GRADE COLMUMN IN SPREADSHEET===================
                 grade = float(row['Current Score'])
                 if grade > 100:
                     grade = 100
