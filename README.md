@@ -82,13 +82,15 @@ Optional:
 - Recursive backtracking
 - Functional programming
 
-## [CS190](190/) Computing and Society
+## [CS211](211/) Computing and Society
 This course explores issues related to the development, usage, and impact of computing technology on society. Topics vary each quarter but may include coverage of areas such as intellectual property, artificial intelligence, privacy of data, liability, ethics, social justice, diversity, and the global digital divide.
 
 ### Outcomes
-1. Identify and describe the history, evolution, and possible future of computing technology.
-1. Identify and analyze the connections between computers, ethics, power, and society.
-1. Analyze the global impact of computing on individuals, organizations, and society.
+=1. Identify issues and concerns related to the impact of computing on individuals, organizations, and society.
+=1. Describe the creation, evolution, and usage of digital technology
+=1. Identify and analyze diverse viewpoints with respect to the creation and use of digital technology
+=1. Provide evidence to support insights and arguments related to computing issues and concerns
+=1. Read and keep up with the news regarding digital technology with more insight
 1. Identify and analyze the ethical challenges and responsibilities for both computing professionals and digital citizens.
 
 ### Course Outline and Topics
