@@ -1,3 +1,10 @@
+- Open chrome
+- Go to the People tab
+- Right click somewhere on the page and choose "Inspect"
+- Click on the console tab
+- Paste the code below into the console and hit enter
+- Print your pretty photo roster!
+
 # Photo Roster Chrome Canvas Code
 
 ```
