@@ -1,3 +1,7 @@
+# Want a photo roster of your students in Canvas? 
+
+Ask students to update their canvas account picture, then...
+
 - Open chrome
 - Go to the People tab
 - Right click somewhere on the page and choose "Inspect"
