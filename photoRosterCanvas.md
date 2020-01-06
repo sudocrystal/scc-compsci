@@ -2,10 +2,10 @@
 
 Ask students to update their canvas account picture, then...
 
-- Open chrome
-- Go to the People tab
-- Right click somewhere on the page and choose "Inspect"
-- Click on the console tab
+- Open Google Chrome
+- Go to the People tab of Canvas for your course
+- Right click somewhere on the webpage and choose "Inspect"
+- Click on the console tab that just popped up
 - Paste the code below into the console and hit enter
 - Print your pretty photo roster!
 
