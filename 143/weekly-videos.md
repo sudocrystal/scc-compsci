@@ -14,8 +14,14 @@
 - Tasks for the week
 
 ## Week 1
+- Feedback
 
 ## Week 2
+- Blob
+- Optional Video Notes
+- PracticeIt: included username
+- Study guide
+- Exam
 
 ## Week 3
 
