@@ -83,28 +83,24 @@ Optional:
 - Functional programming
 
 ## [CS211](211/) Computing and Society
-This course explores issues related to the development, usage, and impact of computing technology on society. Topics vary each quarter but may include coverage of areas such as intellectual property, artificial intelligence, privacy of data, liability, ethics, social justice, diversity, and the global digital divide.
+This course explores issues related to the development, usage, and impact of computing technology on society. Students will explore the topics through class activities that involve gathering evidence, monitoring news, researching background materials, participating in discussion, and presenting findings. Students are not expected to have any specific expertise in digital technology beyond common public usage (email, web surfing, text message, word processing, and device usage).
+Course Outcomes
 
 ### Outcomes
-=1. Identify issues and concerns related to the impact of computing on individuals, organizations, and society.
-=1. Describe the creation, evolution, and usage of digital technology
-=1. Identify and analyze diverse viewpoints with respect to the creation and use of digital technology
-=1. Provide evidence to support insights and arguments related to computing issues and concerns
-=1. Read and keep up with the news regarding digital technology with more insight
-1. Identify and analyze the ethical challenges and responsibilities for both computing professionals and digital citizens.
+1. Identify the connections between computers, ethics, power, and society
+1. Analyze the global impact of computing on individuals, organizations, and society
+1. Gather and use evidence to inform insights on computing issues and concerns
+1. Defend and refute diverse viewpoints with respect to the creation and use of digital technology
+1. Reflect on the ethical challenges and responsibilities for both computing professionals and digital citizens
 
 ### Course Outline and Topics
-1. Computing history and evolution
-1. Bias in computing
-1. Computing implications and impacts
-1. Social responsibility as digital citizens
-
-Suggested issues:
-- intellectual property
-- artificial intelligence
-- privacy
-- freedom of speech
-- liability
-- social justice
-- diversity
-- global digital divide
+-	Evolution of Technology
+-	Privacy
+-	Freedom of Speech
+-	Intellectual Property
+-	Crime and Security
+-	Work
+-	Evaluating and Controlling Technology
+-	Errors, Failures, and Risks
+-	Professional Ethics and Responsibilities
+- Reflections on Computing & Society
