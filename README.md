@@ -4,6 +4,7 @@
 
 ### [CS121](121/) Introduction to Programming - Python (Pre-CS1, CS0)
 Use a computer language such as Python to learn programming, problem solving, analysis, modular design & debugging - concepts for all programming languages. No prior programming experience needed. Topics: syntax, classes, data types, control flow, loops, if, procedures, parameters, output & arrays.
+
 Master Course Outcomes: [CS 121 MCO Link](https://app.shoreline.edu/CourseProgramDesignSystem/public/MCO_PrintMCO.aspx?id=14738)
 
 ### [CS141](141/) Computer Science I - Java (CS1)
