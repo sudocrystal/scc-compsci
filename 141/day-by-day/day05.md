@@ -83,13 +83,12 @@ public class Day05InputDecisions {
    // This method shows how to write if-statements in Java
    public static void learningIfStatements() {
    }
-
-   // prompts for your percentage grade in the following categories:
-   // Individual Homework (30%)
-   // Learning Practice (20%)
-   // Midterm (20%)
-   // Final (30%)
-   // returns the calculated final percentage for the class
+   
+   // prompts for total points earned in the following categories:
+   // Learning Practice
+   // Long Homeworks
+   // Exams
+   // returns all points added together and divided by 100
    //TODO: PERCENTAGE GRADE METHOD
 
    // takes a percentage grade as a parameter
@@ -165,16 +164,14 @@ public class Day05InputDecisions {
    // Final (30%)
    // returns the calculated final percentage for the class
    public static double calcGrade(Scanner console) {
-      System.out.print("Individual homework average? ");
-      double hw = console.nextDouble();
-      System.out.print("Practice average? ");
+      System.out.print("Learning Practice points? ");
       double practice = console.nextDouble();
-      System.out.print("Midterm? ");
-      double midterm = console.nextDouble();
-      System.out.print("Final? ");
-      double finalexam = console.nextDouble();
+      System.out.print("Homework? ");
+      double hw = console.nextDouble();
+      System.out.print("Exams? ");
+      double exams = console.nextDouble();
 
-      return hw * 0.3 + practice * 0.2 + midterm*0.2 + finalexam*0.3;
+      return (practice + hw + exams) / 100;
    }
 
    // takes a percentage grade as a parameter
