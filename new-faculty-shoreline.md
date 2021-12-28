@@ -41,10 +41,8 @@
 - [ ] Projector - sometimes the screen is tiny and you have to play with the zoom in/out features throughout the course (just something to be aware of)
 
 ## People to Know
-- Crystal, Tenure-track CS, current CS FPC (as of 1/7/2019)
-- Kelsie, Pro-rata CS, Winter/Spring 2019 
-- Ali, Tenured ENGR, current ENGR FPC (as of 1/7/2019)
-- Eric, Tenured ENGR
+- Crystal, Tenure-track CS
+- Ali, Tenured ENGR, current CS/ENGR FPC (as of 1/7/2019)
 - Guy Hamilton, STEM Division Dean
 - Kelly, Admin Assistant works front desk in Science Building
 - Ellen, Guy's Admin who keeps everything moving in STEM

@@ -6,7 +6,7 @@
   - For example, if a student is trying to make a loop that prints the numbers 1-10, use a "sandbox" to show them how to write a loop that runs from 0-5. Explain to them how the loop works and have them explain it back to you. Then ask them, "how could we change this loop to run for 1-10?" ("Which part of the loop controls what the starting value is?", "Which part of the loop controls when the loop ends?", ...)
 - Make sure the student is the one actually doing the work (i.e. Don't just take over! Let the student "drive" the keyboard.)
 - When possible, answer questions with questions.
-  - For example: The student asks "How do I make this repeat 5 times?". Respond with ""
+  - For example: The student asks "How do I make this repeat 5 times?". Respond with "What makes this other loop run 10 times?" or "What parts of this syntax change in different versions of the loop you have seen?"
 
 ## Be a good listener
 
