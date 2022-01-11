@@ -1,11 +1,8 @@
 # Start of the Quarter
 
 + Introduce Self
-+ Syllabus
++ Review Canvas and Syllabus
 + Have students introduce self
-  + groups of 4
-  + three things: name, something they enjoy about coding, one interesting thing about themselves
-  + share out
 
 # Day 01/20
 
