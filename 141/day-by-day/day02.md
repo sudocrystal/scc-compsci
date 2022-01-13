@@ -3,8 +3,7 @@
 + HW Reflection (egg2 problem)
 + Review Exercise: Cake
   - With a partner, analyze the expected output and complete the program
-+ Finding feedback on HW #0: go through grades page, rubric & "view feedback"
-+ Explain Homework #1: Cumulative Song
++ Explain Homework \#1
   - go over Early Submission idea
 + Things we should know
   - class declaration
@@ -133,17 +132,10 @@ public class Day02DataAndLoops {
       expressionMystery();
       //variablesInJava();
       //forLoop();
-      //beer();
       //nestedLoop();
    }
 
    public static void variablesInJava() {
-   }
-
-   // should print the "beer song" from 10 to 1
-   public static void beer() {
-      System.out.println("10 bottles of beer on the wall, 10 bottles of beer");
-      System.out.println("Take one down, pass it around, 9 bottles of beer on the wall");
    }
 
    public static void forLoop() {
@@ -295,14 +287,42 @@ public class Day02DataAndLoops {
       expressionMystery();
       variablesInJava();
       forLoop();
-      beer();
       nestedLoop();
    }
 
-   // should print the "beer song" from 10 to 1
-   public static void beer() {
-      System.out.println("10 bottles of beer on the wall, 10 bottles of beer");
-      System.out.println("Take one down, pass it around, 9 bottles of beer on the wall");
+   // evaluating expressions
+   public static void expressionMystery() {
+      System.out.println("A look at expression evaulation: ");
+
+      System.out.print("4 + 7 * 3 = ");
+      System.out.println();// 4 + 7 * 3 );
+
+      System.out.print("(4 + 7) * 3 = ");
+      System.out.println();// (4 + 7) * 3 );
+
+      System.out.print("2 * 3 * 2 + 1 * 9 * 3 = ");
+      System.out.println();// 2 * 3 * 2 + 1 * 9 * 3 );
+
+      System.out.print("105 % 10 - 2 = ");
+      System.out.println();// 105 % 10 - 2 );
+
+      System.out.print("1 / 2 = ");
+      System.out.println();// 1 / 2 );
+
+      System.out.print("1.0 / 2 = ");
+      System.out.println();// 1.0 / 2 );
+
+      System.out.print("(double)(1 / 2) = ");
+      System.out.println();// (double)(1 / 2) );
+
+      System.out.print("(double) 1 / 2 = ");
+      System.out.println();// (double) 1 / 2 );
+
+      System.out.print("4 + 4 + \"hello\" = ");
+      System.out.println();// 4 + 4 + "hello" );
+
+      System.out.print("\"hello\" + 4 + 4 = ");
+      System.out.println();// "hello" + 4 + 4 );
    }
 
    public static void variablesInJava() {
@@ -343,41 +363,6 @@ public class Day02DataAndLoops {
          }
          System.out.println();
       }
-   }
-
-   // evaluating expressions
-   public static void expressionMystery() {
-      System.out.println("A look at expression evaulation: ");
-
-      System.out.print("4 + 7 * 3 = ");
-      System.out.println();// 4 + 7 * 3 );
-
-      System.out.print("(4 + 7) * 3 = ");
-      System.out.println();// (4 + 7) * 3 );
-
-      System.out.print("2 * 3 * 2 + 1 * 9 * 3 = ");
-      System.out.println();// 2 * 3 * 2 + 1 * 9 * 3 );
-
-      System.out.print("105 % 10 - 2 = ");
-      System.out.println();// 105 % 10 - 2 );
-
-      System.out.print("1 / 2 = ");
-      System.out.println();// 1 / 2 );
-
-      System.out.print("1.0 / 2 = ");
-      System.out.println();// 1.0 / 2 );
-
-      System.out.print("(double)(1 / 2) = ");
-      System.out.println();// (double)(1 / 2) );
-
-      System.out.print("(double) 1 / 2 = ");
-      System.out.println();// (double) 1 / 2 );
-
-      System.out.print("4 + 4 + \"hello\" = ");
-      System.out.println();// 4 + 4 + "hello" );
-
-      System.out.print("\"hello\" + 4 + 4 = ");
-      System.out.println();// "hello" + 4 + 4 );
    }
 }
 ```
