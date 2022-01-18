@@ -25,37 +25,30 @@
 
 ## Programs for class
 ```java
-public class Wave {
-
-   private static int SIZE = 20;
-
-   public static void main(String[] args) {
-      // prints line
-      for(int i = 1; i <= SIZE; i++) {
-          System.out.print("-");
-      }
-      System.out.println();
-
-      // prints the repeated _-^- sequence
-      for(int i = 1; i <= SIZE / 4; i++) {
-          System.out.print("_-^-");
-      }
-      System.out.println();
-
-      // prints the numbers
-      for(int i = 1; i <= SIZE / 2; i++) {
-          int num = i % 10;
-          System.out.print(num + "" + num);
-      }
-      System.out.println();
-
-      // prints line
-      for(int i = 1; i <= SIZE; i++) {
-          System.out.print("-");
-      }
-      System.out.println();
-   }
+// prints line
+for(int i = 1; i <= 40; i++) {
+    System.out.print("-");
 }
+System.out.println();
+
+// prints the repeated _-^- sequence
+for(int i = 1; i <= 40 / 4; i++) {
+    System.out.print("_-^-");
+}
+System.out.println();
+
+// prints the numbers
+for(int i = 1; i <= 40 / 2; i++) {
+    int num = i % 10;
+    System.out.print(num + "" + num);
+}
+System.out.println();
+
+// prints line
+for(int i = 1; i <= 40; i++) {
+    System.out.print("-");
+}
+System.out.println();
 ```
 
 ```java
@@ -138,6 +131,40 @@ public class Day03ForLoops {
 ```
 
 ## Solutions
+```java
+public class Wave {
+
+   private static int SIZE = 20;
+
+   public static void main(String[] args) {
+      // prints line
+      for(int i = 1; i <= SIZE; i++) {
+          System.out.print("-");
+      }
+      System.out.println();
+
+      // prints the repeated _-^- sequence
+      for(int i = 1; i <= SIZE / 4; i++) {
+          System.out.print("_-^-");
+      }
+      System.out.println();
+
+      // prints the numbers
+      for(int i = 1; i <= SIZE / 2; i++) {
+          int num = i % 10;
+          System.out.print(num + "" + num);
+      }
+      System.out.println();
+
+      // prints line
+      for(int i = 1; i <= SIZE; i++) {
+          System.out.print("-");
+      }
+      System.out.println();
+   }
+}
+```
+
 ```java
 public class Day03ForLoops {
    // class constant - cannot be reassigned; ALL_CAPS; must be given a value at start
