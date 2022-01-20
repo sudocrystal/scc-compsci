@@ -85,25 +85,35 @@ public class Ch2cASCII {
 
 ### Day04ParametersObjects.java
 ```java
-public class Day04ParametersObjects {
+public class Ch3aParametersObjects {
 
    public static void main(String[] args) {
       methodsWithParams();
-      //double value = 14;
-      //add10(value);
-      //System.out.println("After method, value is " + value);
-      //ten();
+      //returningInformation();
+
       //quadratic(1, -7, 12);       // 4.0, 3.0
       //quadratic(1, 3, 2);         // -1.0, -2.0
+
       //sillyString("Shoreline");
       //sillyString("Hello World");
    }
+
+   // this method shows how to return information from a method
+   public static void returningInformation() {
+      double value = 14;
+      //add10(value);
+      System.out.println("After method, value is " + value);
+   }
+
+   // TODO: write the add10 method here
+   // so that it adds 10 to the parameter
+   // and prints out the result
 
    // this methods shows calling a method with different arguments
    public static void methodsWithParams() {
       love("naps", "sunrises", "vacation");
       love("dogs", "lattes", "running");
-      love("homework",200);
+      love("homework", 200);
    }
 
    // this method prints out three items that are loved
@@ -122,32 +132,32 @@ public class Day04ParametersObjects {
       System.out.println("I love " + fave + " " + num + " times more than anything else in the world!");
    }
 
-   // this method should return the int literal 10
-   public static void ten() {
-      System.out.println("10");
-   }
-
    // From PracticeIt BJP4 Exercise 3.8: quadratic
    // This method solves quadratic equations and prints their roots
    // A quadratic roots can be found using the equations:
    // first root: x = (-b + squareroot(square(b) - 4ac)) / 2a
    // second root: x = (-b - squareroot(square(b) - 4ac)) / 2a
    public static void quadratic(int a, int b, int c) {
-//       double firstRoot = quadPlus(a,b,c);
-//       double secondRoot = quadMinus(a,b,c);
-
+//       double firstRoot = quadPlus(a, b, c);
+//       double secondRoot = quadMinus(a, b, c);
+//       System.out.println(firstRoot + ", " + secondRoot);
    }
 
+   // TODO: write quadPlus here:
+
+   // TODO: write quadMinus here:
+
    // This method prints out information about a given String
-   public static void sillyString(String s) {
-      System.out.println("Given the string: " + s);
+   public static void sillyString(String str) {
+      System.out.println("Given the string: " + str);
       System.out.println("First letter: ");
       System.out.println("Last letter: ");
-      System.out.println("Everything but the first and last: ");
+      System.out.println("Everything but the first and last letters: ");
       System.out.println("In all caps: ");
       System.out.println("In all lowercase: ");
       System.out.println("Is is \"Hello World\"? ");
-      System.out.println("Index of \"e\"? ");
+      System.out.println("Index of \"d\"? ");
+      System.out.println();
    }
 }
 ```
