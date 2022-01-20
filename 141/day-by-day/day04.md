@@ -1,12 +1,11 @@
 # Day 04/20
 
-+ HW Reflection
 + Things we should know
   - using a systematic approach to breaking down repetitive ascii art
   - using methods to repeat larger structures
 + Partner Review Exercise:
   - numberTri and/or hourglass
-+ Explain Homework #2: Repeating Ascii Art
++ Ascii Art Notes
   - Reduce Redundancy in a single line by using nested loops
   - Reduce Redundancy in structure with methods
   - Class constant for size
@@ -48,19 +47,20 @@
 
 ### Day04ASCII.java
 ```java
-public class Day04ASCII {
+public class Ch2cASCII {
 
    public static void main(String[] args) {
       numberTri();
-      hourglass();
+      //hourglass();
    }
+
 
    /* This method should produce the following
       -----1-----
-      ----333----
-      ---55555---
-      --7777777--
-      -999999999-
+      ----222----
+      ---33333---
+      --4444444--
+      -555555555-
    */
    public static void numberTri() {
    }
@@ -166,18 +166,18 @@ public class Day04ASCII {
 
    /* This method should produce the following
       -----1-----
-      ----333----
-      ---55555---
-      --7777777--
-      -999999999-
+      ----222----
+      ---33333---
+      --4444444--
+      -555555555-
    */
    public static void numberTri() {
-      for(int line = 1; line <=5; line++) {
-         for(int dashes = 1; dashes <= -1 * (line-1) + 5; dashes++) {
+      for(int line = 1; line <= 5; line++) {
+         for(int dashes = 1; dashes <= -1 * line + 6; dashes++) {
             System.out.print("-");
          }
          for(int num = 1; num <= 2 * line - 1; num++) {
-            System.out.print(2 * line - 1);
+            System.out.print(line);
          }
          for(int dashes = 1; dashes <= -1 * line + 6; dashes++) {
             System.out.print("-");
