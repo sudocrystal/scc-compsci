@@ -1,6 +1,5 @@
 # Day 05/20
 
-+ HW Reflection
 + Lecture
   - review from last class with `repeatPhrase()`
   - User Input
@@ -56,7 +55,7 @@ public class Day05InputDecisions {
 //       System.out.println("Expected Final Grade: " + finalPercentage);
 
 //       double finalGpa = calcGPA(finalPercentage);
-//       TODO: print gpa
+//       System.out.println("Expected GPA: " + finalGpa);
    }
 
    // This method shows how to do user input in Java
@@ -83,7 +82,7 @@ public class Day05InputDecisions {
    // This method shows how to write if-statements in Java
    public static void learningIfStatements() {
    }
-   
+
    // prompts for total points earned in the following categories:
    // Learning Practice
    // Long Homeworks
@@ -95,7 +94,6 @@ public class Day05InputDecisions {
    // returns the calculated gpa, according to the following:
    // >= 95% is a 4.0
    // 94 is a 3.9
-   // 93 is a 3.8
    // else return 2.0 for now
    //TODO: GPA METHOD
 }
@@ -126,6 +124,9 @@ public class Day05InputDecisions {
    // prints the phrase to the screen that number of times
    // what if "returns"?
    public static String repeatPhrase(String phrase, int times) {
+      // for(int i = 1; i <= times; i++) {
+      //    System.out.println(phrase);
+      // }
       String result = "";
       for(int i = 1; i <= times; i++) {
          result += phrase;
@@ -157,21 +158,20 @@ public class Day05InputDecisions {
       }
    }
 
-   // prompts for your percentage grade in the following categories:
-   // Individual Homework (30%)
-   // Learning Practice (20%)
-   // Midterm (20%)
-   // Final (30%)
-   // returns the calculated final percentage for the class
+   // prompts for total points earned in the following categories:
+   // Learning Practice
+   // Long Homeworks
+   // Exams
+   // returns all points added together and divided by 100
    public static double calcGrade(Scanner console) {
       System.out.print("Learning Practice points? ");
-      double practice = console.nextDouble();
+      double practice = console.nextInt();
       System.out.print("Homework? ");
-      double hw = console.nextDouble();
+      double hw = console.nextInt();
       System.out.print("Exams? ");
-      double exams = console.nextDouble();
+      double exams = console.nextInt();
 
-      return (practice + hw + exams) / 100;
+      return (practice + hw + exams) / 100.0;
    }
 
    // takes a percentage grade as a parameter
@@ -189,9 +189,6 @@ public class Day05InputDecisions {
       }
       else if(percent >= 94) {
          return 3.9;
-      }
-      else if(percent >= 93) {
-         return 3.8;
       }
       return 2.0;
    }
