@@ -38,45 +38,51 @@
 ```java
 import java.util.Scanner;
 
-public class Day05InputDecisions {
+public class Ch4aInputDecisions {
 
    public static void main(String[] args) {
-      repeatPhrase();
+      repeatWord();
 
 //       // creates a Scanner object called console for User Input
 //       Scanner console = new Scanner(System.in);
 //       learningUserInput(console);
 
-//       repeatPhrase(console);
+//       repeatWord(console);
 
 //       learningIfStatements();
 
-//       double finalPercentage = calcGrade(console);
-//       System.out.println("Expected Final Grade: " + finalPercentage);
+//       double finalPoints = calcGrade(console);
+//       System.out.println("Expected Final Points: " + finalPoints);
 
-//       double finalGpa = calcGPA(finalPercentage);
-//       System.out.println("Expected GPA: " + finalGpa);
+//       double finalGpa = calcGPA(finalPoints);
+//       System.out.println("Expected Final GPA: " + finalGpa);
+   }
+
+   // takes a word and a number
+   // prints the word to the screen that number of times
+   // repeat("balloon", 3)
+   /* should produce:
+      balloon
+      balloon
+      balloon
+   */
+   // extension: what if "returns"?
+   public static void repeatWord() {
    }
 
    // This method shows how to do user input in Java
-   public static void learningUserInput(Scanner console) {
+   public static void learningUserInput(Scanner console){
    }
 
-   // takes a phrase and a number
-   // prints the phrase to the screen that number of times
-   // what if "returns"?
-   public static void repeatPhrase() {
-   }
-
-   // prompts for a phrase and a number
-   // prints the phrase to the screen, one letter per line, all caps
-   // repeatPhrase() where the user types in "try" and 3
+   // prompts for a word and a number
+   // prints the word to the screen, one letter per line, all caps
+   // repeatWord() where the user types in "try" and 3
    /* should produce:
       TTT
       RRR
       YYY
    */
-   public static void repeatPhrase(Scanner console) {
+   public static void repeatWord(Scanner console) {
    }
 
    // This method shows how to write if-statements in Java
@@ -87,12 +93,12 @@ public class Day05InputDecisions {
    // Learning Practice
    // Long Homeworks
    // Exams
-   // returns all points added together and divided by 100
+   // returns all points added together
    //TODO: PERCENTAGE GRADE METHOD
 
-   // takes a percentage grade as a parameter
+   // takes a points as a parameter
    // returns the calculated gpa, according to the following:
-   // >= 95% is a 4.0
+   // >= 95 points is a 4.0
    // 94 is a 3.9
    // else return 2.0 for now
    //TODO: GPA METHOD
@@ -162,7 +168,7 @@ public class Day05InputDecisions {
    // Learning Practice
    // Long Homeworks
    // Exams
-   // returns all points added together and divided by 100
+   // returns all points added together
    public static double calcGrade(Scanner console) {
       System.out.print("Learning Practice points? ");
       double practice = console.nextInt();
@@ -171,23 +177,19 @@ public class Day05InputDecisions {
       System.out.print("Exams? ");
       double exams = console.nextInt();
 
-      return (practice + hw + exams) / 100.0;
+      return (practice + hw + exams);
    }
 
-   // takes a percentage grade as a parameter
+   // takes a points grade as a parameter
    // returns the calculated gpa, according to the following:
-   // >= 95% is a 4.0
+   // >= 95%is a 4.0
    // 94 is a 3.9
-   // 93 is a 3.8
-   // 92 is a 3.7
-   // 91 is a 3.6
-   // 90 is a 3.5
    // else return 2.0 for now
-   public static double calcGPA(double percent) {
-      if(percent >= 95) {
+   public static double calcGPA(double points) {
+      if(points >= 95) {
          return 4.0;
       }
-      else if(percent >= 94) {
+      else if(points >= 94) {
          return 3.9;
       }
       return 2.0;
