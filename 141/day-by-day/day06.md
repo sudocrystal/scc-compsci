@@ -4,11 +4,18 @@
 + Lecture
   - Common Algorithms
     - Cumulative Sum
-    - Max
+      - Observe method call in an SOP --> means returns
+    - findMax
+      - must add Scanner declaration (should be in main)
+      - show max = 0, but then use negative numbers
       - Integer.MAX_VALUE, Integer.MIN_VALUE
+      - show Math.max vs if-statement
     - Replicate String
+      - revists pattern from last class
+      - using .length() to visit every character, combined with .charAt(i)
       - char + char vs char + "" + char
     - Reverse String
+      - two approaches: backwards or put char in front
 + Learning Practice
   - Exercise 4.4 and 4.5
   - Exercise 4.12 and 4.13
