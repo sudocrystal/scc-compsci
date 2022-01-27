@@ -1,3 +1,3 @@
 # Day 10/20
 
-+ MIDTERM in class
++ Pair Programming: Guessing Game

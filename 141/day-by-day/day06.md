@@ -1,9 +1,6 @@
 # Day 06/20
 
-+ HW Reflection
-+ Complete 8 problems
-  - do even problems
-  - Review passing parameters/prompt and print/return
++ Exam \#1 reminders
 + Lecture
   - Common Algorithms
     - Cumulative Sum
@@ -12,10 +9,6 @@
     - Replicate String
       - char + char vs char + "" + char
     - Reverse String
-+ Show Homework \#3
-  - Show this homework for buy-in on CandyMachine activity :)
-+ Candy Machine
-  - Partner Activity
 + Learning Practice
   - Exercise 4.4 and 4.5
   - Exercise 4.12 and 4.13
