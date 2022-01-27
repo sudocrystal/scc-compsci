@@ -18,7 +18,7 @@
 ```java
 import java.util.Scanner;
 
-public class Day06CommonAlgos {
+public class Ch4bCommonAlgos {
 
    public static void main(String[] args) {
 
@@ -54,15 +54,6 @@ public class Day06CommonAlgos {
    public static String reverse(String s) {
       return "";
    }
-
-   // PracticeIt Exercise 4.1
-   public static double fractionSum(int n) {
-      double sum = 0;
-      for(int i = 1; i <= n; i++) {
-         sum += 1.0/i;
-      }
-      return sum;
-   }
 }
 ```
 
@@ -70,7 +61,7 @@ public class Day06CommonAlgos {
 ```java
 import java.util.Scanner;
 
-public class Day06CommonAlgos {
+public class Ch4bCommonAlgos {
 
    public static void main(String[] args) {
       Scanner console = new Scanner(System.in);
@@ -130,15 +121,6 @@ public class Day06CommonAlgos {
          result = s.charAt(i) + result;
       }
       return result;
-   }
-
-   // PracticeIt Exercise 4.1
-   public static double fractionSum(int n) {
-      double sum = 0;
-      for(int i = 1; i <= n; i++) {
-         sum += 1.0/i;
-      }
-      return sum;
    }
 }
 ```
