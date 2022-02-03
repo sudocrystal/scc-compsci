@@ -32,11 +32,11 @@
 
 ## Programs for class
 
-### Day07FencepostAndWhile.java
+### Ch5aFencepostAndWhile.java
 ```java
 import java.util.Scanner;
 
-public class Day07FencepostAndWhile {
+public class Ch5aFencepostAndWhile {
 
    public static void main(String[] args) {
       Scanner console = new Scanner(System.in);
@@ -71,7 +71,7 @@ public class Day07FencepostAndWhile {
    }
 
    // returns a summary of the factors of two for a given number
-   // the logic is that you divide your number by 2 until you reach an odd number
+   // logic is: divide number by 2 until you reach an odd number
    // e.g. showTwos(18) --> prints "18 = 2 * 9"
    // e.g showTwos(120) --> prints "120 = 2 * 2 * 2 * 15"
    public static void showTwos(int num) {
@@ -154,7 +154,7 @@ public class Day07FencepostAndWhile {
    }
 
    // returns a summary of the factors of two for a given number
-   // the logic is that you divide your number by 2 until you reach an odd number
+   // logic is: divide number by 2 until you reach an odd number
    // e.g. showTwos(18) --> prints "18 = 2 * 9"
    public static void showTwos(int num) {
       String twos = num + " = ";
