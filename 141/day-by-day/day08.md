@@ -2,9 +2,24 @@
 
 + Lecture
   - fence post problem
+    - print numbers `1 2 3 4 5 ... 10`
+    - print with comas `1, 2, 3, 4... 10`
+    - explain origin of fencepost problem name
+    - show more elegant solutions
+      - 10 as fencepost
+      - 1 as fencepost
   - while loops
-    - use the debugger
+    - ask user to enter a number 1-10, if invalid, tell them
+    - convert to while loop to repeat until valid info
+      - show without `value =` is an infinite loop
   - do-while loops
+    - convert to do/while
+      - show scope of variable matters
+  - firstDigit
+    - What if last digit? `return num % 10;`
+    - when we don't have a single digit, chop a digit off
+  - showTwos
+    - when the number isn't odd, divide the number by two
 + Learning Practice
   - Self-Check
     - Self-Check 5.1
@@ -16,60 +31,6 @@
     - Exercise 5.18
 
 ## Programs for class
-
-### CandyMachine.java
-```java
-import java.util.Scanner;
-
-public class CandyMachine {
-
-   public static void main(String[] args) {
-      Scanner console = new Scanner(System.in);
-
-      System.out.println("Welcome to my Candy Machine!");
-
-      double money = collectMoney(console);
-      String choice = pickCandy(console);
-      double cost = candyCost(choice);
-
-      dispenseCandy(money, cost);
-   }
-
-   public static double collectMoney(Scanner console) {
-      System.out.print("money > $");
-      double money = console.nextDouble();
-      System.out.println("\nOK, $" + money + " received.\n");
-      return money;
-   }
-
-   public static String pickCandy(Scanner console) {
-      System.out.println("choices");
-      System.out.print("pick > ");
-      String answer = console.next();
-      return answer;
-   }
-
-   public static double candyCost(String choice) {
-      //double cost = 0;
-      if(choice.equals("A") || choice.equals("a")) {
-         return 0.65;     // cost = 0.65;
-      }
-      else if(choice.equals("B") || choice.equals("b")) {
-         return 0.50;
-      }
-      return -1;          // return cost;
-   }
-
-   public static void dispenseCandy(double money, double cost) {
-      System.out.println();
-      double change = money - cost;
-      if(change < 0)    // money < cost
-         System.out.println("You can't afford this candy. Your " + money + " is returned.");
-      else              // money >= cost
-         System.out.println("Take your yummy candy! Your change is $" + change);
-   }
-}
-```
 
 ### Day07FencepostAndWhile.java
 ```java
