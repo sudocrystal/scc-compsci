@@ -18,14 +18,11 @@
   - boolean methods
     - allSmallDigits (below)
       - assertion before return
-    - reversed (below)
-    - mention testing for the false case in the loop, true only if the loop executes entirely without returning false
 + Learning Practice
   - Self-Check
     - Self-Check 5.6 and 5.7
     - Self-Check 5.11
     - Self-Check 5.14 - 5.17
-    - Self-Check 5.28 and 5.29
   - Exercises
     - Exercise 5.6 and 5.7
     - Exercise 5.11
@@ -98,25 +95,21 @@ import java.util.*;
 
 public class Ch5bRandomBooleans {
    public static void main(String[] args) {
-     Random r = new Random();
-     int x = makeRandNum(r);
-     System.out.println("The number generated was " + x);
-
-     //System.out.println("isEven? " + isEven(x) );
-
-     //boolean factor = isFactor(5, x);
-     //System.out.println("is 5 a factor of x? " + factor);
-
-     System.out.println("allSmallDigits? " + allSmallDigits(x) );
-
+       Random r = new Random();
+       int x = makeRandNum(r);
+       System.out.println("The number generated was " + x);
+       //System.out.println("isEven? " + isEven(x) );
+       //boolean factor = isFactor(5, x);
+       //System.out.println("is 5 a factor of x? " + factor);
+       System.out.println("allSmallDigits? " + allSmallDigits(x) );
 //       System.out.println("isReverse? " + isReverse("hello", "olleh") );
 	}
 
 	// returns a random integer between 1 and 100
 	public static int makeRandNum(Random randGen) {
-	    //int r = randGen.nextInt(100) + 1;		        // generates a number 1-100
-	    //int r = randGen.nextInt(9000)	+ 1000;		// generates a number 1000-9999
-	    //randGen.nextInt(high-low+1)	+ low;
+	    //int r = randGen.nextInt(100) + 1;		 // generates a number 1-100
+	    //int r = randGen.nextInt(9000) + 1000;	 // generates a number 1000-9999
+	    //randGen.nextInt(high-low+1) + low;
 	    return randGen.nextInt(9000) + 1000;
 	}
 
