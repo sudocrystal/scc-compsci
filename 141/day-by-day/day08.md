@@ -45,9 +45,7 @@ public class Ch5aFencepostAndWhile {
       whileAndDoWhile(console);   
 //       System.out.println("firstDigit(1234) = " + firstDigit(1234) );
 //       System.out.println("firstDigit(-910) = " + firstDigit(-910) );
-//       showTwos(7);
 //       showTwos(18);
-//       showTwos(68);
 //       showTwos(120);
    }
 
@@ -70,10 +68,11 @@ public class Ch5aFencepostAndWhile {
       return 0;
    }
 
-   // returns a summary of the factors of two for a given number
+   // prints a summary of the factors of two for a given number
    // logic is: divide number by 2 until you reach an odd number
    // e.g. showTwos(18) --> prints "18 = 2 * 9"
    // e.g showTwos(120) --> prints "120 = 2 * 2 * 2 * 15"
+   // What if returns?
    public static void showTwos(int num) {
    }
 }
@@ -92,9 +91,7 @@ public class Day07FencepostAndWhile {
       //whileAndDoWhile(console);   
 //      System.out.println("firstDigit(1234) = " + firstDigit(1234) );
 //      System.out.println("firstDigit(-910) = " + firstDigit(-910) );
-      showTwos(7);
       showTwos(18);
-      showTwos(68);
       showTwos(120);
    }
 
@@ -153,9 +150,11 @@ public class Day07FencepostAndWhile {
       return num;
    }
 
-   // returns a summary of the factors of two for a given number
+   // prints a summary of the factors of two for a given number
    // logic is: divide number by 2 until you reach an odd number
    // e.g. showTwos(18) --> prints "18 = 2 * 9"
+   // e.g showTwos(120) --> prints "120 = 2 * 2 * 2 * 15"
+   // What if returns?
    public static void showTwos(int num) {
       String twos = num + " = ";
       while(num % 2 != 1) {
