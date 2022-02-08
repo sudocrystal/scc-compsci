@@ -107,8 +107,8 @@ public class Ch5bRandomBooleans {
 
 	// returns a random integer between 1 and 100
 	public static int makeRandNum(Random randGen) {
-	    //int r = randGen.nextInt(100) + 1;		 // generates a number 1-100
-	    //int r = randGen.nextInt(9000) + 1000;	 // generates a number 1000-9999
+	    //int r = randGen.nextInt(100) + 1;	    // generates a number 1-100
+	    //int r = randGen.nextInt(9000) + 1000; // generates a number 1000-9999
 	    //randGen.nextInt(high-low+1) + low;
 	    return randGen.nextInt(9000) + 1000;
 	}
