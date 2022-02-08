@@ -102,75 +102,75 @@ public class Ch5bRandomBooleans {
      int x = makeRandNum(r);
      System.out.println("The number generated was " + x);
 
-//       System.out.println("isEven? " + isEven(x) );
+     //System.out.println("isEven? " + isEven(x) );
 
-//       boolean factor = isFactor(5, x);
-//       System.out.println("is 5 a factor of x? " + factor);
+     //boolean factor = isFactor(5, x);
+     //System.out.println("is 5 a factor of x? " + factor);
 
-  System.out.println("allSmallDigits? " + allSmallDigits(x) );
+     System.out.println("allSmallDigits? " + allSmallDigits(x) );
 
 //       System.out.println("isReverse? " + isReverse("hello", "olleh") );
 	}
 
 	// returns a random integer between 1 and 100
 	public static int makeRandNum(Random randGen) {
-		//int	r = randGen.nextInt(100) + 1;		     // generates a number 1-100
-		//int	r = randGen.nextInt(9000)	+ 1000;		// generates a number 1000-9999
-		//randGen.nextInt(high-low+1)	+ low;
-		return randGen.nextInt(9000) + 1000;
+	    //int r = randGen.nextInt(100) + 1;		        // generates a number 1-100
+	    //int r = randGen.nextInt(9000)	+ 1000;		// generates a number 1000-9999
+	    //randGen.nextInt(high-low+1)	+ low;
+	    return randGen.nextInt(9000) + 1000;
 	}
 
-  // returns true is num is even, false if it's odd
+	// returns true is num is even, false if it's odd
 	// e.g. isEven(10) --> true
 	// e.g. isEven(-1) --> false
 	public static boolean isEven(int num) {
-    //if(num % 2 == 0)	{
-		//   return true;
-		//}
-		//else {
-		//   return false;
-		//}
-    //return false;
-		return num % 2 == 0;
+	    //if(num % 2 == 0)	{
+	    //   return true;
+	    //}
+	    //else {
+	    //   return false;
+	    //}
+    	    //return false;
+	    return num % 2 == 0;
 	}
 
 	// returns true if x is a factor of y
 	public static boolean isFactor(int x, int y) {
-		return x != 0 && y % x == 0;
+	    return x != 0 && y % x == 0;
 	}
 
-  // returns true if all digits are smaller than 5
-  // e.g. allSmallDigits(1233) --> true
-  // e.g. allSmallDigits(4107) --> false
-  // e.g. allSmallDigits(8110) --> false
+	// returns true if all digits are smaller than 5
+	// e.g. allSmallDigits(1233) --> true
+	// e.g. allSmallDigits(4107) --> false
+	// e.g. allSmallDigits(8110) --> false
 	public static boolean allSmallDigits(int x) {
-	   while (x > 0) {
-       int last = x % 10;
-       if (last > 4) {
-         return false;
-       }
-       x /= 10;
-		}
-		//POINT I'M ASKING ABOUT: What is true when we get here?
-		//A: no number is greater than 4; all digits have been processed
-		return true;
+	    while (x > 0) {
+	        int last = x % 10;
+	        if (last > 4) {
+		    return false;
+	        }
+	        x /= 10;
+	    }
+	    //POINT I'M ASKING ABOUT: What is true when we get here?
+	    //A: no number is greater than 4; all digits have been processed
+	    return true;
 	}
 
 	// returns true if the strings are reverse of each other
 	// e.g. isReverse("hello", "olleh") --> true
 	// e.g. isReverse("time", "fine") --> false
 	public static boolean isReverse(String s1, String s2) {
-    if (s1.length() != s2.length()) {
-      return false;
-    }
+	    if (s1.length() != s2.length()) {
+	      return false;
+	    }
 
-		for (int i = 0; i < s1.length(); i++) {
-      if (s1.charAt(i) != s2.charAt(s2.length() - 1 - i)) {
-        return false;
-      }
-    }
-		//THIS POINT
-		return true;
+	    for (int i = 0; i < s1.length(); i++) {
+	      if (s1.charAt(i) != s2.charAt(s2.length() - 1 - i)) {
+		return false;
+	      }
+	    }
+	    //THIS POINT
+	    return true;
 	}
 }
 ```
