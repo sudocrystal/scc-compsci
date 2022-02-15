@@ -1,9 +1,7 @@
 # Day 11/20
 
-+ HW Reflection
 + Lecture: Token-based File Processing
   - Grab starter files
-    - download as zip (vertical elipses in repl.it)
   - Big Data = Why we need to be able to read files and make conclusions
     - Computational Science majors
   - Setting up to read from a file:
@@ -234,7 +232,7 @@ public class Day11FileProcessing {
 
          double average = total / num;
          outFile.print(name + " = ");
-         outFile.printf("%.2f average",average);
+         outFile.printf("%.2f average", average);
          outFile.println(" for " + num + " grades");
       }
    }
