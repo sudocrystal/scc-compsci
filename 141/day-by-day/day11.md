@@ -28,8 +28,7 @@
     - abcWords
     - gradeReport
       - What if the student has more than 3 grades?
-      - Print the results to a file instead...
-        - `PrintStream outFile = new PrintStream(new File("gradeReport.txt"));`
+      - Print the results to a file instead... `PrintStream outFile = new PrintStream(new File("gradeReport.txt"));`
 + Learning Practice
   - Self-Check
     - Self-Check 6.1 - 6.10
