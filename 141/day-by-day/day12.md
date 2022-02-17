@@ -1,7 +1,8 @@
 # Day 12/20
 
-+ HW Reflection
++ Exam \#2 reminder
 + Lecture
+  - Complete gradeReport from Day11
   - Patterns
     - process the entire line
     - process each token on each line

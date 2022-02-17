@@ -1,5 +1,6 @@
 # Day 11/20
 
++ Reminder about upcoming Exam \#2
 + Lecture: Token-based File Processing
   - Big Data = Why we need to be able to read files and make conclusions
     - Computational Science majors
