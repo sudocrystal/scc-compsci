@@ -1,6 +1,5 @@
 # Day 13/20
 
-+ HW Reflection
 + Lecture
   - array fundamentals
     - declaring
