@@ -1,7 +1,5 @@
 ## Day 15/20
 
-+ HW Reflection
-+ Talk about Phrase Guess
 + Lecture
   - OOP vs Procedural Programming
     - PracticeIt Self-Check 8.1: Procedural programming treats a program as a sequence of actions or commands, while object-oriented programming looks at a program as a group of interacting entities named objects with related data and behavior.
@@ -12,8 +10,8 @@
   - Make our own Point Class
     - fields
       - Show the difference between _class_/_object_ and explain _state_ using the debugger
-    - toString
-    - constructors
+    - run the program and show that `toString` is needed
+    - note that currently the data passed to the object at creation isn't saved, so we need to modify `constructors`
     - accessors and mutators
     - state, behavior
   - Adding behavior to our point class
