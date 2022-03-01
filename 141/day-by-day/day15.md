@@ -6,7 +6,7 @@
   - java.awt.Point
     - groups data together (here: x and y)
     - using an object
-    - Objects are pass by reference
+    - Objects are pass by reference like arrays
   - Make our own Point Class
     - fields
       - Show the difference between _class_/_object_ and explain _state_ using the debugger
@@ -17,7 +17,6 @@
   - Adding behavior to our point class
     - move
     - translate
-  - Objects are pass by reference like arrays
   - Graph example
   - Object vs Class
     - PracticeIt Self-Check 8.2: An object is an entity that encapsulates related data and behavior, while a class is the blueprint for a type of objects.
