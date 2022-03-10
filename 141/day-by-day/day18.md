@@ -1,5 +1,8 @@
 # Day 18/20
 
++ Talk about HW#4 (+ extended due date)
++ Ask about Online Lecture
+  - clarifications needed?
 + Review Inheritance
   - Instantiating Objects
     - as superclass = new superclass
