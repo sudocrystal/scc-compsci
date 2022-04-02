@@ -11,6 +11,8 @@
 + Lecture
   - JDK / Java
     - Compiled vs. Interpreted Languages
+    - Strongly typed vs. duck typing
+      - "If it walks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck."
   - JGrasp
   - class declaration
   - main declaration
