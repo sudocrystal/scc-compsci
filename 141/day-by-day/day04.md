@@ -1,22 +1,19 @@
 # Day 04/20
 
-+ Things we should know
-  - using a systematic approach to breaking down repetitive ascii art
-  - using methods to repeat larger structures
 + Partner Review Exercise:
   - numberTri and/or hourglass
 + Ascii Art Notes
   - Reduce Redundancy in a single line by using nested loops
   - Reduce Redundancy in structure with methods
-  - Class constant for size
+  - NOTE (but no demo): could use Class constant for size
 + Lecture
   - Parameters
     - information for processing: parameter vs argument
     - ordering and Types
     - overloading
-      - do PracticeIt Self-Check 3.6
-    - Value semantics (`add10`)
+    - do PracticeIt Self-Check 3.6
   - Return Types
+    - Value semantics (`add10`)
     - void / something else
     - return statements
       - there can be many; only one executes
