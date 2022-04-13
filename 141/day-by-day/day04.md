@@ -50,7 +50,7 @@
 public class Ch2cASCII {
 
    public static void main(String[] args) {
-      numberTri();
+      //numberTri();
       //hourglass();
    }
 
@@ -66,19 +66,47 @@ public class Ch2cASCII {
    }
 
    /* This method should produce the following
-      |""""""""""|
-       \::::::::/
-        \::::::/
-         \::::/
-          \::/
-           ||
-          /::\
-         /::::\
-        /::::::\
-       /::::::::\
-      |""""""""""|
+      |""""""""""|       // helpful hints: 10 quotes
+       \::::::::/        //      1 space,  8 colons
+        \::::::/         //      2 spaces, 6 colons
+         \::::/          //      3 spaces, 4 colons
+          \::/           //      4 spaces, 2 colons
+           ||            //      5 spaces before ||
+          /::\           //      4 spaces, 2 colons
+         /::::\          //      3 spaces, 4 colons
+        /::::::\         //      2 spaces, 6 colons
+       /::::::::\        //      1 space,  8 colons
+      |""""""""""|       //                10 quotes
    */
    public static void hourglass() {
+      line();
+      top();
+      middle();
+      bottom();
+      line();
+   }
+
+   public static void line() {
+      System.out.print("|");
+      // TODO: the following two lines need editing
+      for(int quote = 1; quote <= 1; quote++) {
+         System.out.print("");
+      }
+      System.out.println("|");
+   }
+
+   public static void top() {
+   }
+
+   public static void middle() {
+      // TODO: the following two lines need editing
+      for(int space = 1; space <= 1; space++) {
+         System.out.print("");
+      }
+      System.out.println("||");
+   }
+
+   public static void bottom() {
    }
 }
 ```
@@ -88,81 +116,83 @@ public class Ch2cASCII {
 public class Ch3aParametersObjects {
 
    public static void main(String[] args) {
-      methodsWithParams();
-      //returningInformation();
+      // Giving information to a method:
+      // calling a method with different arguments
+      love("naps", "sunrises", "vacation");
+      love("dogs", "lattes", "Netflix");
+//       love("homework", 200);
 
-      //quadratic(1, -7, 12);       // 4.0, 3.0
-      //quadratic(1, 3, 2);         // -1.0, -2.0
+      // Getting information from a method:
+      // how to return information from a method
+//       double value = 14;
+//       System.out.println("Value starts out as " + value);
+//       add10(value);
+//       System.out.println("After method, value is " + value + "\n");
+
+//       findC(3, 4);
 
       //sillyString("Shoreline");
       //sillyString("Hello World");
-   }
-
-   // this method shows how to return information from a method
-   public static void returningInformation() {
-      double value = 14;
-      //add10(value);
-      System.out.println("After method, value is " + value);
-   }
-
-   // TODO: write the add10 method here
-   // so that it adds 10 to the parameter
-   // and prints out the result
-
-   // this methods shows calling a method with different arguments
-   public static void methodsWithParams() {
-      love("naps", "sunrises", "vacation");
-      love("dogs", "lattes", "running");
-      love("homework", 200);
    }
 
    // this method prints out three items that are loved
    // What happens if the order of the parameters is changed?
    // What happens if you try to call this method without 3 arguments?
    public static void love(String fave1, String fave2, String fave3) {
-      System.out.println("I love:");
-      System.out.println("\t1. " + fave1);
-      System.out.println("\t2. " + fave2);
-      System.out.println("\t3. " + fave3);
+      System.out.print("I love:");
+      System.out.print("\t1. " + fave1);
+      System.out.print("\t2. " + fave2);
+      System.out.print("\t3. " + fave3);
       System.out.println();
    }
 
    // this method overloads "love" for 2 parameters
    public static void love(String fave, int num) {
       System.out.println("I love " + fave + " " + num + " times more than anything else in the world!");
+      System.out.println();
    }
 
-   // From PracticeIt BJP4 Exercise 3.8: quadratic
-   // This method solves quadratic equations and prints their roots
-   // A quadratic roots can be found using the equations:
-   // first root: x = (-b + squareroot(square(b) - 4ac)) / 2a
-   // second root: x = (-b - squareroot(square(b) - 4ac)) / 2a
-   public static void quadratic(int a, int b, int c) {
-//       double firstRoot = quadPlus(a, b, c);
-//       double secondRoot = quadMinus(a, b, c);
-//       System.out.println(firstRoot + ", " + secondRoot);
+   // this method adds 10 to the parameter value
+   public static void add10(double val) {
+      val += 10;
+      System.out.println("Inside method, value is " + val);
    }
 
-   // TODO: write quadPlus here:
+   // uses pythagoeran's theorem to solve for c
+   // Pythagoras theorem states that " In a right-angled triangle,
+   // the square of the hypotenuse side is equal to
+   // the sum of squares of the other two sides ".
+   // a^2 + b^2 = c^2 which means c = squareroot(a^2 + b^2)
+   public static void findC(int a, int b) {
+      System.out.println("Given, a = " + a + " and b = " + b + ":");
 
-   // TODO: write quadMinus here:
+      System.out.println("       c =  \n");
+   }
 
    // This method prints out information about a given String
    public static void sillyString(String str) {
-      System.out.println("Given the string: " + str);
-      System.out.println("First letter: ");
-      System.out.println("Last letter: ");
-      System.out.println("Everything but the first and last letters: ");
-      System.out.println("In all caps: ");
-      System.out.println("In all lowercase: ");
-      System.out.println("Is is \"Hello World\"? ");
-      System.out.println("Index of \"d\"? ");
+      System.out.print("Given the string: ");
+      System.out.println(str);
+      System.out.print("First letter: ");
+      System.out.println();
+      System.out.print("Last letter: ");
+      System.out.println();
+      System.out.print("Everything but the first and last letters: ");
+      System.out.println();
+      System.out.print("In all caps: ");
+      System.out.println();
+      System.out.print("In all lowercase: ");
+      System.out.println();
+      System.out.print("Is " + str + " equal to \"Hello World\"? ");
+      System.out.println();
+      System.out.print("Index of \"d\"? ");
+      System.out.println();
       System.out.println();
    }
 }
 ```
 
-## Solutions
+## Old Solutions
 
 ### Day04ASCII.java
 ```java
