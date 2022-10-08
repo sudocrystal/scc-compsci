@@ -13,23 +13,30 @@ Ask students to update their canvas account picture, then...
 
 ## New code
 ```js
-var newDiv = $('<div>');
+var newDiv = $('<div class="canvasPhotoRoster">');
+var courseNumberAndSection = "<h2>" + $('nav[id="breadcrumbs"]').html().replaceAll("\n","").replace(/.*CS/, "CS").replace(/<.*/,"") + "</h2>";
+newDiv.append(courseNumberAndSection);
+
 $('.collectionViewItems tr').each(function(){
 
-var stuName = $(this).find('.roster_user_name').html();
-//console.log($(this));
-console.log(stuName);
+    var stuName = $(this).find('.roster_user_name').html();
+    //console.log($(this));
+    //console.log(stuName);
 
-var avatar = $(this);
-console.log(avatar);
+    var avatar = $(this).html();
+    avatar = avatar.replaceAll("\n","").replace(/.*src="/,"").replace(/".*/,"");
+    //console.log(avatar);
 
-var member = $('<div class="member" style="width:120px;height:160px;float: left;margin: 2px;"><div class="memberImg" style="text-align:center; height:120px; width:120px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 120px; max-height: 120px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center">' + stuName + '</div></div>');
+    var member = $('<div class="member" style="width:120px; height:160px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:120px; width:120px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 120px; max-height: 120px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center">' + stuName + '</div></div>');
 
-newDiv.append(member);
+    if(!stuName.includes("Crystal Hess")) {
+      newDiv.append(member);
+    }
+
 });
 
-newDiv.appendTo('.v-gutter');
-$('div[data-view="users"]').remove()
+newDiv.appendTo('.ic-Layout-contentWrapper');
+$('div[id="content"]').remove();
 ```
 
 ## Old code
