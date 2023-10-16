@@ -14,22 +14,28 @@ Ask students to update their canvas account picture, then...
 ## New code
 ```js
 var newDiv = $('<div class="canvasPhotoRoster">');
-var courseNumberAndSection = "<h2>" + $('nav[id="breadcrumbs"]').html().replaceAll("\n","").replace(/.*CS/, "CS").replace(/<.*/,"") + "</h2>";
+var courseNumberAndSection = "<h3>" + $('nav[id="breadcrumbs"]').html().replaceAll("\n","").replace(/.*CS/, "CS").replace(/<.*/,"") + "</h3>";
 newDiv.append(courseNumberAndSection);
 
 $('.collectionViewItems tr').each(function(){
 
     var stuName = $(this).find('.roster_user_name').html();
-    //console.log($(this));
+    //console.log($(this).html());
     //console.log(stuName);
 
     var avatar = $(this).html();
     avatar = avatar.replaceAll("\n","").replace(/.*src="/,"").replace(/".*/,"");
     //console.log(avatar);
 
-    var member = $('<div class="member" style="width:120px; height:160px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:120px; width:120px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 120px; max-height: 120px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center">' + stuName + '</div></div>');
+    var label = "";
+    //console.log($(this).find('.label'));
+    if($(this).find('.label').length != 0) {
+      label = "inactive";
+    }
 
-    if(!stuName.includes("Crystal Hess")) {
+    var member = $('<div class="member" style="width:120px; height:140px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:110px; width:110px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 110px; max-height: 110px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center; text-size: 10px;">' + stuName + '</div></div>');
+
+    if(!stuName.includes("Crystal Hess") && label != "inactive") {
       newDiv.append(member);
     }
 
