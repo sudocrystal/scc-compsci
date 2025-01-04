@@ -20,6 +20,7 @@ newDiv.append(courseNumberAndSection);
 $('.collectionViewItems tr').each(function(){
 
     var stuName = $(this).find('.roster_user_name').html();
+    stuName = stuName.replaceAll("/Him","").replaceAll("/Her","").replaceAll("/hem","");
     //console.log($(this).html());
     //console.log(stuName);
 
@@ -33,7 +34,7 @@ $('.collectionViewItems tr').each(function(){
       label = "inactive";
     }
 
-    var member = $('<div class="member" style="width:120px; height:140px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:110px; width:110px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 110px; max-height: 110px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center; text-size: 10px;">' + stuName + '</div></div>');
+    var member = $('<div class="member" style="width:120px; height:140px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:110px; width:110px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 110px; max-height: 110px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center; text-size: 8px;">' + stuName + '</div></div>');
 
     if(!stuName.includes("Crystal Hess") && label != "inactive") {
       newDiv.append(member);
