@@ -3,8 +3,7 @@
 + HW Reflection (egg2 problem)
 + Review Exercise: Cake
   - With a partner, analyze the expected output and complete the program
-+ Explain Homework \#1
-  - go over Early Submission idea
++ Explain Program \#1
 + Things we should know
   - class declaration
   - main method declaration
