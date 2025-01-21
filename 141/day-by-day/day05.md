@@ -35,94 +35,26 @@
       - Exercise 4.1 (remember that an int divided by an int is an int)
 
 ## Programs for Class
-```java
-import java.util.Scanner;
-
-public class Ch4aInputDecisions {
-
-   public static void main(String[] args) {
-      repeatWord();
-
-//       // creates a Scanner object called console for User Input
-//       Scanner console = new Scanner(System.in);
-//       learningUserInput(console);
-
-//       repeatWord(console);
-
-//       learningIfStatements();
-
-//       double finalPoints = calcGrade(console);
-//       System.out.println("Expected Final Points: " + finalPoints);
-
-//       double finalGpa = calcGPA(finalPoints);
-//       System.out.println("Expected Final GPA: " + finalGpa);
-   }
-
-   // takes a word and a number
-   // prints the word to the screen that number of times
-   // repeat("balloon", 3)
-   /* should produce:
-      balloon
-      balloon
-      balloon
-   */
-   // extension: what if "returns"?
-   public static void repeatWord() {
-   }
-
-   // This method shows how to do user input in Java
-   public static void learningUserInput(Scanner console){
-   }
-
-   // prompts for a word and a number
-   // prints the word to the screen, one letter per line, all caps
-   // repeatWord() where the user types in "try" and 3
-   /* should produce:
-      TTT
-      RRR
-      YYY
-   */
-   public static void repeatWord(Scanner console) {
-   }
-
-   // This method shows how to write if-statements in Java
-   public static void learningIfStatements() {
-   }
-
-   // prompts for total points earned in the following categories:
-   // Learning Practice
-   // Long Homeworks
-   // Exams
-   // returns all points added together
-   //TODO: PERCENTAGE GRADE METHOD
-
-   // takes a points as a parameter
-   // returns the calculated gpa, according to the following:
-   // >= 95 points is a 4.0
-   // 94 is a 3.9
-   // else return 2.0 for now
-   //TODO: GPA METHOD
-}
-```
+[Ch4aInputDecisions.java](https://github.com/sudocrystal/CS141-InteractiveLectures/blob/main/Ch4aInputDecisions.java)
 
 ## Solutions
 ```java
 import java.util.Scanner;
 
-public class Day05InputDecisions {
-
+public class Ch4aInputDecisions {
    public static void main(String[] args) {
       // creates a Scanner object called console for User Input
       Scanner console = new Scanner(System.in);
 
       //String multiPhrase = repeatPhrase("something",3);
       //System.out.println(multiPhrase);
+
       //repeatPhrase(console);
 
-      double finalPercentage = calcGrade(console);
-      System.out.println("Expected Final Grade: " + finalPercentage);
+      double finalPoints = calcGrade(console);
+      System.out.println("Expected Final Grade: " + finalPoints);
 
-      double finalGpa = calcGPA(finalPercentage);
+      double finalGpa = calcGPA(finalPoints);
       System.out.println("Expected GPA: " + finalGpa);
    }
 
@@ -142,8 +74,7 @@ public class Day05InputDecisions {
 
    // prompts for a phrase and a number
    // prints the phrase to the screen, one letter per line, all caps
-   // repeatPhrase() where the user types in "try" and 3
-   /* should produce:
+   /* repeatPhrase() where the user types in "try" and 3 should produce:
       TTT
       RRR
       YYY
@@ -164,10 +95,8 @@ public class Day05InputDecisions {
       }
    }
 
-   // prompts for total points earned in the following categories:
-   // Learning Practice
-   // Long Homeworks
-   // Exams
+   // prompts for total points earned in the following 3 categories:
+   // Learning Practice, Long Homeworks, Exams
    // returns all points added together
    public static double calcGrade(Scanner console) {
       System.out.print("Learning Practice points? ");
@@ -182,14 +111,14 @@ public class Day05InputDecisions {
 
    // takes a points grade as a parameter
    // returns the calculated gpa, according to the following:
-   // >= 95%is a 4.0
-   // 94 is a 3.9
-   // else return 2.0 for now
+   //   >= 100 is a 4.0
+   //   >= 95 is a 3.9
+   //   else return 2.0 for now
    public static double calcGPA(double points) {
-      if(points >= 95) {
+      if(points >= 100) {
          return 4.0;
       }
-      else if(points >= 94) {
+      else if(points >= 95) {
          return 3.9;
       }
       return 2.0;
