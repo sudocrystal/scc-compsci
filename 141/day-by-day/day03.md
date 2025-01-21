@@ -24,7 +24,7 @@
       - Exercises 2.16 and 2.17
 
 ## Programs for class
-Wave Reflection
+Wave Reflection, 
 [Day03ForLoops](https://github.com/sudocrystal/CS141-InteractiveLectures/blob/main/Ch2bForLoops.java)
 
 ## Solutions
