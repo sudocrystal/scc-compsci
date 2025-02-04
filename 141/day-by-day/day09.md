@@ -30,64 +30,7 @@
     - Exercise 5.22
 
 ## Programs for class
-```java
-import java.util.Random;
-
-public class Ch5bRandomBooleans {
-
-   public static void main(String[] args) {
-      Random r = new Random();
-      int x = makeRandNum(r);
-      System.out.println("The number generated was " + x);
-
-//       System.out.println("isEven? " + isEven(x) );
-
-//       boolean factor = isFactor(5, x);
-//       System.out.println("is 5 a factor of x? " + factor);
-
-//       System.out.println("allSmallDigits? " + allSmallDigits(x) );
-
-//       System.out.println("isReverse? " + isReverse("hello", "olleh") );
-   }
-
-   // returns a random integer between 1 and 100
-   // What if we want a random 4 digit number?
-   public static int makeRandNum(Random randGen) {
-      return 0;
-   }
-
-   // returns true is num is even, false if it's odd
-   // e.g. isEven(10) --> true
-   // e.g. isEven(-1) --> false
-   public static boolean isEven(int num) {
-      return false;
-   }
-
-   // returns true if x is a factor of y (x divides evenly int y)
-   // e.g. 3 is a factor of 9
-   //      5 is NOT a factor of 9
-   // Question: is x here the same as the x in the main?
-   // Question: what if x is zero?
-   public static boolean isFactor(int x, int y) {
-      return false;
-   }
-
-   // returns true if all digits are smaller than 5
-   // e.g. allSmallDigits(1233) --> true
-   // e.g. allSmallDigits(4107) --> false
-   // e.g. allSmallDigits(8110) --> false
-   public static boolean allSmallDigits(int x) {
-      return false;
-   }
-
-   // returns true if the strings are reverse of each other
-   // e.g. isReverse("hello", "olleh") --> true
-   // e.g. isReverse("time", "fine") --> false
-   public static boolean isReverse(String s1, String s2) {
-      return false;
-   }
-}
-```
+[Ch5bRandomBooleans.java](https://github.com/sudocrystal/CS141-InteractiveLectures/blob/main/Ch5bRandomBooleans.java)
 
 ## Solutions
 ```java
@@ -98,34 +41,39 @@ public class Ch5bRandomBooleans {
        Random r = new Random();
        int x = makeRandNum(r);
        System.out.println("The number generated was " + x);
+
        //System.out.println("isEven? " + isEven(x) );
+
        //boolean factor = isFactor(5, x);
        //System.out.println("is 5 a factor of x? " + factor);
+
        System.out.println("allSmallDigits? " + allSmallDigits(x) );
-//       System.out.println("isReverse? " + isReverse("hello", "olleh") );
-	}
+       System.out.println("isReverse? " + isReverse("hello", "olleh") );
+   }
 
-	// returns a random integer between 1 and 100
-	public static int makeRandNum(Random randGen) {
-	    //int r = randGen.nextInt(100) + 1;	    // generates a number 1-100
-	    //int r = randGen.nextInt(9000) + 1000; // generates a number 1000-9999
-	    //randGen.nextInt(high-low+1) + low;
-	    return randGen.nextInt(9000) + 1000;
-	}
+   // returns a random integer between 1 and 100
+   // What if we want a random 4 digit number?
+   public static int makeRandNum(Random randGen) {
+   	//int r = randGen.nextInt(100) + 1;	    // generates a number 1-100
+   	//int r = randGen.nextInt(9000) + 1000; // generates a number 1000-9999
+   	//randGen.nextInt(high-low+1) + low;
+   	return randGen.nextInt(9000) + 1000;
+   }
 
-	// returns true is num is even, false if it's odd
-	// e.g. isEven(10) --> true
-	// e.g. isEven(-1) --> false
-	public static boolean isEven(int num) {
-	    //if(num % 2 == 0)	{
-	    //   return true;
-	    //}
-	    //else {
-	    //   return false;
-	    //}
-    	    //return false;
-	    return num % 2 == 0;
-	}
+   // returns true is num is even, false if it's odd
+   // e.g. isEven(10) --> true
+   // e.g. isEven(-1) --> false
+   public static boolean isEven(int num) {
+   	//if(num % 2 == 0)	{
+   	//   return true;
+   	//}
+   	//else {
+   	//   return false;
+   	//}
+   	//return false;
+
+    	return num % 2 == 0;
+   }
 
 	// returns true if x is a factor of y
 	public static boolean isFactor(int x, int y) {
@@ -159,7 +107,7 @@ public class Ch5bRandomBooleans {
 
 	    for (int i = 0; i < s1.length(); i++) {
 	      if (s1.charAt(i) != s2.charAt(s2.length() - 1 - i)) {
-		return false;
+		      return false;
 	      }
 	    }
 	    //THIS POINT
