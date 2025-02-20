@@ -31,67 +31,13 @@
     - Exercise 7.1 - 7.3
 
 ## Programs for class
-```java
-import java.util.*;
-
-public class Day13Arrays {
-   public static void main(String[] args) {
-      arrayFundamentals();
-
-      // Random rand = new Random();
-      // int[] values = //TODO: create an array to hold 5 ints
-      // //TODO: assign random values 10-20 to each element in the array
-      // System.out.println(values);
-
-      // System.out.println("Count of neg = " + countNeg(values));
-
-      // makePositive(values);
-      // System.out.println(Arrays.toString(values));
-
-      //TODO: create an array to hold 10 doubles
-      //TODO: assign each element a random number 0.0 - 999.9
-      System.out.println(Arrays.toString(decimals));
-
-      // System.out.println("Min value = " + findMin(decimals));
-
-      // String[] words1 = {"apple","pear"};
-      // String[] words2 = {"apple","pear"};
-      // String[] words3 = {"orange","apple"};
-      // System.out.println(Arrays.toString(words1) + " == " + Arrays.toString(words2) + "? \t\t\t\t\t" + areEqual(words1,words2));
-      // System.out.println(Arrays.toString(words2) + " == " + Arrays.toString(words3) + "? \t" + areEqual(words2,words3));
-   }
-
-   public static void arrayFundamentals() {
-   }
-
-   // returns a count of the negative numbers in the array
-   public static int countNeg(int[] arr) {
-      return 0;
-   }
-
-   // make all negative values positive
-   public static void makePositive(int[] arr) {
-   }
-
-   // returns the smallest vlalue in the array
-   public static double findMin(double[] arr) {
-      return 0.0;
-   }
-
-   // returns true if the lists contain exactly the same items
-   // returns false otherwise
-   // **fun** can you check if they are the same, but not same order?
-   public static boolean areEqual(String[] list1, String[] list2) {
-      return false;
-   }      
-}
-```
+[Ch7aArrays.java](https://github.com/sudocrystal/CS141-InteractiveLectures/blob/main/Ch7aArrays.java)
 
 ## Solutions
 ```java
 import java.util.*;
 
-public class Day13Arrays {
+public class Ch7aArrays {
    public static void main(String[] args) {
       arrayFundamentals();
 
@@ -119,9 +65,9 @@ public class Day13Arrays {
       String[] words2 = {"apple","pear"};
       String[] words3 = {"orange","apple"};
       System.out.println(Arrays.toString(words1) + " == " + Arrays.toString(words2)
-                          + "? \t\t\t\t\t" + areEqual(words1,words2));
+                          + "? \t\t\t\t\t" + areEqual(words1, words2));
       System.out.println(Arrays.toString(words2) + " == " + Arrays.toString(words3)
-                          + "? \t" + areEqual(words2,words3));
+                          + "? \t" + areEqual(words2, words3));
    }
 
    public static void arrayFundamentals() {
@@ -162,19 +108,18 @@ public class Day13Arrays {
 
    // returns true if the lists contain exactly the same items
    // returns false otherwise
-   // **fun** can you check if they are the same, but not same order?
    public static boolean areEqual(String[] list1, String[] list2) {
-      // if(list1.length != list2.length)
-      //   return false;
-      //
-      // for(int i = 0; i < list1.length; i++) {
-      //   if(!list1[i].equals(list2[i])) {
-      //     return false;
-      //   }
-      // }
-      //
-      // return true;
-      return Arrays.equals(list1,list2);
+      if(list1.length != list2.length)
+        return false;
+      
+      for(int i = 0; i < list1.length; i++) {
+        if(!list1[i].equals(list2[i])) {
+          return false;
+        }
+      }
+      
+      return true;
+      //return Arrays.equals(list1,list2);
    }      
 }
 ```
