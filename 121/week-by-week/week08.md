@@ -4,7 +4,7 @@
   - Gap ok between CS 121 and 141
   - ...and more
 - Review Coding Bat: Strings
-  - [count_hi](CodingBat Python String-2 count_hi.pdf)
+  - [count_hi]("CodingBat Python String-2 count_hi.pdf")
     ```python
     def count_hi(s):
       return s.count("hi")
