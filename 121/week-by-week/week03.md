@@ -5,6 +5,7 @@
   - Can we define a function without calling it?
   - Can we call a function without defining it?
   - Vocabulary: control flow, function definition, function call
++ Pair 2: More Functions
 + Learn about Parameters
   ```python
   def happy_birthday(name):
