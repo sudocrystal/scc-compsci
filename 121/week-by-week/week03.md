@@ -6,7 +6,7 @@
   - Can we call a function without defining it?
   - Vocabulary: control flow, function definition, function call
 + Learn about Parameters
-  ```
+  ```python
   def happy_birthday(name):
     print("Happy Birthday to you!")
     print("Happy Birthday to you!")
