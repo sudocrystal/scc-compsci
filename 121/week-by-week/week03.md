@@ -5,11 +5,22 @@
   - Can we define a function without calling it?
   - Can we call a function without defining it?
   - Vocabulary: control flow, function definition, function call
-+ Warm up
-  - Predicting the result Functions cont. with partner
-  - Discussion post
++ Learn about Parameters
+  ```
+  def happy_birthday(name):
+    print("Happy Birthday to you!")
+    print("Happy Birthday to you!")
+    print(f"Happy Birthday, dear {name}.")
+    print("Happy Birthday to you!")
+  
+  happy_birthday("Maria")
+  
+  happy_birthday("Nikolas")
+  
+  you = input("What's your name?")
+  happy_birthday(you)
+  ```
 + Begin HW: Nursery Rhymes (part 1)
-
 
 ## Solutions for class
 
