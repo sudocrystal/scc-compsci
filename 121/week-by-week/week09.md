@@ -6,6 +6,7 @@
   - Accessing an element in a list
   - Strings vs Lists
 - Code-along: Movie Theater
+  - Completed in REPL for experience of different IDE
 
 
 ## Starter Files
