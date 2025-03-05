@@ -7,6 +7,7 @@
   - Strings vs Lists
 - Code-along: Movie Theater
 
+
 ## Starter Files
 
 ### Theater.py
