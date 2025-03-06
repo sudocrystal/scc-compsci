@@ -11,5 +11,5 @@
 + General talk about Final
   - Confirm day/time
   - Makeup options
-+ HW#8: Wack-a-mole
++ Pair 5: Wack-a-mole
   - partner assignment, to be completed in class
