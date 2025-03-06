@@ -2,7 +2,7 @@
 
 + Introduction to ACM Graphics
   - If there's time, do an introduction to ACM Graphics
-+ Grocery List Partner Program
++ Pair 4: Grocery List
 
 ## Solutions
 
