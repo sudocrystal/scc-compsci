@@ -7,4 +7,4 @@
 + Review Program \#7
   - Restrictions
   - Due date
-+ Pair 6: Holiday Shopping
++ Pair 5: Holiday Shopping
