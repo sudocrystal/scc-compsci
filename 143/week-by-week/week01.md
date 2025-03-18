@@ -3,7 +3,7 @@
 + Introduce Self
 + Review Canvas and Syllabus
 
-# Day 01/10
+# Week 01/10
 
 + Part 1: Explore java.util.ArrayList
   - Review the primary functionality of an ArrayList, including constructing an ArrayList object and utilizing its behaviors (add, toString, remove, size, ...)
