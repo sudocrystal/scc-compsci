@@ -122,19 +122,18 @@ public class GameEngine {
       System.out.println();
       System.out.println("Good game!");
       System.out.println(board);
-	}
+   }
 
-	public static void playerTurn(Scanner console, TicTacToeBoard b, boolean isP1) {
-		//set player to the person's turn
-		char player = isP1 ? PLAYER_1 : PLAYER_2;
+   public static void playerTurn(Scanner console, TicTacToeBoard b, boolean isP1) {
+      //set player to the person's turn
+      char player = isP1 ? PLAYER_1 : PLAYER_2;
 
-		//ask the user for the spot they want
-		System.out.print("\nPlayer " + player + ", where would you like to go? > ");
-		int spot = console.nextInt();
+      //ask the user for the spot they want
+      System.out.print("\nPlayer " + player + ", where would you like to go? > ");
+      int spot = console.nextInt();
 
-		//set that spot to the player's letter (char player)
+      //set that spot to the player's letter (char player)
       b.mark(spot, player);
-	}
-
+   }
 }
 ```
