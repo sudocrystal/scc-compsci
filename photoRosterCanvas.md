@@ -6,6 +6,7 @@ Ask students to update their canvas account picture, then...
 - Go to the People tab of Canvas for your course
 - Right click somewhere on the webpage and choose "Inspect"
 - Click on the console tab that just popped up
+- Copy the code below (if you don't want your name to show on the roster, change where it says "Crystal Hess" to say your name instead - if you don't mind your name showing, then no changes are needed)
 - Paste the code below into the console and hit enter
 - Print your pretty photo roster!
 
