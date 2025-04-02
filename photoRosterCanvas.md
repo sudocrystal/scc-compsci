@@ -21,7 +21,7 @@ newDiv.append(courseNumberAndSection);
 $('.collectionViewItems tr').each(function(){
 
     var stuName = $(this).find('.roster_user_name').html();
-    stuName = stuName.replaceAll("/Him","").replaceAll("/Her","").replaceAll("/hem","");
+    stuName = stuName.replaceAll("/Him","").replaceAll("/Her","").replaceAll("/Them","");
     //console.log($(this).html());
     //console.log(stuName);
 
