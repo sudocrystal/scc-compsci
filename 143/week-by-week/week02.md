@@ -2,6 +2,20 @@
 
 - Review Exam 1 Study Guide
 - BoardGames Assignment
+  1. Look at GameEngine
+  2. Look at TicTacToeBoard
+     - Think about representation of 2D arrays
+     - What is `marked` for?
+     - constructor
+     - toString()
+     - mark()
+     - isFull() and isGameOver()
+     - checkWinner(): knows there is a winner, but not who.
+  4. Connect4Board
+     - Change in `GameEngine`: player's symbols, Board constructor, what does `extends` do?
+     - constructor 6x7, all `.` except bottom row is 1-7
+     - mark: do TicTacToe action, replace the removed spot if space (1-7)
+  5. More OYO
 
 ## BoardGames
 
