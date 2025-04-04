@@ -18,9 +18,12 @@ Ask students to update their canvas account picture, then...
 
 ## New code
 ```js
+var instructor = "Crystal Hess"; 
 var newDiv = $('<div class="canvasPhotoRoster">');
-var courseNumberAndSection = "<h3>" + $('nav[id="breadcrumbs"]').html().replaceAll("\n","").replace(/.*CS/, "CS").replace(/<.*/,"") + "</h3>";
-newDiv.append(courseNumberAndSection);
+var courseNumberAndSection = $('nav[id="breadcrumbs"]').html();
+courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"")
+//console.log(courseNumberAndSection);
+newDiv.append("<h3>" + courseNumberAndSection + "</h3>");
 
 $('.collectionViewItems tr').each(function(){
 
@@ -41,7 +44,7 @@ $('.collectionViewItems tr').each(function(){
 
     var member = $('<div class="member" style="width:120px; height:140px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:110px; width:110px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 110px; max-height: 110px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center; text-size: 8px;">' + stuName + '</div></div>');
 
-    if(!stuName.includes("Crystal Hess") && label != "inactive") {
+    if(!stuName.includes(instructor) && label != "inactive") {
       newDiv.append(member);
     }
 
@@ -49,16 +52,4 @@ $('.collectionViewItems tr').each(function(){
 
 newDiv.appendTo('.ic-Layout-contentWrapper');
 $('div[id="content"]').remove();
-```
-
-## Old code
-```js
-var newDiv = $('<div>');
-$('.collectionViewItems tr').each(function(){
- var avatar = $(this).find('.avatar').css('background-image').replace('url(','').replace(')','');
- var member = $('<div class="member" style="width:120px;height:160px;float: left;margin: 2px;"><div class="memberImg" style="text-align:center; height:120px; width:120px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 120px; max-height: 120px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center">' + $(this).find('.roster_user_name').html() + '</div></div>');
- newDiv.append(member);
-});
-newDiv.appendTo('.v-gutter');
-$('div[data-view="users"]').remove()
 ```
