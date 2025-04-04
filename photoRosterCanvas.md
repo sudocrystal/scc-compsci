@@ -18,11 +18,12 @@ Ask students to update their canvas account picture, then...
 
 ## New code
 ```js
-var instructor = "Crystal Hess"; 
-var newDiv = $('<div class="canvasPhotoRoster">');
-var courseNumberAndSection = $('nav[id="breadcrumbs"]').html();
-courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"")
+var instructor = "Crystal Hess";
+
+var courseNumberAndSection = $('nav[id="breadcrumbs"]').html().replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"")
 //console.log(courseNumberAndSection);
+
+var newDiv = $('<div class="canvasPhotoRoster">');
 newDiv.append("<h3>" + courseNumberAndSection + "</h3>");
 
 $('.collectionViewItems tr').each(function(){
