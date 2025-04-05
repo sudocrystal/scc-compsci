@@ -21,7 +21,8 @@ Ask students to update their canvas account picture, then...
 ```js
 var instructor = "Crystal Hess";
 
-var courseNumberAndSection = $('nav[id="breadcrumbs"]').html().replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"")
+var courseNumberAndSection = $('nav[id="breadcrumbs"]').html();
+courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"")
 //console.log(courseNumberAndSection);
 
 var newDiv = $('<div class="canvasPhotoRoster">');
@@ -31,7 +32,6 @@ $('.collectionViewItems tr').each(function(){
 
     var stuName = $(this).find('.roster_user_name').html();
     stuName = stuName.replaceAll("/Him","").replaceAll("/Her","").replaceAll("/Them","");
-    //console.log($(this).html());
     //console.log(stuName);
 
     var avatar = $(this).html();
