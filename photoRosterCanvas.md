@@ -20,6 +20,7 @@ Ask students to update their canvas account picture, then...
 ## New code
 ```js
 var instructor = "Crystal Hess";
+var firstNamesOnly = false; 
 
 var courseNumberAndSection = $('nav[id="breadcrumbs"]').html();
 courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"")
@@ -28,10 +29,14 @@ courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<
 var newDiv = $('<div class="canvasPhotoRoster">');
 newDiv.append("<h3>" + courseNumberAndSection + "</h3>");
 
-$('.collectionViewItems tr').each(function(){
+$('.collectionViewItems tr').each(function() {
 
     var stuName = $(this).find('.roster_user_name').html();
     stuName = stuName.replaceAll("/Him","").replaceAll("/Her","").replaceAll("/Them","");
+    if(firstNamesOnly && !stuName.includes(instructor) ) { 
+       if(stuName.includes("(")) stuName = stuName.replace(/ .*\(/, " (");
+       else stuName = stuName.replace(/ .*/, "")
+    }
     //console.log(stuName);
 
     var avatar = $(this).html();
@@ -44,7 +49,7 @@ $('.collectionViewItems tr').each(function(){
       label = "inactive";
     }
 
-    var member = $('<div class="member" style="width:120px; height:140px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:110px; width:110px;"><span style="display: inline-block; height: 100%; vertical-align: middle;"></span><img style="max-width: 110px; max-height: 110px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center; text-size: 8px;">' + stuName + '</div></div>');
+    var member = $('<div class="member" style="width:120px; height:140px; float: left; margin: 2px; padding: 5px;"><div class="memberImg" style="text-align:center; height:110px; width:110px;"><img style="max-width: 110px; max-height: 110px; vertical-align: middle;" src=' + avatar + '></div><div class="memberName" style="text-align:center;">' + stuName + '</div></div>');
 
     if(!stuName.includes(instructor) && label != "inactive") {
       newDiv.append(member);
