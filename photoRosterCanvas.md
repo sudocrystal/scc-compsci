@@ -23,7 +23,7 @@ var instructor = "Crystal Hess";
 var firstNamesOnly = false; 
 
 var courseNumberAndSection = $('nav[id="breadcrumbs"]').html();
-courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"")
+courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"");
 //console.log(courseNumberAndSection);
 
 var newDiv = $('<div class="canvasPhotoRoster">');
@@ -35,7 +35,7 @@ $('.collectionViewItems tr').each(function() {
     stuName = stuName.replaceAll("/Him","").replaceAll("/Her","").replaceAll("/Them","");
     if(firstNamesOnly && !stuName.includes(instructor) ) { 
        if(stuName.includes("(")) stuName = stuName.replace(/ .*\(/, " (");
-       else stuName = stuName.replace(/ .*/, "")
+       else stuName = stuName.replace(/ .*/, "");
     }
     //console.log(stuName);
 
