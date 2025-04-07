@@ -8,7 +8,7 @@
   - discuss: using code you don't understand
   - discuss: reflections
 - Review Exam 1 Study Guide
-- Ask students to join CodeStepByStep course
+  - Ask students to join CodeStepByStep course
 - BoardGames Assignment
   1. Look at GameEngine
   2. Look at TicTacToeBoard
