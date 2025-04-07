@@ -1,6 +1,14 @@
 # Week 02/10
 
+- Review GradesList assignment
+  - finding feedback
+  - try/catch or throws
+  - Collections.sort()
+  - grades.toString()
+  - discuss: using code you don't understand
+  - discuss: reflections
 - Review Exam 1 Study Guide
+- Ask students to join CodeStepByStep course
 - BoardGames Assignment
   1. Look at GameEngine
   2. Look at TicTacToeBoard
