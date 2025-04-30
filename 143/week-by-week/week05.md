@@ -5,14 +5,12 @@
   - combining row/col/mini square checks
   - reviewing issue with only checking values in isSolved without considering keys
   - remind that sometimes I'll ask questions, where the answer might be "yeah, my solution works!"
-
 + Writing Recusrsive methods
   - Quick review of vocab: base case, recursive case, "the call stack"/bubbles
   - Look at provided files
     - main is at bottom
     - there are calls and the expected result as a comments
-
-  - digitProduct
+  - **digitProduct**
     - show examples
     - reminder of going right to left because % 10
     - What are the cases that we know right away?
@@ -24,15 +22,13 @@
       - dP(n) = n % 10 * dP(n / 10)
     - Account for a negative values
       - dP(n) = n % 10 * dP(Math.abs(n / 10))
-
-  - Pattern
+  - **pattern**
     - What's the base case?
       - n = 0, m = 0 is a ""
     - What's the recursive case?
       - n > 0
       - m > 0
-
-  - commonChars
+  - **commonChars**
     - What's the base case?
       - usually with strings it's ""
       - assume strings are the same length?
@@ -40,17 +36,15 @@
       - if first character is the same, s.charAt(0)
       - if first character is not the same, "."
       - (optional/skip) if lengths aren't the same
-  - countToBy
+  - **countToBy**
     - counts backwards, doesn't always start at 1
     - What's the base case?
       - when first number is smaller than second
     - Recursive case?
       - take out the second number, making the first number smaller
-
 + REMEMBER: In recursion you've got to create a case where the problem gets smaller (and closer to the base case)
   - Seeing more problems will help
   - I think the number problems are easier, but you may feel differently
-
 + Queens
   - Recursive backtracking; maze, queens, Sudoku
   - Trying to place 8 queens on a board so that none of the queens seeing each other
@@ -71,7 +65,6 @@
       - extends QueensBoard
       - adds a graphical element
       - show with a board of size=4
-
 
   ## Solutions for class
   ```java
