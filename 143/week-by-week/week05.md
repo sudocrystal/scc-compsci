@@ -1,5 +1,7 @@
 # Week 5
 
+Note to self: you won't finish early; or not by much
+
 + Review Sudoku Solutions
   - comments to explain code
   - combining row/col/mini square checks
@@ -84,8 +86,10 @@
    public static int digitProduct(int n) {
       if(n == 0)
          return 1;
-      else
+      else if(n % 10 != 0)
          return n % 10 * digitProduct(Math.abs(n / 10));
+      else
+         return 1 * digitProduct(Math.abs(n / 10));
    }
 
    /*
@@ -165,7 +169,7 @@
       System.out.print("\ncountToBy(34, 5) = ");
       countToBy(34, 5);     // 4, 9, 14, 19, 24, 29, 34
       System.out.print("\ncountToBy(3, 6) = ");
-      countToBy(3, 6);      // 3
+      countToBy(3, 6);      // 3, 6
       System.out.print("\ncountToBy(17, 3) = ");
       countToBy(17, 3);     // 2, 5, 8, 11, 14, 17
       System.out.println("\n");
