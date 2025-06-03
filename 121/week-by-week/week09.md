@@ -7,6 +7,16 @@
   - Strings vs Lists
 - Code-along: Movie Theater
   - Completed in REPL for experience of different IDE
+ 
+## Movie Theater - Functionality To Add
+
+1. Modify show_listings to print out the movies that are showing at this theater. Include a number in front of each option
+1. In show_listings, allow the user to select one of the movies and return their choice
+1. Add a loop to the main that makes it so that the program repeats infinitely asking the user to select a movie and then purchasing that ticket
+1. Modify show_listings to print the total number of tickets remaining for each movie in addition to the movie name
+1. Modify buy_ticket so that the user cannot purchase a ticket for a movie that is sold out
+1. Modify the loop in the main so that the program ends when all tickets are sold
+1. Modify the show_listings function to print out that a movie is sold out (instead of how many tickets are left) if it has not tickets
 
 
 ## Starter Files
