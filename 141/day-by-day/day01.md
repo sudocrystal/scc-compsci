@@ -1,8 +1,6 @@
 # Start of the Quarter
-
 + Introduce Self
 + Review Canvas and Syllabus
-+ Have students introduce self
 
 # Day 01/20
 
@@ -13,10 +11,8 @@
     - Compiled (Java, C, C++, Go, Rust) vs. Interpreted Languages (Python, JavaScript, Ruby, PHP)
     - Strongly typed (Java) vs. duck typing (Python)
       - "If it walks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck."
-  - JGrasp
-    - writing first "Hello World" program
-  - class declaration
-  - main declaration
+  - Intro to JGrasp by writing first "Hello World" program
+  - class and main declarations
   - SOPrint vs SOPrintln
     - semicolons terminate statements
     - whitespace matters inside String literals
