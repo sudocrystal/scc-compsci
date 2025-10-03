@@ -7,7 +7,7 @@
 - [ ] Parking Pass (Safety & Security Office)
 
 ## Send to Kelly
-- [ ] Office Hours (5 * Course Load = #)
+- [ ] Office Hours (5 * Course Load = #, max of 5)
 - [ ] Finalized Course Syllabi (more info on writing them below)
 
 ## Setup with FPC (Faculty Program Coordinator)
@@ -16,20 +16,18 @@
 
 ## Things Crystal can help with
 - [ ] Template for Syllabus [121](121/), [141](141/), [143](143/)
-- [ ] Giving you a canvas shell to use as a starting point
-- [ ] Giving you her daily lesson plans [121](121/), [141](141/)
+- [ ] Showing you a canvas shell to use as a starting point
 - [ ] Informal peer observation and feedback if you'd like it
-- [ ] Loaning you a textbook if you need to borrow one
 - [ ] Showing you around campus, if you want
 
 ## General Shoreline CS Information
 - [ ] Textbook Information
-  - Online text for 121: How to Think Like a Computer Scientist
-  - 141 and 143 use Building Java Programs, 4th Edition (request an Instructor copy from Pearson)
-- [ ] IDEs
-  - 121 we use repl.it
-  - 141 we use JGrasp
-  - 143 the instructor couples JGrasp with their favorite IDE (Eclipse, IntelliJ, etc)
+  - 110: OER (free or instructor provided materials), How to Think Like a Computer Scientist
+  - 141 and 143: use Building Java Programs
+- [ ] IDEs (must have a VPAT on file with college as of April 2026)
+  - 121 we use Google Colab
+  - 141 we use JGrasp at least to start
+  - 143 instructor choice (JGrasp, VSCode, Eclipse, IntelliJ, etc)
 - [ ] Exams
   - We have started developing Common Exams in CS, ask Crystal for access or examples
   - We reuse some questions, so please do not leave exam questions open for more than one viewing on canvas (as a general rule, exceptions always)
@@ -42,7 +40,7 @@
 
 ## People to Know
 - Crystal, Tenure-track CS
-- Ali, Tenured ENGR, current CS/ENGR FPC (as of 1/7/2019)
-- Guy Hamilton, STEM Division Dean
-- Kelly, Admin Assistant works front desk in Science Building
-- Ellen, Guy's Admin who keeps everything moving in STEM
+- No FPC (Faculty Program Coordinator/Chair) as of AY24-25
+- STEM Division Dean
+- Kelly, Admin Assistant
+- Ellen, Dean's Admin who keeps everything moving in STEM
