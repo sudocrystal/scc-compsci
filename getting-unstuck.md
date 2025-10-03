@@ -1,6 +1,9 @@
 # Programming Homework Help Guide
 
 If you are stuck on your long program homework, use this guide to help you get unstuck!
+***
+**Key Reminder:** Tutors and instructors can guide your thinking, but you will do the actual work. The clearer you are in asking for help, the more effective your help session will be.
+***
 
 ## 1. Understand the Task and the Goal
 
@@ -13,8 +16,8 @@ Before seeking help:
 
 Example: 
 
-- **Prompt:** “The program should read a list of student grades from a file, calculate the average, and print results with proper formatting.”
-- **Topics Expected to use:** files, loop, methods
+- Prompt: “The program should read a list of student grades from a file, calculate the average, and print results with proper formatting.”
+- Topics Expected to use: files, loop, methods
 
   
 ## 2. Identify Where You’re Stuck
@@ -61,7 +64,3 @@ To help your tutor or instructor assist efficiently:
 3. **Identify the exact spot** and nature of the problem.
 4. **Share what you’ve tried** and what happened.
 5. **Ask targeted questions**: “How can I store data from multiple lines of a file?” rather than “I don’t get it.”
-
-***
-**Key Reminder:** Tutors and instructors can guide your thinking, but you will do the actual work. The clearer you are, the more effective your help session will be.
-
