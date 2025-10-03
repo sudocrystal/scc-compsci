@@ -1,4 +1,4 @@
-# Programming Homework Help Guide Sheet
+# Programming Homework Help Guide
 
 If you are stuck on your long program homework, use this guide to help you get unstuck!
 
