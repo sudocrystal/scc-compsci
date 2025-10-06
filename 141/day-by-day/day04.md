@@ -1,17 +1,15 @@
 # Day 04/20
 
-+ Partner Review Exercise:
-  - hourglass
++ Partner Review Exercise: hourglass
 + Ascii Art Notes
   - Reduce Redundancy in a single line by using nested loops
   - Reduce Redundancy in structure with methods
-  - NOTE (but no demo): could use Class constant for size
 + Lecture
   - Parameters
     - information for processing: parameter vs argument
     - ordering and Types
     - overloading
-    - do PracticeIt Self-Check 3.6
+    - do CodeStepByStep Self-Check 3.6
   - Return Types
     - Value semantics (`add10`)
     - void / something else
