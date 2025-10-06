@@ -42,7 +42,7 @@
 
 ## Programs for class
 
-[Ch2cASCII.java]()
+[Ch2cASCII.java](https://github.com/sudocrystal/CS141-InteractiveLectures/blob/main/Ch2cASCII.java)
 [Ch3aParametersObjects.java](https://github.com/sudocrystal/CS141-InteractiveLectures/blob/main/Ch3aParameters.java)
 
 ## Solutions
@@ -50,11 +50,6 @@
 ### Day04ASCII.java
 ```java
 public class Day04ASCII {
-   public static void main(String[] args) {
-      //numberTri();
-      hourglass();
-   }
-
    /* This method should produce the following
       |""""""""""|
        \::::::::/
@@ -68,7 +63,7 @@ public class Day04ASCII {
        /::::::::\
       |""""""""""|
    */
-   public static void hourglass() {
+   public static void main(String[] args) {
       line();
       topCone();
       //middle();
@@ -92,28 +87,6 @@ public class Day04ASCII {
             System.out.print(":");
          }
          System.out.print("/");
-         System.out.println();
-      }
-   }
-
-   /* This method should produce the following
-      -----1-----
-      ----222----
-      ---33333---
-      --4444444--
-      -555555555-
-   */
-   public static void numberTri() {
-      for(int line = 1; line <= 5; line++) {
-         for(int dashes = 1; dashes <= -1 * line + 6; dashes++) {
-            System.out.print("-");
-         }
-         for(int num = 1; num <= 2 * line - 1; num++) {
-            System.out.print(line);
-         }
-         for(int dashes = 1; dashes <= -1 * line + 6; dashes++) {
-            System.out.print("-");
-         }
          System.out.println();
       }
    }
