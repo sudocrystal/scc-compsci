@@ -51,6 +51,8 @@ public class Ch4aInputDecisions {
 
       //repeatPhrase(console);
 
+      //learningIfStatements();
+
       double finalPoints = calcGrade(console);
       System.out.println("Expected Final Grade: " + finalPoints);
 
@@ -95,30 +97,34 @@ public class Ch4aInputDecisions {
       }
    }
 
+   // This method shows how to write if-statements in Java
+   public static void learningIfStatements() {
+   }
+
    // prompts for total points earned in the following 3 categories:
-   // Learning Practice, Long Homeworks, Exams
+   // Practice, Programs, Exams
    // returns all points added together
    public static double calcGrade(Scanner console) {
-      System.out.print("Learning Practice points? ");
+      System.out.print("Practice points? ");
       double practice = console.nextInt();
-      System.out.print("Homework? ");
-      double hw = console.nextInt();
+      System.out.print("Programs? ");
+      double programs = console.nextInt();
       System.out.print("Exams? ");
       double exams = console.nextInt();
 
-      return (practice + hw + exams);
+      return (practice + programs + exams);
    }
 
    // takes a points grade as a parameter
    // returns the calculated gpa, according to the following:
-   //   >= 100 is a 4.0
-   //   >= 95 is a 3.9
+   //   >= 95 is a 4.0
+   //   >= 94 is a 3.9
    //   else return 2.0 for now
    public static double calcGPA(double points) {
-      if(points >= 100) {
+      if(points >= 95) {
          return 4.0;
       }
-      else if(points >= 95) {
+      else if(points >= 94) {
          return 3.9;
       }
       return 2.0;
