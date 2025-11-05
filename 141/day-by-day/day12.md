@@ -24,16 +24,16 @@
 import java.io.*;
 import java.util.*;
 
-public class Day12LineBasedProcessing {
+public class Ch6bLineBasedProcessing {
 
    public static void main(String[] args) throws FileNotFoundException {
       Scanner console = new Scanner(System.in);
-
       Scanner file = new Scanner(new File("more_numbers.txt"));
-      //echoContents(file);
+      
+      echoTokens(file);
+      //echoLines(file);
       //echoFile(file);
-      //cleanFile(file);
-      //createCleanFile(file);
+
       //countSpaces(file);
       //countTokens(file);
       //mostTokens(file);
@@ -42,16 +42,16 @@ public class Day12LineBasedProcessing {
 
    // Should echo the contents of a file, removing all spacing and new lines
    // pattern: token-based processing: process a file token by token
-   public static void echoContents(Scanner in) {
+   public static void echoTokens(Scanner in) {
       while(in.hasNextInt()) {
-         int line = in.nextInt();
-         System.out.println(line);
+         int token = in.nextInt();
+         System.out.println(token);
       }
    }
 
    // Should echo the contents of a file, maintaining all spacing
    // pattern: line-based processing: processes a file line by line
-   public static void echoFile(Scanner in) {
+   public static void echoLines(Scanner in) {
       while(in.hasNextLine()) {
          String line = in.nextLine();
          System.out.println(line);
@@ -60,8 +60,10 @@ public class Day12LineBasedProcessing {
 
    // Should echo the contents of a file to the console
    // preserve line breaks, but removing extra spaces between tokens
+   // Edit to: echo the contents of a file to A NEW FILE
    // pattern: processes a file line by line, evaluating each token on a line
-   public static void cleanFile(Scanner in) {
+   public static void echoFile(Scanner in) throws FileNotFoundException {
+      //PrintStream outFile = new PrintStream(new File("clean_numbers.txt"));
       while(in.hasNextLine()) {
          String line = in.nextLine();
 
@@ -69,24 +71,10 @@ public class Day12LineBasedProcessing {
          while(lineScan.hasNextInt()) {
             int token = lineScan.nextInt();
             System.out.print(token + " ");
+            //outFile.print(token + " ");
          }
          System.out.println();
-      }
-   }
-
-   // Should echo the contents of a file to A NEW FILE
-   // preserve line breaks, but removing extra spaces between tokens
-   public static void createCleanFile(Scanner in) throws FileNotFoundException {
-      PrintStream outFile = new PrintStream(new File("clean_numbers.txt"));
-      while(in.hasNextLine()) {
-         String line = in.nextLine();
-
-         Scanner lineScan = new Scanner(line);
-         while(lineScan.hasNextInt()) {
-            int token = lineScan.nextInt();
-            outFile.print(token + " ");
-         }
-         outFile.println();
+         //outFile.println();
       }
    }
 
