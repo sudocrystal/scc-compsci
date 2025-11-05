@@ -30,14 +30,14 @@ public class Ch6bLineBasedProcessing {
       Scanner console = new Scanner(System.in);
       Scanner file = new Scanner(new File("more_numbers.txt"));
       
-      echoTokens(file);
+      //echoTokens(file);
       //echoLines(file);
       //echoFile(file);
 
       //countSpaces(file);
       //countTokens(file);
       //mostTokens(file);
-      //maxTokens(file);
+      maxTokens(file);
    }
 
    // Should echo the contents of a file, removing all spacing and new lines
