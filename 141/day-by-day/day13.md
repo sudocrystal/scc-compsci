@@ -77,8 +77,13 @@ public class Ch7aArrays {
    // returns a count of the negative numbers in the array
    public static int countNeg(int[] arr) {
       int count = 0;
-      for(int i = 0; i < arr.length; i++) {
-        if(arr[i] < 0) {
+//       for(int i = 0; i < arr.length; i++) {
+//         if(arr[i] < 0) {
+//           count++;
+//         }
+//       } 
+      for(int val : arr) {
+        if(val < 0) {
           count++;
         }
       }
