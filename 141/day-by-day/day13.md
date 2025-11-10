@@ -1,5 +1,6 @@
 # Day 13/20
-
++ Reflection
++ Review Program 3 requirements
 + Lecture
   - array fundamentals
     - declaring
@@ -55,7 +56,7 @@ public class Ch7aArrays {
 
       // double[] decimals = new double[10];
       // for(int i = 0; i < decimals.length; i++) {
-      //   decimals[i] = rand.nextInt(1000) / 10;
+      //   decimals[i] = rand.nextInt(1000) / 10.0;
       // }
       // System.out.println(Arrays.toString(decimals));
 
@@ -65,7 +66,7 @@ public class Ch7aArrays {
       String[] words2 = {"apple","pear"};
       String[] words3 = {"orange","apple"};
       System.out.println(Arrays.toString(words1) + " == " + Arrays.toString(words2)
-                          + "? \t\t\t\t\t" + areEqual(words1, words2));
+                          + "? \t\t" + areEqual(words1, words2));
       System.out.println(Arrays.toString(words2) + " == " + Arrays.toString(words3)
                           + "? \t" + areEqual(words2, words3));
    }
