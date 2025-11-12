@@ -59,7 +59,7 @@ public class Ch7bMoreArrays {
 //       rotateLeft(words);
 //       System.out.println(Arrays.toString(words));
 
-//       int[] times = {2,3,1};
+//       int[] times = {2, 3, 1};
 //       repeatTimes(words,times);
 //       System.out.println(Arrays.toString(words));     
 
