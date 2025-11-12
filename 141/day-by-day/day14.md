@@ -45,21 +45,21 @@ public class Ch7bMoreArrays {
 //       swap(a,b);
 //       System.out.printf("a = %d, b = %d \n\n", a, b);
 
-      int[] numbers = {1,-20,3,-4,10,7,3};
-//       swap(numbers[0],numbers[1]);
+      int[] numbers = {1, -20, 3, -4, 10, 7, 3};
+//       swap(numbers[0], numbers[1]);
 //       System.out.println(Arrays.toString(numbers));
 
-//       swap(numbers,0,1);
+//       swap(numbers, 0, 1);
 //       System.out.println(Arrays.toString(numbers));
 
 //       arrayMystery(numbers);
 //       System.out.println(Arrays.toString(numbers));
 
-      String[] words = {"hello","hi","hola","jambo"};
+      String[] words = {"a", "b", "c"};
 //       rotateLeft(words);
 //       System.out.println(Arrays.toString(words));
 
-//       int[] times = {2,3,1,2};
+//       int[] times = {2,3,1};
 //       repeatTimes(words,times);
 //       System.out.println(Arrays.toString(words));     
 
@@ -103,9 +103,9 @@ public class Ch7bMoreArrays {
 
    // this method should rotate all values in an array left by one
    // the first value should rotate to the end of the array
-   // {"a","b","c"}
+   // {"a", "b", "c"}
    // should become
-   // {"b","c","a"}
+   // {"b", "c", "a"}
    public static void rotateLeft(String[] a) {
       String temp = a[0];
       for(int i = 0; i < a.length - 1; i++) {
@@ -116,8 +116,8 @@ public class Ch7bMoreArrays {
 
    // this method should alter each element in the words array
    // to repeat the number of times that appears in the times array
-   // if we pass {"a","b"},{2,4}
-   // ==> words should become {"aa","bbbb"}
+   // if we pass {"a", "b", "c"}, {2, 3, 1}
+   // ==> words should become {"aa", "bbbb", "c"}
    public static void repeatTimes(String[] words, int[] times) {
       for(int i = 0; i < words.length; i++) {
          String result = "";
