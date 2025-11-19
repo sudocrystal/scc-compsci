@@ -4,23 +4,22 @@
 + Lecture - Part 1
   - Go over the parts of creating a class
   - Pet.java
-    - name, species, primary and secondary breed
+    - name, species, breed
     - fields, constructor, toString, accessors, mutators
   - PetTester.java
-    - ```Pet p```
-    - ```Pet[] pets```
+    - ```Pet p```, change name, access name
+    - ```Pet[] pets```, initialize values with loop, manually, and show for-each
 + Lecture - Part 2
   - What is a CSV file?
-  - How does loadInput work?
-    - ```split(",")```
-    - ```Integer.parseInt()```
-    - ```new PetLicense```
-    - ```data[i++]``` / post-fix notation
-  - What's in PetLicense.java
-    - Write these:
-      - ```getName```
-      - ```toString```
-      - ```getZip, setZip```
+  - We don't need to know how loadInput works
+    - We do need to know that it "dumps" "dirty" data.
+  - Handling a PetLicense
+    - What's in PetLicense.java? --> issueDate, licenseNumber, zipcode
+    - Modify Pet to has-a PetLicense
+      - new field ```PetLicense license```
+      - new constructor
+      - new accessor
+      - LATER: modify toString
   - Day16MoreOOP.java
     - Write ```findByName```
       - ```contains```
@@ -73,14 +72,14 @@ public class Pet {
    public String getName() { return this.name; }
    public String getSpecies() { return this.species; }
    public String getBreed() { return this.breed; }
-   public String getLicense() { return this.license.toString(); }
+   public PetLicense getLicense() { return this.license; }
 
    // mutators
    public void setName(String name) { this.name = name; }
 
    // toString
    public String toString() {
-      return this.name + " (" + this.species + ") " + this.getLicense();
+      return this.name + " (" + this.species + ") " + this.getLicense().getLicenseNumber();
    }
 }
 ```
@@ -188,8 +187,8 @@ public class Ch8bMoreOOP {
    
    public static int countNull(Pet[] db) {
       int count = 0;
-      for(Pet p : db) {
-         if(p == null) {
+      for(Pet pet : db) {
+         if(pet == null) {
             count++;
          }
       }
