@@ -47,45 +47,40 @@
 
 ```java
 public class Pet {
-
-   //fields (state)
+   // fields
    private String name;
    private String species;
-   private String primaryBreed;
-   private String secondaryBreed;
-   //private String eyeColor;
-   //private boolean longHaired;
-   //private int cuteRating;
-   //private double weight;
+   private String breed;
+   private PetLicense license;
 
-   //constructors
+   // constructor(s)
    public Pet() {
-//       this.name = "unnamed pet";
-//       this.species = "unknown";
-//       this.primaryBreed = "";
-//       this.secondaryBreed = "";
-      this("unnamed pet","unknown","","");
+      this("unnamed", "unknown", "unknown");
    }
-
-   public Pet(String name, String species, String primaryBreed, String secondaryBreed) {
+   
+   public Pet(String name, String species, String breed) {
       this.name = name;
       this.species = species;
-      this.primaryBreed = primaryBreed;
-      this.secondaryBreed = secondaryBreed;
+      this.breed = breed;
+   }
+   
+   public Pet(String name, String species, String breed, String issueDate, int licenseNumber, int zipCode) {
+      this(name, species, breed);
+      license = new PetLicense(issueDate, licenseNumber, zipCode);
    }
 
-   //accessors
+   // accessors
    public String getName() { return this.name; }
    public String getSpecies() { return this.species; }
-   public String getPrimaryBreed() { return this.primaryBreed; }
-   public String getSecondaryBreed() { return this.secondaryBreed; }
+   public String getBreed() { return this.breed; }
+   public String getLicense() { return this.license.toString(); }
 
-   //mutators
-   public void setName(String n) { this.name = n; }
+   // mutators
+   public void setName(String name) { this.name = name; }
 
-   //toString
+   // toString
    public String toString() {
-      return "Pet: " + this.name;
+      return this.name + " (" + this.species + ") " + this.getLicense();
    }
 }
 ```
@@ -96,66 +91,59 @@ public class Pet {
 import java.util.*;
 
 public class PetTester {
-   public static void main(String[] args) {      
-//       Pet p = new Pet();
-//       Pet rover = new Pet("Rover","dog","doodle","");
-//       System.out.println(p.getName());
-//       System.out.println(p.getSpecies());
-//       
-//       if(rover.getSpecies().equals("dog")) {
-//          System.out.println("Woof!");
-//       }
-//       
-//       if(p.getName().equals("unnamed pet")) {
-//          p.setName("BOB");
-//       }
-
-//       Pet[] pets = new Pet[5];
-//       pets[0] = new Pet("Molly", "cat", "", "");
-//       for(int i = 1; i < pets.length; i++) {
-//          pets[i] = new Pet();
-//       }
-//       System.out.println(Arrays.toString(pets));
-
-      PetLicense license = new PetLicense();
-      System.out.println(license);
+   public static void main(String[] args) { 
+      Pet p = new Pet("Red", "Bird", "Parrot");
+      System.out.println("AT CREATION = " + p);
+      System.out.println("Change name");
+      p.setName("Fire");
+      System.out.println("Access name only = " + p.getName());
+      
+      System.out.println("AFTER CHANGES = " + p);
+      
+      Pet[] pets = new Pet[3];
+      for(int i = 0; i < pets.length; i++) {
+         pets[i] = new Pet();
+      }
+      pets[0] = new Pet("Rover", "Fish", "Puffer");
+      pets[1] = new Pet("Fred", "Frog", "Bullfrog");
+      pets[2] = new Pet("Daisy", "Duck", "Mallard");
+      
+      System.out.println(Arrays.toString(pets));
+      
+      for(Pet animal : pets) {
+         System.out.println(animal);
+      }
    }
 }
 ```
 
 ### PetLicense.java
-
+This file is not altered during lesson.
 ```java
 public class PetLicense {
-   //fields
+   // fields
    private String issueDate;
    private int licenseNumber;
    private int zipCode;
-   private Pet animal;
-
-   //constructors
-   public PetLicense() {
-      this.issueDate = "not issued";
-      this.licenseNumber = -1;
-      this.zipCode = 98133;
-      this.animal = new Pet();
+   
+   // constructor(s)
+   public PetLicense(String date, int num, int zip) {
+      this.issueDate = date;
+      this.licenseNumber = num;
+      this.zipCode = zip;
    }
-
-   public PetLicense(String issueDate, int licenseNumber, String name, String species, String primaryBreed, String secondaryBreed, int zipCode) {
-      this.issueDate = issueDate;
-      this.licenseNumber = licenseNumber;
-      this.zipCode = zipCode;
-      this.animal = new Pet(name, species, primaryBreed, secondaryBreed);
-   }
-
-   //accessors
-   public String getPetName() { return this.animal.getName(); }
-
-   //mutators
-
-   //toString
+   
+   // accessors
+   public String getIssueDate() { return this.issueDate; }
+   public int getLicenseNumber() { return this.licenseNumber; }
+   public int getZipCode() { return this.zipCode; }
+   
+   // mutators
+   public void setZipCode(int zip) { this.zipCode = zip; }
+   
+   // toString
    public String toString() {
-      return this.animal.getName() + " (" + this.licenseNumber + ")";
+      return "" + licenseNumber;
    }
 }
 ```
@@ -165,7 +153,7 @@ public class PetLicense {
 ```java
 /*
   This program uses real data from data.gov to populate a "database"
-  of information about the registered Pets in Seattle!
+  of information about the regitered Pets in Seattle!
 
   Original Data here:
   https://catalog.data.gov/dataset/seattle-pet-licenses
@@ -175,30 +163,44 @@ import java.util.*;
 import java.io.*;
 
 public class Ch8bMoreOOP {
+
    public static void main(String[] args) throws FileNotFoundException {
       Scanner input = new Scanner(new File("Seattle_Pet_Licenses.csv"));
-      PetLicense[] petDB = loadInput(input);
-      //System.out.println(Arrays.toString(petDB));
+      Pet[] petDB = loadInput(input);
+      System.out.println(Arrays.toString(petDB));
+      System.out.printf("%d (out of %d) null entries found.\n\n", countNull(petDB), petDB.length);
 
       String lookupName = "Love";
-      int count = findByName(petDB, lookupName);
-      System.out.printf("%s was found %d times in the database.",lookupName,count);
+      int count = findByName(petDB, lookupName.toLowerCase());
+      System.out.printf("%s was found %d times in the database.", lookupName, count);
    }
 
-   public static int findByName(PetLicense[] db, String name) {
+   public static int findByName(Pet[] db, String name) {
       int count = 0;
       for(int i = 0; i < db.length; i++) {
-         if(db[i] != null && db[i].getPetName().toLowerCase().contains(name.toLowerCase())) {
+         if(db[i] != null && db[i].getName().toLowerCase().contains(name)) {
             count++;
             System.out.println(db[i]);
          }
       }
       return count;
    }
+   
+   public static int countNull(Pet[] db) {
+      int count = 0;
+      for(Pet p : db) {
+         if(p == null) {
+            count++;
+         }
+      }
+      return count;
+   }
 
-   public static PetLicense[] loadInput(Scanner in) {
-      String header = in.nextLine(); //dump header
-      PetLicense[] data = new PetLicense[66043];
+   // This methods loads all the data from Seattle_Pet_licenses.csv
+   // All dirty data is dumped rather than cleaned
+   public static Pet[] loadInput(Scanner in) {
+      String header = in.nextLine(); // dump header -- not used
+      Pet[] data = new Pet[66100];
       int i = 0;
 
       while(in.hasNextLine()) {
@@ -218,7 +220,8 @@ public class Ch8bMoreOOP {
             int zip = Integer.parseInt(rowData[6]);
 
             // create a new PetLicense object with all the data provided
-            data[i++] = new PetLicense(rowData[0],license,rowData[2],rowData[3],rowData[4],rowData[5],zip);
+            // name, species, primaryBreed, issueDate, licenseNumber, zipCode
+            data[i++] = new Pet(rowData[2], rowData[3], rowData[4], rowData[0], license, zip);
          }
          else {
             //System.out.println("bad data field(s): " + Arrays.toString(rowData));
