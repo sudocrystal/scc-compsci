@@ -40,7 +40,7 @@ public class Day18ArrayList {
    public static void main(String[] args) {
       // learnArrayList();
 
-//       ArrayList<Integer> values = createList(3,200);
+//       ArrayList<Integer> values = createList(r, 3, 15);
 //       System.out.println("initial values = " + values);
 //       
 //       //duplicateList(values);
@@ -55,7 +55,7 @@ public class Day18ArrayList {
 //     int len = maxLength(words);
 //     System.out.println("highest # of chars = " + len);
 
-    removeStartWith(words,'c');
+    removeStartWith(words, 'c');
     System.out.println("words contains " + words);
    }
 
@@ -84,9 +84,8 @@ public class Day18ArrayList {
 
    // this method should create a list of 'numElements' number of ints
    // where each int is a random number between 1 and 'high'
-   // e.g. createList(3,15) might return [13, 1, 9]
-   public static ArrayList<Integer> createList(int numElements, int high) {
-      Random r = new Random();
+   // e.g. createList(r, 3, 15) might return [15, 1, 9]
+   public static ArrayList<Integer> createList(Random r, int numElements, int high) {
       ArrayList<Integer> nums = new ArrayList<Integer>();
       //for(int i = 0; i < numElements; i++) {
       while(nums.size() < numElements) {
@@ -100,7 +99,7 @@ public class Day18ArrayList {
 
    // duplicates a list of Integers by appending each element in the list
    // to the end of the list
-   // e.g. [1,2,3] ==> [1,2,3,1,2,3]
+   // e.g. [1, 2, 3] ==> [1, 2, 3, 1, 2, 3]
    public static void duplicateList(ArrayList<Integer> list) {
       int size = list.size();
       for(int i = 0; i < size; i++) {
@@ -110,7 +109,7 @@ public class Day18ArrayList {
    }
 
    // this method moves the max value in a list of Integers to the end
-   // e.g. [1,29,54,2] ==> [1,29,2,54]
+   // e.g. [1, 29, 54, 2] ==> [1, 29, 2, 54]
    public static void maxToEnd(ArrayList<Integer> list) {
       int max = list.get(0); //Integer.MIN_VALUE;
       for(int x : list)
