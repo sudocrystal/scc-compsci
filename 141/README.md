@@ -13,7 +13,7 @@
 | File Processing | [Day 11](day-by-day/day11.md) | [Day 12](day-by-day/day12.md)
 | Arrays | [Day 13](day-by-day/day13.md) | [Day 14](day-by-day/day14.md)
 | Classes | [Day 15](day-by-day/day15.md) | [Day 16](day-by-day/day16.md)
-| Inheritance | [Day 17](day-by-day/day17.md)
+| Inheritance | [Day 17](day-by-day/day17-Ch9-online-material.md)
 | ArrayLists| [Day 18](day-by-day/day18.md) | [Day 19](day-by-day/day19.md)
 | Final Review | [Day 20](day-by-day/day20.md)
 

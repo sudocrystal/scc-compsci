@@ -1,7 +1,17 @@
 # Day 19/20
 
-+ Introduction to ACM Graphics
-  - If there's time, do an introduction to ACM Graphics
++ General talk about Final
+  - Confirm day/time
+  - Makeup options
++ Review Inheritance
+  - Ask about Online Lecture - clarifications needed?
+  - Instantiating Objects
+    - as superclass = new superclass
+    - as subclass = new subclass
+    - as superclass = new subclass
+  - Inheritance problems from Problem Set 9a
+      - InheritanceMystery4
+      - InheritanceMystery2
 + Pair 4: Grocery List
 
 ## Solutions
