@@ -30,7 +30,7 @@ Wave Reflection,
 ## Solutions
 ```java
 public class Wave {
-   private static final int SIZE = 20;
+   public static final int SIZE = 20;
 
    public static void main(String[] args) {
       // prints line
