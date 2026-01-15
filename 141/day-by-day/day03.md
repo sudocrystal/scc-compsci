@@ -10,10 +10,8 @@
   + Nested Loops
     - systematic approach
       - multiplier * line + shift
-      - multiplier is calculated as change between rows
+      - multiplier is calculated as change/delta between rows
       - shift is the amount needed after (m * line) to get example cases
-    - multiple items on the same line (row)
-    - scaling with a constant
 + Learning Practice
     - Self-Check
       - Self-Check 2.22 and 2.23
@@ -67,7 +65,7 @@ public class Ch2bForLoops {
       dotBox();
       dotNumBox();
       dollarFigure();
-      dollarFigure2();
+      //dollarFigure2();
    }
 
    /*
@@ -168,26 +166,13 @@ public class Ch2bForLoops {
       }
    }
 
-   // This method allows the dot/num box above to be scaled using the class constant
-   public static void scaledDotNumBox() {
-      for(int line = 1; line <= SIZE; line++) {
-         for(int dot = 1; dot <= -1 * line + SIZE; dot++) {
-            System.out.print(".");
-         }
-         System.out.print(line);
-         for(int dot = 1; dot <= 1 * line -1; dot++) {
-            System.out.print(".");
-         }
-         System.out.println();
-      }
-   }
-
    // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
    /* (size is 3)
       $$$******$$$
       **$$****$$**
       ****$**$****
    */
+   public static final int SIZE = 3;
    public static void dollarFigure2() {
       for(int line = 1; line <= SIZE; line++) {
          for(int star = 1; star <= 2 * line - 2; star++) {
