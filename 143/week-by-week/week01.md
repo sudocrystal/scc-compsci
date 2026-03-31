@@ -2,6 +2,9 @@
 
 + Introduce Self
 + Review Canvas and Syllabus
++ Exploring ArrayList Lecture
++ Have students join CSBS course
+  - Suggest Practice Problems 
 
 # Week 01/10
 
