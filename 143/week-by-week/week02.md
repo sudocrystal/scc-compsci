@@ -39,15 +39,16 @@ public class TicTacToeBoard {
 //       board[0][0] = '1';
 //       board[0][1] = '2';
 //       board[0][2] = '3';
+      char val = '1';
       for(int r = 0; r < board.length; r++) {
-         for(int c = 0; c < board[0].length; c++) {
-            board[r][c] = ("" + ((r * 3) + c + 1)).charAt(0);
+         for(int c = 0; c < board[r].length; c++) {
+            board[r][c] = val++; // ("" + ((r * 3) + c + 1)).charAt(0);
          }
       }
    }
 
    public boolean mark(int spot, char player) {
-      char cSpot = (char)(spot + 48);  // ASCII int 49 = '1', 50 = '2',...
+      char cSpot = (char)(spot + '0');  // ASCII int 49 = '1', 50 = '2',...
       for(int r = 0; r < board.length; r++) {
          for(int c = 0; c < board[0].length; c++) {
             if(board[r][c] == cSpot) {
@@ -77,12 +78,15 @@ public class TicTacToeBoard {
    }
 
    public String toString() {
-      return board[0][0] + " | " + board[0][1] + " | " + board[0][2] + "\n" +
-             "-- --- --\n" +
-             board[1][0] + " | " + board[1][1] + " | " + board[1][2] + "\n" +
-             "-- --- --\n" +
-             board[2][0] + " | " + board[2][1] + " | " + board[2][2];
-	}
+      String result = "";
+      for(int r = 0; r < board.length; r++) {
+         for(int c = 0; c < board[r].length; c++) {
+            result += board[r][c];
+         }
+         result += "\n";
+      }
+      return result;
+   }
 
 }
 ```
@@ -104,7 +108,7 @@ public class Connect4Board extends TicTacToeBoard {
       
       // fill the bottom row with 1-7
       for(int c = 0; c < board[0].length; c++) {
-         board[5][c] = (char)(c + 49); // ASCII 49 = '1', 50 = '2', ...
+         board[5][c] = (char)(c + '1'); // ASCII 49 = '1', 50 = '2', ...
       }
    }
    
