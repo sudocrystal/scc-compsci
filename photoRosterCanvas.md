@@ -22,7 +22,7 @@ Ask students to update their canvas account picture, then...
 var instructor = "Crystal Hess";
 var firstNamesOnly = false; 
 
-var courseNumberAndSection = $('nav[id="breadcrumbs"]').html();
+var courseNumberAndSection = $('#breadcrumbs .css-1p1uj7k-truncateText').html();
 courseNumberAndSection = courseNumberAndSection.replaceAll("\n","").replace(/.*<a href="\/courses\/[0-9]+">/, "").replace(/<\/a.*/,"");
 //console.log(courseNumberAndSection);
 
@@ -45,7 +45,7 @@ $('.collectionViewItems tr').each(function() {
 
     var label = "";
     //console.log($(this).find('.label'));
-    if($(this).find('.label').length != 0) {
+    if($(this).find('.ic-status-label').length != 0) {
       label = "inactive";
     }
 
